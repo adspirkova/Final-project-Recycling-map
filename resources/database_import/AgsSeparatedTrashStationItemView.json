@@ -1,0 +1,7832 @@
+[
+  {
+    "id": 20553,
+    "stationId": 4958,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20554,
+    "stationId": 4958,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20555,
+    "stationId": 4958,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20556,
+    "stationId": 4959,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20557,
+    "stationId": 4959,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20558,
+    "stationId": 4959,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20559,
+    "stationId": 4960,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20560,
+    "stationId": 4960,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20561,
+    "stationId": 4960,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20562,
+    "stationId": 4961,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20563,
+    "stationId": 4961,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20564,
+    "stationId": 4961,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20565,
+    "stationId": 4962,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20566,
+    "stationId": 4962,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 22067,
+    "stationId": 4962,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20567,
+    "stationId": 4963,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20568,
+    "stationId": 4963,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20569,
+    "stationId": 4963,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20570,
+    "stationId": 4964,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20571,
+    "stationId": 4964,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20572,
+    "stationId": 4964,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20802,
+    "stationId": 5006,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20803,
+    "stationId": 5006,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20804,
+    "stationId": 5006,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21744,
+    "stationId": 5006,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20805,
+    "stationId": 5007,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20806,
+    "stationId": 5007,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20807,
+    "stationId": 5007,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21745,
+    "stationId": 5007,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20808,
+    "stationId": 5008,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20809,
+    "stationId": 5008,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20810,
+    "stationId": 5008,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21746,
+    "stationId": 5008,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20811,
+    "stationId": 5009,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20812,
+    "stationId": 5009,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20813,
+    "stationId": 5009,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21747,
+    "stationId": 5009,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20849,
+    "stationId": 5012,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20850,
+    "stationId": 5012,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 2,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20851,
+    "stationId": 5012,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21645,
+    "stationId": 5012,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20852,
+    "stationId": 5013,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20853,
+    "stationId": 5013,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20854,
+    "stationId": 5013,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21646,
+    "stationId": 5013,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20855,
+    "stationId": 5014,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20856,
+    "stationId": 5014,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20857,
+    "stationId": 5014,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21647,
+    "stationId": 5014,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20858,
+    "stationId": 5015,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20859,
+    "stationId": 5015,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20860,
+    "stationId": 5015,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21648,
+    "stationId": 5015,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20861,
+    "stationId": 5016,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20862,
+    "stationId": 5016,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20863,
+    "stationId": 5016,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21649,
+    "stationId": 5016,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20864,
+    "stationId": 5017,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20865,
+    "stationId": 5017,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20866,
+    "stationId": 5017,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21651,
+    "stationId": 5017,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20871,
+    "stationId": 5019,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20872,
+    "stationId": 5019,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 20873,
+    "stationId": 5019,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21650,
+    "stationId": 5019,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21766,
+    "stationId": 5219,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21767,
+    "stationId": 5219,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 21768,
+    "stationId": 5219,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21769,
+    "stationId": 5219,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21770,
+    "stationId": 5219,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 6993,
+    "stationId": 1602,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 6994,
+    "stationId": 1602,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 6995,
+    "stationId": 1602,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 6996,
+    "stationId": 1602,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19311,
+    "stationId": 1602,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 6997,
+    "stationId": 1603,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 6998,
+    "stationId": 1603,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 6999,
+    "stationId": 1603,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7000,
+    "stationId": 1603,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19862,
+    "stationId": 1603,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 20275,
+    "stationId": 1603,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20276,
+    "stationId": 1603,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7006,
+    "stationId": 1605,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7007,
+    "stationId": 1605,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7008,
+    "stationId": 1605,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7009,
+    "stationId": 1605,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18931,
+    "stationId": 1605,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19312,
+    "stationId": 1605,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7010,
+    "stationId": 1606,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7011,
+    "stationId": 1606,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7012,
+    "stationId": 1606,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7013,
+    "stationId": 1606,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19313,
+    "stationId": 1606,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19314,
+    "stationId": 1606,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20154,
+    "stationId": 1606,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7014,
+    "stationId": 1607,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7015,
+    "stationId": 1607,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7016,
+    "stationId": 1607,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7017,
+    "stationId": 1607,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20233,
+    "stationId": 1607,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20234,
+    "stationId": 1607,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7018,
+    "stationId": 1608,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7019,
+    "stationId": 1608,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7020,
+    "stationId": 1608,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7021,
+    "stationId": 1608,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19201,
+    "stationId": 1608,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20235,
+    "stationId": 1608,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7022,
+    "stationId": 1609,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7023,
+    "stationId": 1609,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7024,
+    "stationId": 1609,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7025,
+    "stationId": 1609,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20277,
+    "stationId": 1609,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20278,
+    "stationId": 1609,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7026,
+    "stationId": 1610,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7027,
+    "stationId": 1610,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7028,
+    "stationId": 1610,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7029,
+    "stationId": 1610,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7030,
+    "stationId": 1611,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7031,
+    "stationId": 1611,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7032,
+    "stationId": 1611,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7033,
+    "stationId": 1611,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7034,
+    "stationId": 1612,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7035,
+    "stationId": 1612,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7036,
+    "stationId": 1612,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7037,
+    "stationId": 1612,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7038,
+    "stationId": 1613,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7039,
+    "stationId": 1613,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7040,
+    "stationId": 1613,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7041,
+    "stationId": 1613,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7042,
+    "stationId": 1614,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7043,
+    "stationId": 1614,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7044,
+    "stationId": 1614,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7045,
+    "stationId": 1614,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19604,
+    "stationId": 1614,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19605,
+    "stationId": 1614,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7046,
+    "stationId": 1615,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7047,
+    "stationId": 1615,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7048,
+    "stationId": 1615,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7049,
+    "stationId": 1615,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20236,
+    "stationId": 1615,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20237,
+    "stationId": 1615,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7050,
+    "stationId": 1616,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7051,
+    "stationId": 1616,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7052,
+    "stationId": 1616,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7053,
+    "stationId": 1616,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7054,
+    "stationId": 1616,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19863,
+    "stationId": 1616,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7055,
+    "stationId": 1617,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7056,
+    "stationId": 1617,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7057,
+    "stationId": 1617,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7058,
+    "stationId": 1617,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19315,
+    "stationId": 1617,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20238,
+    "stationId": 1617,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7063,
+    "stationId": 1619,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7064,
+    "stationId": 1619,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7065,
+    "stationId": 1619,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7066,
+    "stationId": 1619,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7067,
+    "stationId": 1619,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7068,
+    "stationId": 1620,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7069,
+    "stationId": 1620,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7070,
+    "stationId": 1620,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7071,
+    "stationId": 1620,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20847,
+    "stationId": 1620,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7072,
+    "stationId": 1621,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7073,
+    "stationId": 1621,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7074,
+    "stationId": 1621,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7075,
+    "stationId": 1621,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21306,
+    "stationId": 1621,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7081,
+    "stationId": 1623,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7082,
+    "stationId": 1623,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7083,
+    "stationId": 1623,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7084,
+    "stationId": 1623,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20239,
+    "stationId": 1623,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20240,
+    "stationId": 1623,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7085,
+    "stationId": 1624,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7086,
+    "stationId": 1624,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7087,
+    "stationId": 1624,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7088,
+    "stationId": 1624,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19316,
+    "stationId": 1624,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19317,
+    "stationId": 1624,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7089,
+    "stationId": 1625,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7090,
+    "stationId": 1625,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7091,
+    "stationId": 1625,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7092,
+    "stationId": 1625,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7093,
+    "stationId": 1625,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19318,
+    "stationId": 1625,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7094,
+    "stationId": 1626,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7095,
+    "stationId": 1626,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7096,
+    "stationId": 1626,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7097,
+    "stationId": 1626,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19319,
+    "stationId": 1626,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19320,
+    "stationId": 1626,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19864,
+    "stationId": 1626,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7112,
+    "stationId": 1630,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7113,
+    "stationId": 1630,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7114,
+    "stationId": 1630,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7115,
+    "stationId": 1630,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19866,
+    "stationId": 1630,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7116,
+    "stationId": 1631,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7117,
+    "stationId": 1631,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7118,
+    "stationId": 1631,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7119,
+    "stationId": 1631,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7120,
+    "stationId": 1632,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7121,
+    "stationId": 1632,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7122,
+    "stationId": 1632,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7123,
+    "stationId": 1632,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7129,
+    "stationId": 1634,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7130,
+    "stationId": 1634,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7131,
+    "stationId": 1634,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7132,
+    "stationId": 1634,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19321,
+    "stationId": 1634,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7133,
+    "stationId": 1635,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7134,
+    "stationId": 1635,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7135,
+    "stationId": 1635,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7136,
+    "stationId": 1635,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17143,
+    "stationId": 1635,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19352,
+    "stationId": 1635,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7137,
+    "stationId": 1636,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7138,
+    "stationId": 1636,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7139,
+    "stationId": 1636,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7140,
+    "stationId": 1636,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19322,
+    "stationId": 1636,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7146,
+    "stationId": 1638,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7147,
+    "stationId": 1638,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7148,
+    "stationId": 1638,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 3,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7149,
+    "stationId": 1638,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18933,
+    "stationId": 1638,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 3,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19868,
+    "stationId": 1638,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 21829,
+    "stationId": 1638,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7154,
+    "stationId": 1640,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7155,
+    "stationId": 1640,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7156,
+    "stationId": 1640,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7157,
+    "stationId": 1640,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19325,
+    "stationId": 1640,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19326,
+    "stationId": 1640,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19869,
+    "stationId": 1640,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7158,
+    "stationId": 1641,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7159,
+    "stationId": 1641,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7160,
+    "stationId": 1641,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7161,
+    "stationId": 1641,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17144,
+    "stationId": 1641,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19870,
+    "stationId": 1641,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7162,
+    "stationId": 1642,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7163,
+    "stationId": 1642,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7164,
+    "stationId": 1642,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7165,
+    "stationId": 1642,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18934,
+    "stationId": 1642,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19606,
+    "stationId": 1642,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19871,
+    "stationId": 1642,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7166,
+    "stationId": 1643,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7167,
+    "stationId": 1643,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7168,
+    "stationId": 1643,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7169,
+    "stationId": 1643,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7174,
+    "stationId": 1645,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7175,
+    "stationId": 1645,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7176,
+    "stationId": 1645,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7177,
+    "stationId": 1645,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7178,
+    "stationId": 1645,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18935,
+    "stationId": 1645,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19872,
+    "stationId": 1645,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7179,
+    "stationId": 1646,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7180,
+    "stationId": 1646,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7181,
+    "stationId": 1646,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7182,
+    "stationId": 1646,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19327,
+    "stationId": 1646,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19328,
+    "stationId": 1646,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19873,
+    "stationId": 1646,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7183,
+    "stationId": 1647,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7184,
+    "stationId": 1647,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7185,
+    "stationId": 1647,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7186,
+    "stationId": 1647,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20241,
+    "stationId": 1647,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20242,
+    "stationId": 1647,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7187,
+    "stationId": 1648,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7188,
+    "stationId": 1648,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7189,
+    "stationId": 1648,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7190,
+    "stationId": 1648,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19874,
+    "stationId": 1648,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 20279,
+    "stationId": 1648,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20280,
+    "stationId": 1648,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7195,
+    "stationId": 1650,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7196,
+    "stationId": 1650,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7197,
+    "stationId": 1650,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7198,
+    "stationId": 1650,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17145,
+    "stationId": 1650,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7199,
+    "stationId": 1651,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7200,
+    "stationId": 1651,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7201,
+    "stationId": 1651,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7202,
+    "stationId": 1651,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19353,
+    "stationId": 1651,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19354,
+    "stationId": 1651,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7203,
+    "stationId": 1652,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7204,
+    "stationId": 1652,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7205,
+    "stationId": 1652,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7206,
+    "stationId": 1652,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19464,
+    "stationId": 1652,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19875,
+    "stationId": 1652,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7207,
+    "stationId": 1653,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7208,
+    "stationId": 1653,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7209,
+    "stationId": 1653,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7210,
+    "stationId": 1653,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17146,
+    "stationId": 1653,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19355,
+    "stationId": 1653,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19876,
+    "stationId": 1653,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7211,
+    "stationId": 1654,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7212,
+    "stationId": 1654,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7213,
+    "stationId": 1654,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7214,
+    "stationId": 1654,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7215,
+    "stationId": 1655,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7216,
+    "stationId": 1655,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7217,
+    "stationId": 1655,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7218,
+    "stationId": 1655,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19329,
+    "stationId": 1655,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19330,
+    "stationId": 1655,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7219,
+    "stationId": 1656,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7220,
+    "stationId": 1656,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7221,
+    "stationId": 1656,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7222,
+    "stationId": 1656,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19877,
+    "stationId": 1656,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 20281,
+    "stationId": 1656,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7223,
+    "stationId": 1657,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7224,
+    "stationId": 1657,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7225,
+    "stationId": 1657,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7226,
+    "stationId": 1657,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7227,
+    "stationId": 1657,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19878,
+    "stationId": 1657,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7228,
+    "stationId": 1658,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7229,
+    "stationId": 1658,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7230,
+    "stationId": 1658,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7231,
+    "stationId": 1658,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7232,
+    "stationId": 1658,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20243,
+    "stationId": 1658,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7233,
+    "stationId": 1659,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7234,
+    "stationId": 1659,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7235,
+    "stationId": 1659,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7236,
+    "stationId": 1659,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20273,
+    "stationId": 1659,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20274,
+    "stationId": 1659,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7241,
+    "stationId": 1661,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7242,
+    "stationId": 1661,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7243,
+    "stationId": 1661,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7244,
+    "stationId": 1661,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19879,
+    "stationId": 1661,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7245,
+    "stationId": 1662,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7246,
+    "stationId": 1662,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7247,
+    "stationId": 1662,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7248,
+    "stationId": 1662,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19364,
+    "stationId": 1662,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19365,
+    "stationId": 1662,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7249,
+    "stationId": 1663,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7250,
+    "stationId": 1663,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7251,
+    "stationId": 1663,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7252,
+    "stationId": 1663,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 19356,
+    "stationId": 1663,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7253,
+    "stationId": 1664,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7254,
+    "stationId": 1664,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7255,
+    "stationId": 1664,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7256,
+    "stationId": 1664,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20244,
+    "stationId": 1664,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20245,
+    "stationId": 1664,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7257,
+    "stationId": 1665,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 2,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7258,
+    "stationId": 1665,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7259,
+    "stationId": 1665,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7260,
+    "stationId": 1665,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7261,
+    "stationId": 1666,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7262,
+    "stationId": 1666,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7263,
+    "stationId": 1666,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7264,
+    "stationId": 1666,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19202,
+    "stationId": 1666,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7265,
+    "stationId": 1667,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7266,
+    "stationId": 1667,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7267,
+    "stationId": 1667,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7268,
+    "stationId": 1667,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7274,
+    "stationId": 1669,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7275,
+    "stationId": 1669,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7276,
+    "stationId": 1669,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7277,
+    "stationId": 1669,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20284,
+    "stationId": 1669,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20285,
+    "stationId": 1669,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7278,
+    "stationId": 1670,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7279,
+    "stationId": 1670,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7280,
+    "stationId": 1670,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7281,
+    "stationId": 1670,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7282,
+    "stationId": 1671,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7283,
+    "stationId": 1671,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7284,
+    "stationId": 1671,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7285,
+    "stationId": 1671,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19880,
+    "stationId": 1671,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 20286,
+    "stationId": 1671,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7286,
+    "stationId": 1672,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7287,
+    "stationId": 1672,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7288,
+    "stationId": 1672,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7289,
+    "stationId": 1672,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19331,
+    "stationId": 1672,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19332,
+    "stationId": 1672,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7290,
+    "stationId": 1673,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7291,
+    "stationId": 1673,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7292,
+    "stationId": 1673,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7293,
+    "stationId": 1673,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7294,
+    "stationId": 1674,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7295,
+    "stationId": 1674,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7296,
+    "stationId": 1674,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7297,
+    "stationId": 1674,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7298,
+    "stationId": 1675,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7299,
+    "stationId": 1675,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7300,
+    "stationId": 1675,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7301,
+    "stationId": 1675,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19771,
+    "stationId": 1675,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19772,
+    "stationId": 1675,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7302,
+    "stationId": 1676,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7303,
+    "stationId": 1676,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7304,
+    "stationId": 1676,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7305,
+    "stationId": 1676,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7306,
+    "stationId": 1677,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7307,
+    "stationId": 1677,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7308,
+    "stationId": 1677,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7309,
+    "stationId": 1677,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7310,
+    "stationId": 1678,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7311,
+    "stationId": 1678,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7312,
+    "stationId": 1678,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7313,
+    "stationId": 1678,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7318,
+    "stationId": 1680,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7319,
+    "stationId": 1680,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7320,
+    "stationId": 1680,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7321,
+    "stationId": 1680,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7322,
+    "stationId": 1681,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7323,
+    "stationId": 1681,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7324,
+    "stationId": 1681,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7325,
+    "stationId": 1681,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7326,
+    "stationId": 1682,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7327,
+    "stationId": 1682,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7328,
+    "stationId": 1682,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7329,
+    "stationId": 1682,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7330,
+    "stationId": 1683,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7331,
+    "stationId": 1683,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7332,
+    "stationId": 1683,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7333,
+    "stationId": 1683,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7334,
+    "stationId": 1683,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20282,
+    "stationId": 1683,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7335,
+    "stationId": 1684,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7336,
+    "stationId": 1684,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7337,
+    "stationId": 1684,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7338,
+    "stationId": 1684,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7346,
+    "stationId": 1687,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7347,
+    "stationId": 1687,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7348,
+    "stationId": 1687,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7349,
+    "stationId": 1687,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7350,
+    "stationId": 1687,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7351,
+    "stationId": 1688,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7352,
+    "stationId": 1688,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7353,
+    "stationId": 1688,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7354,
+    "stationId": 1688,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19333,
+    "stationId": 1688,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19334,
+    "stationId": 1688,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7359,
+    "stationId": 1690,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7360,
+    "stationId": 1690,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7361,
+    "stationId": 1690,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7362,
+    "stationId": 1690,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7363,
+    "stationId": 1691,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7364,
+    "stationId": 1691,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7365,
+    "stationId": 1691,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7366,
+    "stationId": 1691,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19335,
+    "stationId": 1691,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19336,
+    "stationId": 1691,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7371,
+    "stationId": 1693,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7372,
+    "stationId": 1693,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7373,
+    "stationId": 1693,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7374,
+    "stationId": 1693,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20283,
+    "stationId": 1693,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7379,
+    "stationId": 1695,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7380,
+    "stationId": 1695,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7381,
+    "stationId": 1695,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7382,
+    "stationId": 1695,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 18936,
+    "stationId": 1695,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7387,
+    "stationId": 1697,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7388,
+    "stationId": 1697,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7389,
+    "stationId": 1697,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7390,
+    "stationId": 1697,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7391,
+    "stationId": 1698,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7392,
+    "stationId": 1698,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7393,
+    "stationId": 1698,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7394,
+    "stationId": 1698,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 18937,
+    "stationId": 1698,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7395,
+    "stationId": 1699,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7396,
+    "stationId": 1699,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7397,
+    "stationId": 1699,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7398,
+    "stationId": 1699,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19337,
+    "stationId": 1699,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19338,
+    "stationId": 1699,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19881,
+    "stationId": 1699,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7399,
+    "stationId": 1700,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7400,
+    "stationId": 1700,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7401,
+    "stationId": 1700,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7402,
+    "stationId": 1700,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19357,
+    "stationId": 1700,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19358,
+    "stationId": 1700,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19882,
+    "stationId": 1700,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7403,
+    "stationId": 1701,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7404,
+    "stationId": 1701,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7405,
+    "stationId": 1701,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7406,
+    "stationId": 1701,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7407,
+    "stationId": 1702,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7408,
+    "stationId": 1702,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7409,
+    "stationId": 1702,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7410,
+    "stationId": 1702,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7411,
+    "stationId": 1702,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20246,
+    "stationId": 1702,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7412,
+    "stationId": 1703,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7413,
+    "stationId": 1703,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7414,
+    "stationId": 1703,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7415,
+    "stationId": 1703,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7416,
+    "stationId": 1704,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7417,
+    "stationId": 1704,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7418,
+    "stationId": 1704,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7419,
+    "stationId": 1704,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7420,
+    "stationId": 1704,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20247,
+    "stationId": 1704,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7421,
+    "stationId": 1705,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7422,
+    "stationId": 1705,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7423,
+    "stationId": 1705,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7424,
+    "stationId": 1705,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 18938,
+    "stationId": 1705,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19883,
+    "stationId": 1705,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7433,
+    "stationId": 1708,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7434,
+    "stationId": 1708,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7435,
+    "stationId": 1708,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7436,
+    "stationId": 1708,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19884,
+    "stationId": 1708,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7437,
+    "stationId": 1709,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7438,
+    "stationId": 1709,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7439,
+    "stationId": 1709,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7440,
+    "stationId": 1709,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7446,
+    "stationId": 1711,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7447,
+    "stationId": 1711,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7448,
+    "stationId": 1711,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7449,
+    "stationId": 1711,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7450,
+    "stationId": 1712,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7451,
+    "stationId": 1712,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7452,
+    "stationId": 1712,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7453,
+    "stationId": 1712,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19339,
+    "stationId": 1712,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19340,
+    "stationId": 1712,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7454,
+    "stationId": 1713,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7455,
+    "stationId": 1713,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7456,
+    "stationId": 1713,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7457,
+    "stationId": 1713,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7458,
+    "stationId": 1714,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7459,
+    "stationId": 1714,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7460,
+    "stationId": 1714,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7461,
+    "stationId": 1714,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7462,
+    "stationId": 1714,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19341,
+    "stationId": 1714,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7463,
+    "stationId": 1715,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7464,
+    "stationId": 1715,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7465,
+    "stationId": 1715,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7466,
+    "stationId": 1715,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7467,
+    "stationId": 1715,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18939,
+    "stationId": 1715,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19885,
+    "stationId": 1715,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7468,
+    "stationId": 1716,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7469,
+    "stationId": 1716,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7470,
+    "stationId": 1716,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7471,
+    "stationId": 1716,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19342,
+    "stationId": 1716,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19343,
+    "stationId": 1716,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19886,
+    "stationId": 1716,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7476,
+    "stationId": 1718,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7477,
+    "stationId": 1718,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7478,
+    "stationId": 1718,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19344,
+    "stationId": 1718,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 19345,
+    "stationId": 1718,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19346,
+    "stationId": 1718,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 19887,
+    "stationId": 1718,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7479,
+    "stationId": 1719,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7480,
+    "stationId": 1719,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7481,
+    "stationId": 1719,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7482,
+    "stationId": 1719,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7483,
+    "stationId": 1720,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7484,
+    "stationId": 1720,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7485,
+    "stationId": 1720,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7486,
+    "stationId": 1720,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7487,
+    "stationId": 1721,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7488,
+    "stationId": 1721,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7489,
+    "stationId": 1721,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7490,
+    "stationId": 1721,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 18940,
+    "stationId": 1721,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7491,
+    "stationId": 1722,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7492,
+    "stationId": 1722,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7493,
+    "stationId": 1722,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7494,
+    "stationId": 1722,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19888,
+    "stationId": 1722,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7495,
+    "stationId": 1723,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7496,
+    "stationId": 1723,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7497,
+    "stationId": 1723,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7498,
+    "stationId": 1723,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7499,
+    "stationId": 1724,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7500,
+    "stationId": 1724,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7501,
+    "stationId": 1724,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7502,
+    "stationId": 1724,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19696,
+    "stationId": 1724,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19697,
+    "stationId": 1724,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7503,
+    "stationId": 1725,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7504,
+    "stationId": 1725,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7505,
+    "stationId": 1725,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7506,
+    "stationId": 1725,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7507,
+    "stationId": 1725,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20248,
+    "stationId": 1725,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7512,
+    "stationId": 1727,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7513,
+    "stationId": 1727,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7514,
+    "stationId": 1727,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7515,
+    "stationId": 1727,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19347,
+    "stationId": 1727,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19348,
+    "stationId": 1727,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7516,
+    "stationId": 1728,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7517,
+    "stationId": 1728,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7518,
+    "stationId": 1728,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7519,
+    "stationId": 1728,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 16,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17149,
+    "stationId": 1728,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18941,
+    "stationId": 1728,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7520,
+    "stationId": 1729,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7521,
+    "stationId": 1729,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7522,
+    "stationId": 1729,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7523,
+    "stationId": 1729,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7524,
+    "stationId": 1729,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7525,
+    "stationId": 1730,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7526,
+    "stationId": 1730,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7527,
+    "stationId": 1730,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7528,
+    "stationId": 1730,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 18942,
+    "stationId": 1730,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19889,
+    "stationId": 1730,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 7529,
+    "stationId": 1731,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7530,
+    "stationId": 1731,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7531,
+    "stationId": 1731,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7532,
+    "stationId": 1731,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19371,
+    "stationId": 1731,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19372,
+    "stationId": 1731,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7537,
+    "stationId": 1733,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7538,
+    "stationId": 1733,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7539,
+    "stationId": 1733,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7540,
+    "stationId": 1733,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7541,
+    "stationId": 1734,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 7542,
+    "stationId": 1734,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7543,
+    "stationId": 1734,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1500 M 1,5 SV"
+  },
+  {
+    "id": 7544,
+    "stationId": 1734,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7545,
+    "stationId": 1735,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7546,
+    "stationId": 1735,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7547,
+    "stationId": 1735,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7548,
+    "stationId": 1735,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19349,
+    "stationId": 1735,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19350,
+    "stationId": 1735,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7549,
+    "stationId": 1736,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 7550,
+    "stationId": 1736,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7551,
+    "stationId": 1736,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7552,
+    "stationId": 1736,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17837,
+    "stationId": 1736,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7553,
+    "stationId": 1737,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7554,
+    "stationId": 1737,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7555,
+    "stationId": 1737,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7556,
+    "stationId": 1737,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 22292,
+    "stationId": 1737,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7557,
+    "stationId": 1738,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7558,
+    "stationId": 1738,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7559,
+    "stationId": 1738,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7560,
+    "stationId": 1738,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7565,
+    "stationId": 1740,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7566,
+    "stationId": 1740,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 7567,
+    "stationId": 1740,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 7568,
+    "stationId": 1740,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17150,
+    "stationId": 4369,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17151,
+    "stationId": 4369,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17152,
+    "stationId": 4369,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17153,
+    "stationId": 4369,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17154,
+    "stationId": 4369,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17155,
+    "stationId": 4370,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17156,
+    "stationId": 4370,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17157,
+    "stationId": 4370,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17158,
+    "stationId": 4370,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17159,
+    "stationId": 4370,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17160,
+    "stationId": 4371,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17161,
+    "stationId": 4371,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17162,
+    "stationId": 4371,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17163,
+    "stationId": 4371,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17164,
+    "stationId": 4371,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 22220,
+    "stationId": 4371,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 17317,
+    "stationId": 4403,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17318,
+    "stationId": 4403,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 17319,
+    "stationId": 4403,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17320,
+    "stationId": 4403,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17321,
+    "stationId": 4403,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18932,
+    "stationId": 4403,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19867,
+    "stationId": 4403,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 17322,
+    "stationId": 4404,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17323,
+    "stationId": 4404,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17324,
+    "stationId": 4404,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17325,
+    "stationId": 4404,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19323,
+    "stationId": 4404,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19324,
+    "stationId": 4404,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20155,
+    "stationId": 4404,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 17326,
+    "stationId": 4405,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17327,
+    "stationId": 4405,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17328,
+    "stationId": 4405,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17329,
+    "stationId": 4405,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17330,
+    "stationId": 4405,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17331,
+    "stationId": 4406,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17332,
+    "stationId": 4406,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17333,
+    "stationId": 4406,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17334,
+    "stationId": 4406,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17335,
+    "stationId": 4406,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17467,
+    "stationId": 4425,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17468,
+    "stationId": 4425,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17469,
+    "stationId": 4425,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17470,
+    "stationId": 4425,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17493,
+    "stationId": 4425,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17471,
+    "stationId": 4426,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17472,
+    "stationId": 4426,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17473,
+    "stationId": 4426,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17474,
+    "stationId": 4426,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17494,
+    "stationId": 4426,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17475,
+    "stationId": 4427,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17476,
+    "stationId": 4427,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17477,
+    "stationId": 4427,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17478,
+    "stationId": 4427,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17495,
+    "stationId": 4427,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17697,
+    "stationId": 4471,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17698,
+    "stationId": 4471,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17699,
+    "stationId": 4471,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17700,
+    "stationId": 4471,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17701,
+    "stationId": 4471,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17776,
+    "stationId": 4488,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17777,
+    "stationId": 4488,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17778,
+    "stationId": 4488,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17779,
+    "stationId": 4488,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17780,
+    "stationId": 4488,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 14,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17877,
+    "stationId": 4509,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17878,
+    "stationId": 4509,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17879,
+    "stationId": 4509,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 17880,
+    "stationId": 4509,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 17881,
+    "stationId": 4509,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18070,
+    "stationId": 4546,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18071,
+    "stationId": 4546,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18072,
+    "stationId": 4546,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18073,
+    "stationId": 4546,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18074,
+    "stationId": 4546,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18161,
+    "stationId": 4564,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 12,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18162,
+    "stationId": 4564,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18163,
+    "stationId": 4564,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "240 normální HV"
+  },
+  {
+    "id": 18164,
+    "stationId": 4564,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18165,
+    "stationId": 4564,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18463,
+    "stationId": 4628,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18464,
+    "stationId": 4628,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 15,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18465,
+    "stationId": 4628,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 18466,
+    "stationId": 4628,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 18467,
+    "stationId": 4628,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19153,
+    "stationId": 4774,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19154,
+    "stationId": 4774,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19155,
+    "stationId": 4774,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19156,
+    "stationId": 4774,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20848,
+    "stationId": 4774,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19258,
+    "stationId": 4786,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19259,
+    "stationId": 4786,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19260,
+    "stationId": 4786,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 19261,
+    "stationId": 4786,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19262,
+    "stationId": 4786,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 19865,
+    "stationId": 4786,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 21760,
+    "stationId": 4786,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20505,
+    "stationId": 4949,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20506,
+    "stationId": 4949,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20507,
+    "stationId": 4949,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20508,
+    "stationId": 4949,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20509,
+    "stationId": 4949,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20510,
+    "stationId": 4949,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 20796,
+    "stationId": 5005,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20797,
+    "stationId": 5005,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20798,
+    "stationId": 5005,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 20799,
+    "stationId": 5005,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20800,
+    "stationId": 5005,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 41,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 20801,
+    "stationId": 5005,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 61,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 21630,
+    "stationId": 5198,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21631,
+    "stationId": 5198,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21632,
+    "stationId": 5198,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21633,
+    "stationId": 5198,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21634,
+    "stationId": 5198,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21635,
+    "stationId": 5199,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21636,
+    "stationId": 5199,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21637,
+    "stationId": 5199,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21638,
+    "stationId": 5199,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21639,
+    "stationId": 5199,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21640,
+    "stationId": 5200,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21641,
+    "stationId": 5200,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21642,
+    "stationId": 5200,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 21643,
+    "stationId": 5200,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 21644,
+    "stationId": 5200,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 22145,
+    "stationId": 5277,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 22146,
+    "stationId": 5277,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 2,
+    "cleaningFrequencyCode": 13,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 22147,
+    "stationId": 5277,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 22148,
+    "stationId": 5277,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 21,
+    "containerType": "3300 GFA DUO SV"
+  },
+  {
+    "id": 22149,
+    "stationId": 5277,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "1100 normální HV"
+  },
+  {
+    "id": 22150,
+    "stationId": 5277,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 17888,
+    "stationId": 4511,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 17889,
+    "stationId": 4511,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 11,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 17890,
+    "stationId": 4511,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 17891,
+    "stationId": 4511,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 17892,
+    "stationId": 4511,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18075,
+    "stationId": 4547,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18076,
+    "stationId": 4547,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18077,
+    "stationId": 4547,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18078,
+    "stationId": 4547,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18079,
+    "stationId": 4547,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18166,
+    "stationId": 4565,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18167,
+    "stationId": 4565,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18168,
+    "stationId": 4565,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18169,
+    "stationId": 4565,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18170,
+    "stationId": 4565,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18171,
+    "stationId": 4566,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18172,
+    "stationId": 4566,
+    "trashTypeCode": "ko",
+    "trashTypeName": "Metals",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "1100 mini H SV"
+  },
+  {
+    "id": 18173,
+    "stationId": 4566,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18174,
+    "stationId": 4566,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18175,
+    "stationId": 4566,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18943,
+    "stationId": 4566,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19890,
+    "stationId": 4566,
+    "trashTypeCode": "e",
+    "trashTypeName": "Electric Equipment",
+    "containers": 1,
+    "cleaningFrequencyCode": 41,
+    "containerType": "2150 MEVA SV"
+  },
+  {
+    "id": 18176,
+    "stationId": 4567,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18177,
+    "stationId": 4567,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18178,
+    "stationId": 4567,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18179,
+    "stationId": 4567,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18180,
+    "stationId": 4567,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18181,
+    "stationId": 4568,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18182,
+    "stationId": 4568,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18183,
+    "stationId": 4568,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18184,
+    "stationId": 4568,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18185,
+    "stationId": 4568,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18186,
+    "stationId": 4569,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18187,
+    "stationId": 4569,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18188,
+    "stationId": 4569,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18189,
+    "stationId": 4569,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18190,
+    "stationId": 4569,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18191,
+    "stationId": 4570,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18192,
+    "stationId": 4570,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18193,
+    "stationId": 4570,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18194,
+    "stationId": 4570,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18195,
+    "stationId": 4570,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18201,
+    "stationId": 4572,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18202,
+    "stationId": 4572,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18203,
+    "stationId": 4572,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18204,
+    "stationId": 4572,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18205,
+    "stationId": 4572,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18215,
+    "stationId": 4575,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18216,
+    "stationId": 4575,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18217,
+    "stationId": 4575,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 21,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18218,
+    "stationId": 4575,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18219,
+    "stationId": 4575,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18391,
+    "stationId": 4611,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18392,
+    "stationId": 4611,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 13,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18393,
+    "stationId": 4611,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18394,
+    "stationId": 4611,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18395,
+    "stationId": 4611,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18396,
+    "stationId": 4612,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18397,
+    "stationId": 4612,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18398,
+    "stationId": 4612,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18399,
+    "stationId": 4612,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 18400,
+    "stationId": 4612,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19396,
+    "stationId": 4803,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19397,
+    "stationId": 4803,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19398,
+    "stationId": 4803,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19399,
+    "stationId": 4803,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 19400,
+    "stationId": 4803,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 20403,
+    "stationId": 4927,
+    "trashTypeCode": "p",
+    "trashTypeName": "Paper",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 20404,
+    "stationId": 4927,
+    "trashTypeCode": "u",
+    "trashTypeName": "Plastic",
+    "containers": 1,
+    "cleaningFrequencyCode": 12,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 20405,
+    "stationId": 4927,
+    "trashTypeCode": "nk",
+    "trashTypeName": "Cardboard",
+    "containers": 1,
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 20406,
+    "stationId": 4927,
+    "trashTypeCode": "sb",
+    "trashTypeName": "Coloured glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  },
+  {
+    "id": 20407,
+    "stationId": 4927,
+    "trashTypeCode": "sc",
+    "trashTypeName": "Clear glass",
+    "containers": "0,5",
+    "cleaningFrequencyCode": 31,
+    "containerType": "3000 Podzemní SV"
+  }
+]

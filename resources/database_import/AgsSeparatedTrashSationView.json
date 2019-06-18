@@ -1,0 +1,1185 @@
+[
+  {
+    "id": 1602,
+    "stationName": "Litoměřická 583/18",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737173.84",
+    "coordinateY": "-1040287.22"
+  },
+  {
+    "id": 1603,
+    "stationName": "Veltruská 608/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737451.351597",
+    "coordinateY": "-1040053.20577"
+  },
+  {
+    "id": 1605,
+    "stationName": "Litvínovská 518/40",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737584.891107",
+    "coordinateY": "-1039930.64971"
+  },
+  {
+    "id": 1606,
+    "stationName": "Litvínovská 286/15",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737642.948326",
+    "coordinateY": "-1039655.58688"
+  },
+  {
+    "id": 1607,
+    "stationName": "Litoměřická 62/38",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737845.395354",
+    "coordinateY": "-1039840.96508"
+  },
+  {
+    "id": 1608,
+    "stationName": "Habartická 547/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738227.73",
+    "coordinateY": "-1040045.25"
+  },
+  {
+    "id": 1609,
+    "stationName": "Teplická 284/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737802.433651",
+    "coordinateY": "-1039656.63657"
+  },
+  {
+    "id": 1610,
+    "stationName": "Vysočanská 240/107",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737401.971931",
+    "coordinateY": "-1039476.42595"
+  },
+  {
+    "id": 1611,
+    "stationName": "Vysočanská 547/83",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737241.673043",
+    "coordinateY": "-1039725.94581"
+  },
+  {
+    "id": 1612,
+    "stationName": "Vysočanská 563/59",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737085.981297",
+    "coordinateY": "-1039977.07112"
+  },
+  {
+    "id": 1613,
+    "stationName": "Pískovcová 736/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736858.391513",
+    "coordinateY": "-1040544.30202"
+  },
+  {
+    "id": 1614,
+    "stationName": "Jetřichovická 742/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736155.469554",
+    "coordinateY": "-1039787.54233"
+  },
+  {
+    "id": 1615,
+    "stationName": "Lovosická 772/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736368.02",
+    "coordinateY": "-1039715.3"
+  },
+  {
+    "id": 1616,
+    "stationName": "Kovanecká 2284/21",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737916.22",
+    "coordinateY": "-1041370.82"
+  },
+  {
+    "id": 1617,
+    "stationName": "Poleradská 374/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736560.323107",
+    "coordinateY": "-1039979.66469"
+  },
+  {
+    "id": 1619,
+    "stationName": "Českolipská 400/20",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736787.766173",
+    "coordinateY": "-1039581.39206"
+  },
+  {
+    "id": 1620,
+    "stationName": "Žandovská 304/13",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736962.28",
+    "coordinateY": "-1039217.38"
+  },
+  {
+    "id": 1621,
+    "stationName": "Šluknovská 321/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737200.21",
+    "coordinateY": "-1039362.71"
+  },
+  {
+    "id": 1623,
+    "stationName": "Jablonecká 419/64",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737098.24",
+    "coordinateY": "-1039650.09"
+  },
+  {
+    "id": 1624,
+    "stationName": "Jablonecká 708/30",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736825.786968",
+    "coordinateY": "-1039903.00815"
+  },
+  {
+    "id": 1625,
+    "stationName": "Jablonecká 718/3",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736717.139135",
+    "coordinateY": "-1040078.31355"
+  },
+  {
+    "id": 1626,
+    "stationName": "Prosecká 681/119",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736515.95",
+    "coordinateY": "-1040148.51"
+  },
+  {
+    "id": 1630,
+    "stationName": "Kovanecká 2107/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738108.743113",
+    "coordinateY": "-1041458.21347"
+  },
+  {
+    "id": 1631,
+    "stationName": "Staromlýnská 621/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736986.249885",
+    "coordinateY": "-1041391.26699"
+  },
+  {
+    "id": 1632,
+    "stationName": "Čihákova 2144/42",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737539.477536",
+    "coordinateY": "-1041392.83422"
+  },
+  {
+    "id": 1634,
+    "stationName": "Podvinný mlýn 2126/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737938.86",
+    "coordinateY": "-1041589.06"
+  },
+  {
+    "id": 1635,
+    "stationName": "náměstí Na Balabence 1433/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738217.75",
+    "coordinateY": "-1041618.74"
+  },
+  {
+    "id": 1636,
+    "stationName": "Kovanecká 2295/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737978.07",
+    "coordinateY": "-1041362.69"
+  },
+  {
+    "id": 1638,
+    "stationName": "Lihovarská 1270/11",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737939.34",
+    "coordinateY": "-1041751.38"
+  },
+  {
+    "id": 1640,
+    "stationName": "Drahobejlova 956/51",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737492.92",
+    "coordinateY": "-1041603.89"
+  },
+  {
+    "id": 1641,
+    "stationName": "Odlehlá 326/60",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738070.835471",
+    "coordinateY": "-1042446.2256"
+  },
+  {
+    "id": 1642,
+    "stationName": "Skloněná 551/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737923.647752",
+    "coordinateY": "-1042260.31257"
+  },
+  {
+    "id": 1643,
+    "stationName": "Jahodnická 117/16",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735127.72",
+    "coordinateY": "-1043320.62"
+  },
+  {
+    "id": 1645,
+    "stationName": "Jablonecká 714/40",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736961.32",
+    "coordinateY": "-1039828.88"
+  },
+  {
+    "id": 1646,
+    "stationName": "Novoborská 649/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736563.231781",
+    "coordinateY": "-1039683.77655"
+  },
+  {
+    "id": 1647,
+    "stationName": "Nad Krocínkou 372/41",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736571.13164",
+    "coordinateY": "-1040641.61174"
+  },
+  {
+    "id": 1648,
+    "stationName": "Stoupající 646/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736433.526313",
+    "coordinateY": "-1040403.35384"
+  },
+  {
+    "id": 1650,
+    "stationName": "Pod Krocínkou 847/36",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736026.87446",
+    "coordinateY": "-1040722.98077"
+  },
+  {
+    "id": 1651,
+    "stationName": "Pešlova 356/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736897.59",
+    "coordinateY": "-1041094.67"
+  },
+  {
+    "id": 1652,
+    "stationName": "Pešlova 94/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": -737014,
+    "coordinateY": "-1041119.93"
+  },
+  {
+    "id": 1653,
+    "stationName": "Pod Strojírnami 707/13",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736316.95",
+    "coordinateY": "-1041405.39"
+  },
+  {
+    "id": 1654,
+    "stationName": "U Harfy 229/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736705.742416",
+    "coordinateY": "-1042322.28061"
+  },
+  {
+    "id": 1655,
+    "stationName": "Vysočanské náměstí 218/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737659.666244",
+    "coordinateY": "-1042222.12799"
+  },
+  {
+    "id": 1656,
+    "stationName": "Na Vyhlídce 410/34",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737690.7",
+    "coordinateY": "-1040301.31"
+  },
+  {
+    "id": 1657,
+    "stationName": "Děčínská 464/3",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737765.050041",
+    "coordinateY": "-1039345.95956"
+  },
+  {
+    "id": 1658,
+    "stationName": "Pod Krocínkou 740/57",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736185.29",
+    "coordinateY": "-1040921.4"
+  },
+  {
+    "id": 1659,
+    "stationName": "U Vysočanského pivovaru 427/24",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736454.431044",
+    "coordinateY": "-1041538.45254"
+  },
+  {
+    "id": 1661,
+    "stationName": "Na Harfě 249/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736894.417393",
+    "coordinateY": "-1042160.58767"
+  },
+  {
+    "id": 1662,
+    "stationName": "Lovosická 661/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736275.628603",
+    "coordinateY": "-1039861.83095"
+  },
+  {
+    "id": 1663,
+    "stationName": "Na rozcestí 1328/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738076.27",
+    "coordinateY": "-1041743.36"
+  },
+  {
+    "id": 1664,
+    "stationName": "Jablonecká 365/11",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737135.88",
+    "coordinateY": "-1039499.14"
+  },
+  {
+    "id": 1665,
+    "stationName": "Nad Kolčavkou 120/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738124.893179",
+    "coordinateY": "-1041395.85183"
+  },
+  {
+    "id": 1666,
+    "stationName": "Varnsdorfská 346/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736850.166738",
+    "coordinateY": "-1039377.0537"
+  },
+  {
+    "id": 1667,
+    "stationName": "Cvikovská 376/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736813.508412",
+    "coordinateY": "-1039459.4752"
+  },
+  {
+    "id": 1669,
+    "stationName": "Na Vyhlídce 463/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737909.51",
+    "coordinateY": "-1040188.87"
+  },
+  {
+    "id": 1670,
+    "stationName": "U prosecké školy 92/19",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737256.506235",
+    "coordinateY": "-1040516.99839"
+  },
+  {
+    "id": 1671,
+    "stationName": "Nad Šestikopy 461/18",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736970.26",
+    "coordinateY": "-1040496.27"
+  },
+  {
+    "id": 1672,
+    "stationName": "Odlehlá 321/67",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737946.56",
+    "coordinateY": "-1042430.89"
+  },
+  {
+    "id": 1673,
+    "stationName": "U schodů 180/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736090.577352",
+    "coordinateY": "-1042780.27097"
+  },
+  {
+    "id": 1674,
+    "stationName": "Mezitraťová 347/34",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735879.42",
+    "coordinateY": "-1042578.58"
+  },
+  {
+    "id": 1675,
+    "stationName": "U Vysočanského pivovaru 419/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736598.92",
+    "coordinateY": "-1041509.27"
+  },
+  {
+    "id": 1676,
+    "stationName": "Českobrodská 1091/38",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735390.14",
+    "coordinateY": "-1043337.36"
+  },
+  {
+    "id": 1677,
+    "stationName": "Celniční 230",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735085.421975",
+    "coordinateY": "-1043146.04443"
+  },
+  {
+    "id": 1678,
+    "stationName": "Klečákova 220/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737126.828448",
+    "coordinateY": "-1042089.75788"
+  },
+  {
+    "id": 1680,
+    "stationName": "Horní Hrdlořezská 69/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736534.175095",
+    "coordinateY": "-1043401.33275"
+  },
+  {
+    "id": 1681,
+    "stationName": "Před mosty 2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735545.033004",
+    "coordinateY": "-1043121.74762"
+  },
+  {
+    "id": 1682,
+    "stationName": "Českobrodská 70/32",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736025.000341",
+    "coordinateY": "-1043347.43271"
+  },
+  {
+    "id": 1683,
+    "stationName": "Na Břehu 567/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737115.88",
+    "coordinateY": "-1041350.73"
+  },
+  {
+    "id": 1684,
+    "stationName": "Jahodnická 208/17",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735377.064165",
+    "coordinateY": "-1043244.66671"
+  },
+  {
+    "id": 1687,
+    "stationName": "Teplická 274/32",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737649.654464",
+    "coordinateY": "-1039486.76642"
+  },
+  {
+    "id": 1688,
+    "stationName": "Pešlova 341/3",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736809.74",
+    "coordinateY": "-1041091.09"
+  },
+  {
+    "id": 1690,
+    "stationName": "Mlékárenská 32/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736861.748402",
+    "coordinateY": "-1041505.37261"
+  },
+  {
+    "id": 1691,
+    "stationName": "Rubeška 383/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737182.67",
+    "coordinateY": "-1041127.97"
+  },
+  {
+    "id": 1693,
+    "stationName": "Na Vyhlídce 47/76",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737153.33",
+    "coordinateY": "-1040472.63"
+  },
+  {
+    "id": 1695,
+    "stationName": "Habartická 500/48",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737954.68",
+    "coordinateY": "-1039825.12"
+  },
+  {
+    "id": 1697,
+    "stationName": "U Smetanky 191/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736241.02",
+    "coordinateY": "-1043282.89"
+  },
+  {
+    "id": 1698,
+    "stationName": "Paříkova 354/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737024.779822",
+    "coordinateY": "-1041173.00005"
+  },
+  {
+    "id": 1699,
+    "stationName": "Kytlická 764/33",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736454.878262",
+    "coordinateY": "-1039559.58251"
+  },
+  {
+    "id": 1700,
+    "stationName": "Na Vysočanských vinicích 824/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736243.56",
+    "coordinateY": "-1040755.2"
+  },
+  {
+    "id": 1701,
+    "stationName": "Na Krocínce 784/13",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736611.56",
+    "coordinateY": "-1040753.18"
+  },
+  {
+    "id": 1702,
+    "stationName": "Zárybská 669/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736379.712517",
+    "coordinateY": "-1039949.77603"
+  },
+  {
+    "id": 1703,
+    "stationName": "Kolbenova 805/32",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736061.62158",
+    "coordinateY": "-1041331.42686"
+  },
+  {
+    "id": 1704,
+    "stationName": "Litoměřická 577/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737083.07",
+    "coordinateY": "-1040234.7"
+  },
+  {
+    "id": 1705,
+    "stationName": "Novoborská 620/27",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736699.51",
+    "coordinateY": "-1039542.91"
+  },
+  {
+    "id": 1708,
+    "stationName": "Na Břehu 634/19",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736888.417827",
+    "coordinateY": "-1041594.03513"
+  },
+  {
+    "id": 1709,
+    "stationName": "Prosecká 37/40",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737264.976074",
+    "coordinateY": "-1040576.70149"
+  },
+  {
+    "id": 1711,
+    "stationName": "Litvínovská 600/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737285.718235",
+    "coordinateY": "-1040180.55905"
+  },
+  {
+    "id": 1712,
+    "stationName": "Podvinný mlýn 2281/12",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737826.28",
+    "coordinateY": "-1041103.02"
+  },
+  {
+    "id": 1713,
+    "stationName": "Skloněná 308/16",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737838.104262",
+    "coordinateY": "-1042174.01703"
+  },
+  {
+    "id": 1714,
+    "stationName": "Vysočanská 233/93",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737331.66",
+    "coordinateY": "-1039581.77"
+  },
+  {
+    "id": 1715,
+    "stationName": "Vysočanská 554/69",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737169.47952",
+    "coordinateY": "-1039854.085"
+  },
+  {
+    "id": 1716,
+    "stationName": "Vysočanská 572/41",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736994.59",
+    "coordinateY": "-1040116.51"
+  },
+  {
+    "id": 1718,
+    "stationName": "Novoborská 371/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736844.094252",
+    "coordinateY": "-1039334.42318"
+  },
+  {
+    "id": 1719,
+    "stationName": "Trmická 0",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736992.022292",
+    "coordinateY": "-1040371.01256"
+  },
+  {
+    "id": 1720,
+    "stationName": "Nad šestikopy 835/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737044.970216",
+    "coordinateY": "-1040438.2604"
+  },
+  {
+    "id": 1721,
+    "stationName": "Zakšínská 571/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736943.294346",
+    "coordinateY": "-1039016.74365"
+  },
+  {
+    "id": 1722,
+    "stationName": "Novovysočanská 505/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738089.794471",
+    "coordinateY": "-1042254.12285"
+  },
+  {
+    "id": 1723,
+    "stationName": "Litoměřická 839/15",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737578.9",
+    "coordinateY": "-1040169.68"
+  },
+  {
+    "id": 1724,
+    "stationName": "Hrdlořezská 72/47",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736535.793642",
+    "coordinateY": "-1042982.9852"
+  },
+  {
+    "id": 1725,
+    "stationName": "Poděbradská 777/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736104.66",
+    "coordinateY": "-1042195.97"
+  },
+  {
+    "id": 1727,
+    "stationName": "Na Harfě 935/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736907.62",
+    "coordinateY": "-1042102.15"
+  },
+  {
+    "id": 1728,
+    "stationName": "Poděbradská 777/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736411.593303",
+    "coordinateY": "-1042198.02757"
+  },
+  {
+    "id": 1729,
+    "stationName": "Kolbenova 658/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736403.970952",
+    "coordinateY": "-1041269.81457"
+  },
+  {
+    "id": 1730,
+    "stationName": "Střížkovská 550/33",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737744.891897",
+    "coordinateY": "-1039518.5666"
+  },
+  {
+    "id": 1731,
+    "stationName": "Hrdlořezská 366/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736457.08",
+    "coordinateY": "-1043182.25"
+  },
+  {
+    "id": 1733,
+    "stationName": "Ocelářská 975/45",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737038.59",
+    "coordinateY": "-1041676.74"
+  },
+  {
+    "id": 1734,
+    "stationName": "Na Prosecké vyhlídce 76/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737332.277094",
+    "coordinateY": "-1040316.45108"
+  },
+  {
+    "id": 1735,
+    "stationName": "Kovářská 1414/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737560.98",
+    "coordinateY": "-1041637.98"
+  },
+  {
+    "id": 1736,
+    "stationName": "Kurta Konráda 2457/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737804.81",
+    "coordinateY": "-1041736.88"
+  },
+  {
+    "id": 1737,
+    "stationName": "Nepelova 953/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735399.35",
+    "coordinateY": "-1041893.89"
+  },
+  {
+    "id": 1738,
+    "stationName": "K náhonu 15/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-734878.591244",
+    "coordinateY": "-1042324.10908"
+  },
+  {
+    "id": 1740,
+    "stationName": "Jitravská 562/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738003.729336",
+    "coordinateY": "-1039774.01139"
+  },
+  {
+    "id": 4369,
+    "stationName": "Jana Přibíka 959/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735867.94",
+    "coordinateY": "-1042014.43"
+  },
+  {
+    "id": 4370,
+    "stationName": "Českolipská 391/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736955.009065",
+    "coordinateY": "-1039683.13857"
+  },
+  {
+    "id": 4371,
+    "stationName": "Pod Harfou 966/35",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736162.76",
+    "coordinateY": "-1042050.62"
+  },
+  {
+    "id": 4403,
+    "stationName": "Kovářská 1790/27",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737695.7",
+    "coordinateY": "-1041348.4"
+  },
+  {
+    "id": 4404,
+    "stationName": "U Svobodárny 1215/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737715.15",
+    "coordinateY": "-1041697.26"
+  },
+  {
+    "id": 4405,
+    "stationName": "Makedonská 599/3",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737117.94",
+    "coordinateY": "-1039056.48"
+  },
+  {
+    "id": 4406,
+    "stationName": "Makedonská 601/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737164.51",
+    "coordinateY": "-1038990.86"
+  },
+  {
+    "id": 4425,
+    "stationName": "Nademlejnská 823/11",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-734973.970864",
+    "coordinateY": "-1042261.01026"
+  },
+  {
+    "id": 4426,
+    "stationName": "Zásadská 569/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736796.423966",
+    "coordinateY": "-1039031.47293"
+  },
+  {
+    "id": 4427,
+    "stationName": "Sousedíkova 973/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735555.36",
+    "coordinateY": "-1041984.5"
+  },
+  {
+    "id": 4471,
+    "stationName": "Nademlejnská 1064/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735015.894847",
+    "coordinateY": "-1042357.28725"
+  },
+  {
+    "id": 4488,
+    "stationName": "Desenská 0",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737033.536229",
+    "coordinateY": "-1038931.84381"
+  },
+  {
+    "id": 4509,
+    "stationName": "Odlehlá 558/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738352.011081",
+    "coordinateY": "-1042474.83322"
+  },
+  {
+    "id": 4546,
+    "stationName": "Zakšínská 615/17",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736875.52",
+    "coordinateY": "-1038959.64"
+  },
+  {
+    "id": 4564,
+    "stationName": "Freyova 983/25",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736851.09",
+    "coordinateY": "-1041775.13"
+  },
+  {
+    "id": 4628,
+    "stationName": "Pod Harfou 943/16",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736350.97",
+    "coordinateY": "-1042032.76"
+  },
+  {
+    "id": 4774,
+    "stationName": "Modrého 1107/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735396.62",
+    "coordinateY": "-1041967.1"
+  },
+  {
+    "id": 4786,
+    "stationName": "Makedonská 617/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737106.84",
+    "coordinateY": "-1039007.44"
+  },
+  {
+    "id": 4949,
+    "stationName": "Granitova 1115/8",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735008.35",
+    "coordinateY": "-1041654.26"
+  },
+  {
+    "id": 5005,
+    "stationName": "Za Krejcárkem 1003/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-738498.34",
+    "coordinateY": "-1042531.88"
+  },
+  {
+    "id": 5198,
+    "stationName": "Strnadových 1006/3",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735851.84",
+    "coordinateY": "-1041149.56"
+  },
+  {
+    "id": 5199,
+    "stationName": "Strnadových 1007/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735861.23",
+    "coordinateY": "-1041124.04"
+  },
+  {
+    "id": 5200,
+    "stationName": "Strnadových 1009/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735799.27",
+    "coordinateY": "-1041131.79"
+  },
+  {
+    "id": 5277,
+    "stationName": "Saarinenova 1130/7",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-735001.36",
+    "coordinateY": "-1041800.71"
+  },
+  {
+    "id": 4958,
+    "stationName": "Učňovská 379/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736853.43",
+    "coordinateY": "-1043152.86"
+  },
+  {
+    "id": 4959,
+    "stationName": "Učňovská 386/17",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736796.94",
+    "coordinateY": "-1043188.18"
+  },
+  {
+    "id": 4960,
+    "stationName": "Učňovská 387/19",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736757.78",
+    "coordinateY": "-1043188.71"
+  },
+  {
+    "id": 4961,
+    "stationName": "Učňovská 391/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736951.98",
+    "coordinateY": "-1043171.78"
+  },
+  {
+    "id": 4962,
+    "stationName": "Učňovská 393/13",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736876.05",
+    "coordinateY": "-1043179.19"
+  },
+  {
+    "id": 4963,
+    "stationName": "Učňovská 396/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737035.59",
+    "coordinateY": "-1043188.45"
+  },
+  {
+    "id": 4964,
+    "stationName": "Učňovská 398/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737089.57",
+    "coordinateY": "-1043177.07"
+  },
+  {
+    "id": 5006,
+    "stationName": "Nad Smetankou 222/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737028.05",
+    "coordinateY": "-1042961.3"
+  },
+  {
+    "id": 5007,
+    "stationName": "V Třešňovce 223/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737080.06",
+    "coordinateY": "-1043020.55"
+  },
+  {
+    "id": 5008,
+    "stationName": "V Třešňovce 229/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736874.99",
+    "coordinateY": "-1042927.83"
+  },
+  {
+    "id": 5009,
+    "stationName": "Nad Smetankou 226/4",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737053.05",
+    "coordinateY": "-1043069.12"
+  },
+  {
+    "id": 5012,
+    "stationName": "Nad Smetankou 221/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737097.32",
+    "coordinateY": "-1043000.05"
+  },
+  {
+    "id": 5013,
+    "stationName": "V Třešňovce 224/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737038.24",
+    "coordinateY": "-1042998.3"
+  },
+  {
+    "id": 5014,
+    "stationName": "V Třešňovce 227/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736954.23",
+    "coordinateY": "-1042961.7"
+  },
+  {
+    "id": 5015,
+    "stationName": "Nad Smetankou 225/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737103.06",
+    "coordinateY": "-1043081.29"
+  },
+  {
+    "id": 5016,
+    "stationName": "Nad Smetankou 228/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736932.8",
+    "coordinateY": "-1043025.07"
+  },
+  {
+    "id": 5017,
+    "stationName": "Nad Smetankou 231/9",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736849.46",
+    "coordinateY": "-1043019.78"
+  },
+  {
+    "id": 5019,
+    "stationName": "Nad Smetankou 230/10",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736912.72",
+    "coordinateY": "-1042992.24"
+  },
+  {
+    "id": 5219,
+    "stationName": "Za Lidovým domem 1010/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736500.06",
+    "coordinateY": "-1041736.31"
+  },
+  {
+    "id": 4511,
+    "stationName": "Sokolovská 972/195",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737699.76",
+    "coordinateY": "-1041504.19"
+  },
+  {
+    "id": 4547,
+    "stationName": "Podvinný mlýn 2347/24",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737646.2",
+    "coordinateY": "-1041056.32"
+  },
+  {
+    "id": 4565,
+    "stationName": "Prouzova 792/6",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736637.96",
+    "coordinateY": "-1041301.44"
+  },
+  {
+    "id": 4566,
+    "stationName": "Klíčovská 293/20",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736243.12",
+    "coordinateY": "-1040560.77"
+  },
+  {
+    "id": 4567,
+    "stationName": "Pískovcová 737/5",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736897.95",
+    "coordinateY": "-1040458.56"
+  },
+  {
+    "id": 4568,
+    "stationName": "Veltruská 538/23",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737249.08",
+    "coordinateY": "-1039924.02"
+  },
+  {
+    "id": 4569,
+    "stationName": "Jablonecká 358/25",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737215.25",
+    "coordinateY": "-1039378.56"
+  },
+  {
+    "id": 4570,
+    "stationName": "Rumburská 244/22",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737433.87",
+    "coordinateY": "-1039539.07"
+  },
+  {
+    "id": 4572,
+    "stationName": "Bílinská 504/21",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737358.95",
+    "coordinateY": "-1039746.86"
+  },
+  {
+    "id": 4575,
+    "stationName": "Kytlická 779/19",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736235.85",
+    "coordinateY": "-1039592.38"
+  },
+  {
+    "id": 4611,
+    "stationName": "Nemocniční 781/14",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736402.99",
+    "coordinateY": "-1041401.42"
+  },
+  {
+    "id": 4612,
+    "stationName": "Čihákova 965/2",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737866.01",
+    "coordinateY": "-1041533.36"
+  },
+  {
+    "id": 4803,
+    "stationName": "Litvínovská 288/11",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-737672.47",
+    "coordinateY": "-1039750.56"
+  },
+  {
+    "id": 4927,
+    "stationName": "Mimoňská 1243/1",
+    "cityDistrict": "Prague 9",
+    "coordinateX": "-736761.74",
+    "coordinateY": "-1039801.76"
+  }
+]
