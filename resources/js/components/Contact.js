@@ -4,7 +4,7 @@ export default class Contact extends Component {
     
     render () {
         return (          
-            <div className="contact-wrap">
+    <div className="contact-wrap">
     <div className="contact-form2">
       <div className="contact-title">
 

@@ -2,32 +2,37 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import MapContainer from './MapContainer';
-
 import About from './About';
 import Contact from './Contact';
 import Login from './Login';
+import Index from './Index';
+
 export default class App extends Component {
     constructor(props){
         super(props);
 
         this.state = {
-            page: 'map'
+            page: 'map',
+            index: true
         }
     }
 
     render() {
+        if(this.state.index)
+            return (<Index handleClick={() => { this.setState({index:false})}}/>)
+
         return (
             <div>
                 {
                     (()=>{
                         if(this.state.page == 'map')
-                            return (<MapContainer/>);
-                        else if(this.state.page == 'about')
-                            return (<About/>)
+                                return (<MapContainer/>);
+                            else if(this.state.page == 'about')
+                                return (<About/>)
                             else if(this.state.page == 'contact')
-                            return (<Contact/>)
+                                return (<Contact/>)
                             else if(this.state.page == 'login')
-                            return (<Login/>)
+                                return (<Login/>)
                     })()
                 }
   
