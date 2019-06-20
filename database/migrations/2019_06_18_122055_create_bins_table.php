@@ -21,6 +21,7 @@ class CreateBinsTable extends Migration
             $table->integer('containers');
             $table->integer('cleaningFrequencyCode');
             $table->string('containerType');
+            $table->timestamps();
         });
     }
 

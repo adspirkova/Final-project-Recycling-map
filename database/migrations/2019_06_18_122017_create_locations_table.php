@@ -18,7 +18,8 @@ class CreateLocationsTable extends Migration
             $table->string('stationName');
             $table->string('cityDistrict');
             $table->double('lat'); // Coordinate X
-            $table->double('lon'); // Coordinate Y
+            $table->double('lng'); // Coordinate Y
+            $table->timestamps();
         });
     }
 

@@ -18,17 +18,18 @@ class LocationSeeder extends Seeder
         $handle = fopen('AgsSeparatedTrashStationView.csv', "r");
         $header = true;
 
-        while ($csvLine = fgetcsv($handle, 1000, ",")) {
+        while ($csvLine = fgetcsv($handle, 1000, ";")) {
         
             if ($header) {
                 $header = false;
             } else {
+                // var_dump($csvLine);
                 Location::create([
                     'id' => $csvLine[0],
                     'stationName' => $csvLine[1],
                     'cityDistrict' => $csvLine[2],
                     'lat' => $csvLine[3],
-                    'lon' => $csvLine[4],
+                    'lng' => $csvLine[4],
                 ]);
             }
         }
