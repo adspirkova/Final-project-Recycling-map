@@ -69060,7 +69060,7 @@ function (_Component) {
         href: "#forget-password"
       }, "Forget the password"), " or", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#create-account"
-      }, "create the new account"), " ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " create the new account"), " ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "form-send"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",

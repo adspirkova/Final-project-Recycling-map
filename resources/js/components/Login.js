@@ -27,7 +27,7 @@ export default class Login extends Component {
             </div>
 
             <p><a href="#forget-password">Forget the password</a> or
-                <a href="#create-account">create the new account</a> ?</p>
+                <a href="#create-account"> create the new account</a> ?</p>
             <br/>
 
             <div class="form-send">
