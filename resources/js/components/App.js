@@ -5,6 +5,7 @@ import MapContainer from './MapContainer';
 import About from './About';
 import Contact from './Contact';
 import Login from './Login';
+import AfterLogin from './AfterLogin';
 import Index from './Index';
 
 export default class App extends Component {
