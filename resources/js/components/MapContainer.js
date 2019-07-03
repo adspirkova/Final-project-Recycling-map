@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+//Google Map importing:
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 class MapContainer extends Component {
@@ -14,7 +16,7 @@ class MapContainer extends Component {
     componentDidMount(){
 
 
-    
+      //Geolocation API
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
       } else {
@@ -59,5 +61,5 @@ class MapContainer extends Component {
     }
 }
 export default GoogleApiWrapper({
-    apiKey: ("AIzaSyDhycN05oMi7_OYP1z5c4xzjWbhsDCdrsQ")
+    apiKey: ("AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU")
   })(MapContainer)
