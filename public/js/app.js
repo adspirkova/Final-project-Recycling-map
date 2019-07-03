@@ -69123,7 +69123,8 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MapContainer).call(this, props));
     _this.state = {
       lat: 50.0595854,
-      lng: 14.325541
+      lng: 14.325541,
+      active_marker: {}
     };
     return _this;
   }
@@ -69150,8 +69151,72 @@ function (_Component) {
       }
     }
   }, {
+    key: "markerClicked",
+    value: function markerClicked(props, marker, event) {
+      console.log('==============================', marker);
+      this.setState({
+        active_marker: marker
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this3 = this;
+
+      var listOfMarkers = [{
+        key: 1,
+        lat: 50.059862,
+        lng: 14.324908,
+        pet: 'dog',
+        icons: [true, true, true, true]
+      }, {
+        key: 2,
+        lat: 50.060024,
+        lng: 14.324725,
+        pet: 'cat',
+        icons: [true, false, true, true]
+      }, {
+        key: 3,
+        lat: 50.060281,
+        lng: 14.325643,
+        pet: 'fish',
+        icons: [true, false, false, true]
+      }, {
+        key: 4,
+        lat: 50.060261,
+        lng: 14.324749,
+        pet: 'bird',
+        icons: [true, true, true, false]
+      }];
+      var mymarker = listOfMarkers.map(function (el) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
+          key: el.key,
+          title: el.pet,
+          icons: el.icons,
+          name: 'SOMA',
+          position: {
+            lat: el.lat,
+            lng: el.lng
+          },
+          onClick: _this3.markerClicked.bind(_this3)
+        });
+      });
+      var myInfowindow = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
+        marker: this.state.active_marker,
+        visible: true
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.active_marker.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image"
+      })));
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Map"], {
         className: "map-size",
         google: this.props.google,
@@ -69159,16 +69224,9 @@ function (_Component) {
           lat: this.state.lat,
           lng: this.state.lng
         },
-        zoom: 15,
+        zoom: 18,
         onClick: this.onMapClicked
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-        title: 'The marker`s title will appear as a tooltip.',
-        name: 'SOMA',
-        position: {
-          lat: 37.778519,
-          lng: -122.405640
-        }
-      }));
+      }, mymarker, myInfowindow);
     }
   }]);
 
