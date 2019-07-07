@@ -5,12 +5,12 @@ export default class Index extends Component {
     render () {
         return (       
             <div id="topwrap">
-                <div class="top">
+                <div className="top">
                     <h1>Where to put?</h1>
                     <h2>-Czech Garbage Bin Site-</h2><br/>
                     <img src="img/post1.png" alt="garbageBin" className="garbageBin"/><br/>
                 
-                    <div class="dropBin">
+                    <div className="dropBin">
                             <div className="bin1">
                                 <img src="img/bottle.png"/>
                             </div>

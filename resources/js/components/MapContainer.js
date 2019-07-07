@@ -3,6 +3,9 @@ import React, { Component } from 'react'
 //Google Map importing:
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
+//API Key
+import apiKey from '../../database_import/apikey.js';
+
 class MapContainer extends Component {
     constructor(props){
       super(props);
@@ -50,7 +53,7 @@ class MapContainer extends Component {
       const listOfMarkers = [
         {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog', icons: [true,true,true,true]},
         {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat', icons: [true,false,true,true] },
-        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish', icons: [true,false,false,true]},
+        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish-test', icons: [true,false,false,true]},
         {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird', icons: [true,true,true,false]}
       ];
 
@@ -76,10 +79,10 @@ visible={ true }
 >
   <div>
     <h4>{ this.state.active_marker.title }</h4>
-    <img src="img/icon/3-glass2.svg" className="menu-image"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image"/>
+    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
   </div>
 </InfoWindow>
 
@@ -113,5 +116,5 @@ visible={ true }
     }
 }
 export default GoogleApiWrapper({
-    apiKey: ("AIzaSyDhycN05oMi7_OYP1z5c4xzjWbhsDCdrsQ")
+    apiKey: ({apiKey})
   })(MapContainer)

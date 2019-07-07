@@ -22,12 +22,10 @@
     "lodash": "^4.17.5",
     "popper.js": "^1.12",
     "react": "^16.8.6",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.8.6",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.15.2",
     "sass-loader": "^7.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "dependencies": {
@@ -55,14 +53,14 @@
   },
   "browserslist": {
     "production": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-  "development": [
-    "last 1 chrome version",
-    "last 1 firefox version",
-    "last 1 safari version"
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   },
   "homepage": "https://github.com/adspirkova/Final-project-Recycling-map#readme"
