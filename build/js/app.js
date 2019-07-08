@@ -69011,13 +69011,13 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "topwrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "top"
+        className: "top"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Where to put?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "-Czech Garbage Bin Site-"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/post1.png",
         alt: "garbageBin",
         className: "garbageBin"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "dropBin"
+        className: "dropBin"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "bin1"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -69092,62 +69092,62 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        "class": "contact-form php-mail-form",
+        className: "contact-form php-mail-form",
         role: "form",
         action: "contactform/contactform.php",
         method: "POST"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "big-icon"
+        className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/waste.svg",
         alt: "garbage",
-        "class": "big"
+        className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Login Page -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "box"
+        className: "box"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "box-img"
+        className: "box-img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/question.svg",
         alt: "question",
         className: "smallIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "box-text"
+        className: "box-text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "What Can you do after Login?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "box-text"
+        className: "box-text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " \u2192 Adding the new bin to the map."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " \u2192 Adding the bin to the favorite list."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "form-group"
+        className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         "for": "contact-email"
       }, "Your Email"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "email",
         name: "email",
-        "class": "form-control",
+        className: "form-control",
         id: "contact-email",
         placeholder: "Your Email",
         "data-rule": "email",
         "data-msg": "Please enter a valid email"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "validate"
+        className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "form-group"
+        className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         "for": "contact-email"
       }, "Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "password",
         name: "password",
-        "class": "form-control",
+        className: "form-control",
         id: "contact-email",
         placeholder: "Your Password",
         "data-rule": "email",
         "data-msg": "Please enter your password"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "validate"
+        className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#forget-password"
       }, "Forget the password"), "\xA0or\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#create-account"
-      }, " create the new account"), " ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "form-send"
+      }, "create the new account"), " ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-send"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
         onClick: function onClick() {
@@ -69157,7 +69157,7 @@ function (_Component) {
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
-        "class": "btn btn-green"
+        className: "btn btn-green"
       }, "Login")))));
     }
   }]);
@@ -69200,8 +69200,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+ //Google Map importing:
 
-
+ //API Key
 
 var MapContainer =
 /*#__PURE__*/
@@ -69227,6 +69228,7 @@ function (_Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
+      //Geolocation API
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
       } else {
@@ -69272,7 +69274,7 @@ function (_Component) {
         key: 3,
         lat: 50.060281,
         lng: 14.325643,
-        pet: 'fish',
+        pet: 'fish-test',
         icons: [true, false, false, true]
       }, {
         key: 4,
@@ -69299,16 +69301,20 @@ function (_Component) {
         visible: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.active_marker.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/3-glass2.svg",
-        className: "menu-image"
+        className: "menu-image",
+        alt: "glass"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/3-glass2.svg",
-        className: "menu-image"
+        className: "menu-image",
+        alt: "glass"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/3-glass2.svg",
-        className: "menu-image"
+        className: "menu-image",
+        alt: "glass"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/3-glass2.svg",
-        className: "menu-image"
+        className: "menu-image",
+        alt: "glass"
       })));
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Map"], {
         className: "map-size",
@@ -69327,7 +69333,7 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["GoogleApiWrapper"])({
-  apiKey: ({apiKey})
+  apiKey: "AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU"
 })(MapContainer));
 
 /***/ }),
@@ -69350,8 +69356,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

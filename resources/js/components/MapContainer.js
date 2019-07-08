@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 //API Key
-import apiKey from '../../database_import/apikey.js';
+
 
 class MapContainer extends Component {
     constructor(props){
@@ -116,5 +116,5 @@ visible={ true }
     }
 }
 export default GoogleApiWrapper({
-    apiKey: ({apiKey})
+    apiKey: "AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU"
   })(MapContainer)
