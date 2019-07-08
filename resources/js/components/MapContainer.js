@@ -64,27 +64,29 @@ class MapContainer extends Component {
     }
 
     render () {
-      const listOfMarkers = [
-        {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog', icons: [true,true,true,true]},
-        {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat', icons: [true,false,true,true] },
-        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish', icons: [true,false,false,true]},
-        {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird', icons: [true,true,true,false]}
-      ];
+      const listOfMarkers = this.state.locations.map((location, index) => {
+        return (
+          < Marker 
+          key={location.id}
+          position={{lat: location.lat,lng: location.lng}} >
+          </Marker>
+        )
+      });
 
 
 
-        let mymarker = 
-        listOfMarkers.map((el) =>
-          <Marker
-          key={el.key}
-          title={el.pet}
-          icons={el.icons}
-          name={'SOMA'}
-          position={{lat: el.lat,lng: el.lng}} 
-          onClick={ this.markerClicked.bind(this) }
-          >
-        </Marker>
-        );
+        // let mymarker = 
+        // listOfMarkers.map((el) =>
+        //   <Marker
+        //   key={el.key}
+        //   title={el.pet}
+        //   icons={el.icons}
+        //   name={'SOMA'}
+        //   position={{lat: el.lat,lng: el.lng}} 
+        //   onClick={ this.markerClicked.bind(this) }
+        //   >
+        // </Marker>
+        // );
         
         let myInfowindow =
         <InfoWindow
@@ -112,7 +114,7 @@ class MapContainer extends Component {
           onClick={ this.onMapClicked }
         >
         {/* mymarker displays from 1 to many markers */}
-         { mymarker }
+         { listOfMarkers }
 
          { myInfowindow }
 
