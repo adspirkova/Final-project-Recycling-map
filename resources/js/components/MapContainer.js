@@ -13,13 +13,27 @@ class MapContainer extends Component {
       this.state = {
         lat: 50.0595854,
         lng: 14.325541,
-        active_marker: {}
+        active_marker: {},
+        locations: [],
       }
     }
 
+
+    updateLocations = () => {
+      fetch(
+        'http://www.recycling-bins.localhost:8080/locations')
+        .then(resp => resp.json())
+        .then(data => {
+          console.log(data);
+          this.setState({
+            locations: data,
+          });
+        });
+    };
+
     componentDidMount(){
 
-
+      this.updateLocations();
       //Geolocation API
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
@@ -53,38 +67,38 @@ class MapContainer extends Component {
       const listOfMarkers = [
         {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog', icons: [true,true,true,true]},
         {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat', icons: [true,false,true,true] },
-        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish-test', icons: [true,false,false,true]},
+        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish', icons: [true,false,false,true]},
         {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird', icons: [true,true,true,false]}
       ];
 
 
 
-let mymarker = 
-listOfMarkers.map((el) =>
-  <Marker
-  key={el.key}
-  title={el.pet}
-  icons={el.icons}
-  name={'SOMA'}
-  position={{lat: el.lat,lng: el.lng}} 
-  onClick={ this.markerClicked.bind(this) }
-  >
-</Marker>
-);
-
-let myInfowindow =
-<InfoWindow
-marker={ this.state.active_marker }
-visible={ true }
->
-  <div>
-    <h4>{ this.state.active_marker.title }</h4>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-  </div>
-</InfoWindow>
+        let mymarker = 
+        listOfMarkers.map((el) =>
+          <Marker
+          key={el.key}
+          title={el.pet}
+          icons={el.icons}
+          name={'SOMA'}
+          position={{lat: el.lat,lng: el.lng}} 
+          onClick={ this.markerClicked.bind(this) }
+          >
+        </Marker>
+        );
+        
+        let myInfowindow =
+        <InfoWindow
+        marker={ this.state.active_marker }
+        visible={ true }
+        >
+          <div>
+            <h4>{ this.state.active_marker.title }</h4>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+          </div>
+        </InfoWindow>
 
         return (          
           <Map
