@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
 use App\Location;
 
+use GuzzleHttp\Client;
 
 class LocationSeeder extends Seeder
 {
@@ -12,26 +12,27 @@ class LocationSeeder extends Seeder
      *
      * @return void
      */
+    
     public function run()
     {
+        //
+        $client = new Client();
+ 
+        $res = $client->request('GET', 'http://opendata.iprpraha.cz/CUR/ZPK/ZPK_O_Kont_TOstan_b/WGS_84/ZPK_O_Kont_TOstan_b.json', [
+            'verify' => false
+        ]);
+         
+        $data=json_decode($res->getBody(), true);
 
-        $handle = fopen('AgsSeparatedTrashStationView.csv', "r");
-        $header = true;
-
-        while ($csvLine = fgetcsv($handle, 1000, ";")) {
-        
-            if ($header) {
-                $header = false;
-            } else {
-                // var_dump($csvLine);
-                Location::create([
-                    'id' => $csvLine[0],
-                    'stationName' => $csvLine[1],
-                    'cityDistrict' => $csvLine[2],
-                    'lat' => $csvLine[3],
-                    'lng' => $csvLine[4],
-                ]);
-            }
+        foreach ($data['features'] as $key => $value) {
+            Location::create([
+                'id' => $value['properties']['OBJECTID'],
+                'lat' => $value['geometry']['coordinates'][1],
+                'lng' => $value['geometry']['coordinates'][0],
+                'stationName' => $value['properties']['STATIONNAME'],
+                'cityDistrict' => $value['properties']['CITYDISTRICT'],
+                'Access' => $value['properties']['PRISTUP'],
+            ]);
         }
     }
 }

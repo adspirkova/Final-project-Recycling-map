@@ -15,18 +15,28 @@ class MapContainer extends Component {
         lng: 14.325541,
         active_marker: {},
         locations: [],
+        bins: [],
       }
     }
 
+    updateBins = () => {
+      fetch(
+        'http://www.recycling-bins.localhost:8080/bins')
+        .then(resp => resp.json())
+        .then(data => {
+          this.setState({
+            bins: data.bins,
+          });
+        });
+    };
 
     updateLocations = () => {
       fetch(
         'http://www.recycling-bins.localhost:8080/locations')
         .then(resp => resp.json())
         .then(data => {
-          console.log(data);
           this.setState({
-            locations: data,
+            locations: data.locations,
           });
         });
     };
@@ -34,6 +44,7 @@ class MapContainer extends Component {
     componentDidMount(){
 
       this.updateLocations();
+      this.updateBins();
       //Geolocation API
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
@@ -52,7 +63,6 @@ class MapContainer extends Component {
           }
         );
       }
-    
     }
 
     markerClicked(props, marker, event) {
@@ -64,29 +74,38 @@ class MapContainer extends Component {
     }
 
     render () {
-      const listOfMarkers = this.state.locations.map((location, index) => {
+      let listOfMarkers = this.state.locations.map((location) => {
         return (
           < Marker 
           key={location.id}
-          position={{lat: location.lat,lng: location.lng}} >
+          title={location.stationName}
+          position={{lat: location.lat,lng: location.lng}}
+          onClick={ this.markerClicked.bind(this) } >
           </Marker>
+          
         )
       });
-
-
-
-        // let mymarker = 
-        // listOfMarkers.map((el) =>
-        //   <Marker
-        //   key={el.key}
-        //   title={el.pet}
-        //   icons={el.icons}
-        //   name={'SOMA'}
-        //   position={{lat: el.lat,lng: el.lng}} 
-        //   onClick={ this.markerClicked.bind(this) }
-        //   >
-        // </Marker>
-        // );
+    
+// *************RANDOM DATA
+      const listOfMarkers2 = [
+        {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog'},
+        {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat' },
+        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish'},
+        {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird'}
+      ];
+      let mymarker = 
+      listOfMarkers2.map((el) =>
+        <Marker
+        key={el.key}
+        title={el.pet}
+        icons={el.icons}
+        name={'SOMA'}
+        position={{lat: el.lat,lng: el.lng}} 
+        onClick={ this.markerClicked.bind(this) }
+        >
+      </Marker>
+// *************   end of RANDOM DATA
+      );
         
         let myInfowindow =
         <InfoWindow
@@ -95,6 +114,7 @@ class MapContainer extends Component {
         >
           <div>
             <h4>{ this.state.active_marker.title }</h4>
+            <p>{this.state.active_marker.title}</p>
             <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
             <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
             <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
@@ -114,7 +134,9 @@ class MapContainer extends Component {
           onClick={ this.onMapClicked }
         >
         {/* mymarker displays from 1 to many markers */}
+        { mymarker}
          { listOfMarkers }
+         {console.log(this.state.locations)}
 
          { myInfowindow }
 

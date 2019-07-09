@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Bin;
+
 class BinController extends Controller
 {
     /**
@@ -80,5 +82,10 @@ class BinController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function getBins() 
+    {
+        $bins = Bin::all();
+        return response()->json(['bins'=> $bins],200);
     }
 }

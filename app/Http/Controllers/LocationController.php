@@ -86,6 +86,6 @@ class LocationController extends Controller
     public function getLocations() 
     {
         $locations = Location::all();
-     return response()->json(['locations'=> $locations],200);
+        return response()->json(['locations'=> $locations],200);
     }
 }
