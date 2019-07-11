@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 
 //Google Map importing:
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+import {
+    withScriptjs,
+    withGoogleMap,
+    GoogleMap,
+    Marker,
+    InfoWindow
+} from "react-google-maps";
+import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 
 //API Key
 
@@ -79,7 +86,7 @@ class MapContainer extends Component {
           );
         });
         //console.log(listOfLocations);
-        return (          
+        return (
           <Map
          className={"map-size"}
           google={this.props.google}
@@ -92,64 +99,30 @@ class MapContainer extends Component {
         >
         { this.state.locations.map((location, index) => {
         return (
-          < Marker 
-          key={location.id}
-          title={location.stationName}
-          icon={imageIcon}
-          position={{lat: location.lat,lng: location.lng}}
-          onClick={this.markerClicked.bind(this.location)} >
-          </Marker>
-        )
-        }) }
-        {console.log(this.state.locations)}
+            <GoogleMap
+                style={{ width: "100px", height: "100px" }}
+                defaultZoom={8}
+                defaultCenter={{
+                    lat: this.state.lat,
+                    lng: this.state.lng
+                }}
+            >
+                <MarkerClusterer
+                    onClick={e => {
+                        console.log(e);
+                    }}
+                    averageCenter
+                    enableRetinaIcons
+                    gridSize={60}
+                >
+                    {mymarker}
+                    {listOfMarkers}
+                    {console.log(this.state.locations)}
 
-        
-        <InfoWindow
-        marker={ this.state.active_marker }
-        visible={ true }
-        >
-          <div>
-            
-            <h4>{ this.state.active_marker.stationName }</h4>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-          </div>
-           {/* <h4>{ this.state.active_marker.stationName }</h4>
-            <p>{this.state.active_marker.id}</p> */}
-                  
-            
-              {/* {this.state.bins.filter(({stationId}) => 
-              stationId === listOfLocations.filter(this.state.active_marker.title)
-            
-            ).map((item) => 
-              (<>{item.trashTypeName}</>)
-            
-            )}
-
-            {this.state.bins.filter(({stationId}) => 
-              stationId === this.state.active_marker.id
-            
-            ).map((item) => 
-              (<>{item.trashTypeName}</>)
-            
-            )} */}
-            {/* {console.log(this.state.bins)} */}
-            {/* {console.log(this.state.active_marker)} */}
-            { /*this.state.bins.filter(({stationId}) => 
-              stationId === this.state.active_marker.id
-            
-            ).map((item) => 
-              (<>{item.trashTypeName}</>)
-            
-            )} */}
-        </InfoWindow>
-        </Map>
-        )
-        
+                    {myInfowindow}
+                </MarkerClusterer>
+            </GoogleMap>
+        );
     }
 }
-export default GoogleApiWrapper({
-    apiKey: "AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU"
-})(MapContainer);
+export default withScriptjs(withGoogleMap(MapContainer));
