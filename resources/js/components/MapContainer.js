@@ -22,7 +22,8 @@ class MapContainer extends Component {
             lng: 14.437462,
             active_marker: {},
             locations: [],
-            bins: []
+            bins: [],
+            position: null,
         };
     }
 
@@ -46,28 +47,31 @@ class MapContainer extends Component {
             });
     };
 
+    componentWillMount(){
+        //Geolocation API
+        if (!navigator.geolocation) {
+          console.log("Geolocation is not supported by your browser");
+      } else {
+          console.log("Locating…");
+          navigator.geolocation.getCurrentPosition(
+              position => {
+                  console.log(position);
+  
+                  this.setState({
+                      lat: position.coords.latitude,
+                      lng: position.coords.longitude
+                  });
+              },
+              () => {
+                  console.log("error");
+              }
+          );
+      }
+      }
+
     componentDidMount() {
         this.updateLocations();
         this.updateBins();
-        //Geolocation API
-        if (!navigator.geolocation) {
-            console.log("Geolocation is not supported by your browser");
-        } else {
-            console.log("Locating…");
-            navigator.geolocation.getCurrentPosition(
-                position => {
-                    console.log(position);
-
-                    this.setState({
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude
-                    });
-                },
-                () => {
-                    console.log("error");
-                }
-            );
-        }
     }
 
     markerClicked = (props, location, event) => {
@@ -77,6 +81,17 @@ class MapContainer extends Component {
         });
     };
 
+    handleToggleOpen(item){
+        this.setState({
+          position : {
+            lat : item.lat,
+            lng : item.lng
+          },
+          id: item.id,
+          title: item.stationName,
+        })
+    }
+
     render() {
         let listOfMarkers = this.state.locations.map(location => {
             return (
@@ -84,7 +99,7 @@ class MapContainer extends Component {
                     key={location.id}
                     title={location.stationName}
                     position={{ lat: location.lat, lng: location.lng }}
-                    onClick={this.markerClicked.bind(this)}
+                    onClick={() => this.handleToggleOpen(location)}
                     icon={imageIcon}
                 />
             );
@@ -144,31 +159,33 @@ class MapContainer extends Component {
         );
 
         let myInfowindow = (
-            <InfoWindow marker={this.state.active_marker} visible={true}>
-                <div>
-                    {console.log(this.state.active_marker)}
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                </div>
-            </InfoWindow>
+            this.state.position && 
+                <InfoWindow
+                // marker={ this.state.active_marker }
+                visible={ true }
+                position={this.state.position}
+                id={this.state.id}
+                title={this.state.title}
+                >
+                  <div>
+                    
+                    <h4>{ this.state.title }</h4>
+                    { this.state.bins.filter(({stationId}) => 
+                      stationId === this.state.id
+                    
+                    ).map((item, index) => 
+                      (<>
+                        <p>{item.trashTypeName}</p></>)
+                    
+                    )}
+        
+                    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+                    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+                    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+                    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+                  </div>
+                    
+                </InfoWindow>
         );
 
         return (

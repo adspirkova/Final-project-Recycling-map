@@ -83202,19 +83202,18 @@ function (_Component) {
       lng: 14.437462,
       active_marker: {},
       locations: [],
-      bins: []
+      bins: [],
+      position: null
     };
     return _this;
   }
 
   _createClass(MapContainer, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
+    key: "componentWillMount",
+    value: function componentWillMount() {
       var _this2 = this;
 
-      this.updateLocations();
-      this.updateBins(); //Geolocation API
-
+      //Geolocation API
       if (!navigator.geolocation) {
         console.log("Geolocation is not supported by your browser");
       } else {
@@ -83232,6 +83231,24 @@ function (_Component) {
       }
     }
   }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.updateLocations();
+      this.updateBins();
+    }
+  }, {
+    key: "handleToggleOpen",
+    value: function handleToggleOpen(item) {
+      this.setState({
+        position: {
+          lat: item.lat,
+          lng: item.lng
+        },
+        id: item.id,
+        title: item.stationName
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this3 = this;
@@ -83244,7 +83261,9 @@ function (_Component) {
             lat: location.lat,
             lng: location.lng
           },
-          onClick: _this3.markerClicked.bind(_this3),
+          onClick: function onClick() {
+            return _this3.handleToggleOpen(location);
+          },
           icon: imageIcon
         });
       }); // *************RANDOM DATA
@@ -83306,10 +83325,18 @@ function (_Component) {
         });
       } // *************   end of RANDOM DATA
       );
-      var myInfowindow = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
-        marker: this.state.active_marker,
-        visible: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, console.log(this.state.active_marker), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      var myInfowindow = this.state.position && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"] // marker={ this.state.active_marker }
+      , {
+        visible: true,
+        position: this.state.position,
+        id: this.state.id,
+        title: this.state.title
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.filter(function (_ref) {
+        var stationId = _ref.stationId;
+        return stationId === _this3.state.id;
+      }).map(function (item, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, item.trashTypeName));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/3-glass2.svg",
         className: "menu-image",
         alt: "glass"
