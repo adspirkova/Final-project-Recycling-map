@@ -83156,6 +83156,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
  //API Key
 
+var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 
 var MapContainer =
@@ -83219,7 +83220,7 @@ function (_Component) {
       } else {
         console.log("Locating…");
         navigator.geolocation.getCurrentPosition(function (position) {
-          console.log(position);
+          console.log(position.coords.latitude);
 
           _this2.setState({
             lat: position.coords.latitude,
@@ -83324,11 +83325,24 @@ function (_Component) {
           }
         });
       } // *************   end of RANDOM DATA
-      );
+      ); //// Position
+
+      var myPosition = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
+        icon: myPositionicon,
+        name: "SOMA",
+        position: {
+          lat: this.state.lat,
+          lng: this.state.lng
+        } //this.markerClicked.bind(this)
+
+      });
       var myInfowindow = this.state.position && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"] // marker={ this.state.active_marker }
       , {
         visible: true,
-        position: this.state.position,
+        position: {
+          lat: this.state.position.lat + 0.0005,
+          lng: this.state.position.lng
+        },
         id: this.state.id,
         title: this.state.title
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.filter(function (_ref) {
@@ -83358,7 +83372,7 @@ function (_Component) {
           width: "100px",
           height: "100px"
         },
-        defaultZoom: 8,
+        defaultZoom: 18,
         defaultCenter: {
           lat: this.state.lat,
           lng: this.state.lng
@@ -83370,7 +83384,7 @@ function (_Component) {
         averageCenter: true,
         enableRetinaIcons: true,
         gridSize: 60
-      }, mymarker, listOfMarkers, console.log(this.state.locations), myInfowindow));
+      }, mymarker, listOfMarkers, console.log(this.state.locations), myPosition, myInfowindow));
     }
   }]);
 
@@ -83399,8 +83413,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

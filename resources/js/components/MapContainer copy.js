@@ -11,7 +11,7 @@ import {
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 
 //API Key
-const myPositionicon = "/img/street-view.png";
+
 const imageIcon = "/img/favicon2.png";
 class MapContainer extends Component {
     constructor(props) {
@@ -157,17 +157,6 @@ class MapContainer extends Component {
             )
             // *************   end of RANDOM DATA
         );
-        //// Position
-
-        let myPosition = (
-            <Marker
-                icon={myPositionicon}
-                name={"SOMA"}
-                position={{ lat: this.state.lat, lng: this.state.lng }}
-
-                //this.markerClicked.bind(this)
-            />
-        );
 
         let myInfowindow = this.state.position && (
             <InfoWindow
@@ -235,7 +224,7 @@ class MapContainer extends Component {
                     {mymarker}
                     {listOfMarkers}
                     {console.log(this.state.locations)}
-                    {myPosition}
+
                     {myInfowindow}
                 </MarkerClusterer>
             </GoogleMap>
