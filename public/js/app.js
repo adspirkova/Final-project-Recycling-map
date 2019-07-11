@@ -69206,6 +69206,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
  //API Key
 
+var imageIcon = "/img/favicon2.png";
+
 var MapContainer =
 /*#__PURE__*/
 function (_Component) {
@@ -69219,7 +69221,7 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MapContainer).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this), "updateBins", function () {
-      fetch('http://www.recycling-bins.localhost:8080/bins').then(function (resp) {
+      fetch("http://www.recycling-bins.localhost:8080/bins").then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -69229,7 +69231,7 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_this), "updateLocations", function () {
-      fetch('http://www.recycling-bins.localhost:8080/locations').then(function (resp) {
+      fetch("http://www.recycling-bins.localhost:8080/locations").then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -69257,9 +69259,9 @@ function (_Component) {
       this.updateBins(); //Geolocation API
 
       if (!navigator.geolocation) {
-        console.log('Geolocation is not supported by your browser');
+        console.log("Geolocation is not supported by your browser");
       } else {
-        console.log('Locating…');
+        console.log("Locating…");
         navigator.geolocation.getCurrentPosition(function (position) {
           console.log(position);
 
@@ -69268,14 +69270,14 @@ function (_Component) {
             lng: position.coords.longitude
           });
         }, function () {
-          console.log('error');
+          console.log("error");
         });
       }
     }
   }, {
     key: "markerClicked",
     value: function markerClicked(props, marker, event) {
-      console.log('==============================', marker);
+      console.log("==============================", marker);
       this.setState({
         active_marker: marker
       });
@@ -69293,7 +69295,8 @@ function (_Component) {
             lat: location.lat,
             lng: location.lng
           },
-          onClick: _this3.markerClicked.bind(_this3)
+          onClick: _this3.markerClicked.bind(_this3),
+          icon: imageIcon
         });
       }); // *************RANDOM DATA
 
@@ -69301,29 +69304,41 @@ function (_Component) {
         key: 1,
         lat: 50.059862,
         lng: 14.324908,
-        pet: 'dog'
+        pet: "dog",
+        icon: {
+          url: imageIcon
+        }
       }, {
         key: 2,
         lat: 50.060024,
         lng: 14.324725,
-        pet: 'cat'
+        pet: "cat",
+        icon: {
+          url: imageIcon
+        }
       }, {
         key: 3,
         lat: 50.060281,
         lng: 14.325643,
-        pet: 'fish'
+        pet: "fish",
+        icon: {
+          url: imageIcon
+        }
       }, {
         key: 4,
         lat: 50.060261,
         lng: 14.324749,
-        pet: 'bird'
+        pet: "bird",
+        icon: {
+          url: imageIcon
+        }
       }];
       var mymarker = listOfMarkers2.map(function (el) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
           key: el.key,
           title: el.pet,
-          icons: el.icons,
-          name: 'SOMA',
+          icon: el.icon,
+          name: "SOMA",
           position: {
             lat: el.lat,
             lng: el.lng
@@ -69392,8 +69407,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
