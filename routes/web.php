@@ -23,3 +23,6 @@ Route::view('/map/{path?}', 'map/map');
 Route::get('/locations', 'LocationController@getLocations');
 
 Route::get('/bins', 'BinController@getBins');
+
+
+Route::get('/locations', 'LocationController@index');
