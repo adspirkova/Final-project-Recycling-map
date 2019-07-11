@@ -83,9 +83,9 @@ class LocationController extends Controller
     {
         //
     }
-    public function getLocations() 
+    public function getLocations($lat, $lng) 
     {
-        $locations = Location::all();
+        $locations = Location::where('lat', '<', $lat + 0.003809)->where('lat', '>', $lat - 0.003809)->where('lng', '<', $lng + 0.00722000000000023)->where('lng', '>', $lng - 0.00722000000000023)->get();
         return response()->json(['locations'=> $locations],200);
     }
 }

@@ -83170,18 +83170,23 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MapContainer).call(this, props));
 
-    _defineProperty(_assertThisInitialized(_this), "updateBins", function () {
-      fetch("http://www.recycling-bins.localhost:8080/bins").then(function (resp) {
+    _defineProperty(_assertThisInitialized(_this), "updateBins", function (station) {
+      var id = 1433;
+      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
           bins: data.bins
         });
       });
+      console.log(_this.state.bins);
     });
 
     _defineProperty(_assertThisInitialized(_this), "updateLocations", function () {
-      fetch("http://www.recycling-bins.localhost:8080/locations").then(function (resp) {
+      var _this$state = _this.state,
+          lat = _this$state.lat,
+          lng = _this$state.lng;
+      fetch("http://www.recycling-bins.localhost:8080/locations/".concat(lat, "/").concat(lng)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -83190,20 +83195,16 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_this), "markerClicked", function (props, location, event) {
-      //console.log('==============================', location);
-      _this.setState({
-        active_marker: location
-      });
-    });
-
     _this.state = {
       lat: 50.062059,
       lng: 14.437462,
-      active_marker: {},
+      active_marker: null,
       locations: [],
       bins: [],
-      position: null
+      position: {
+        lat: 50.06203903000005,
+        lng: 14.437462
+      }
     };
     return _this;
   }
@@ -83240,11 +83241,11 @@ function (_Component) {
     key: "handleToggleOpen",
     value: function handleToggleOpen(item) {
       this.setState({
-        position: {
+        active_marker: {
           lat: item.lat,
           lng: item.lng
         },
-        id: item.id,
+        cool: item.id,
         title: item.stationName
       });
     }
@@ -83266,90 +83267,23 @@ function (_Component) {
           },
           icon: imageIcon
         });
-      }); // *************RANDOM DATA
-
-      var listOfMarkers2 = [{
-        key: 1,
-        lat: 50.059862,
-        lng: 14.324908,
-        pet: "dog",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 2,
-        lat: 50.060024,
-        lng: 14.324725,
-        pet: "cat",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 3,
-        lat: 50.060281,
-        lng: 14.325643,
-        pet: "fish",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 4,
-        lat: 50.060261,
-        lng: 14.324749,
-        pet: "bird",
-        icon: {
-          url: imageIcon
-        }
-      }];
-      var mymarker = listOfMarkers2.map(function (el) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: el.key,
-          title: el.pet,
-          icon: el.icon,
-          name: "SOMA",
-          position: {
-            lat: el.lat,
-            lng: el.lng
-          },
-          onClick: function onClick(e) {
-            console.log(e);
-
-            _this3.setState({
-              active_marker: {
-                lat: el.lat,
-                lng: el.lng
-              }
-            }); //this.markerClicked.bind(this)
-
-          }
-        });
-      } // *************   end of RANDOM DATA
-      );
-      var myInfowindow = this.state.position && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"] // marker={ this.state.active_marker }
-      , {
+      });
+      var myInfowindow = this.state.active_marker && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
+        onCloseClick: function onCloseClick() {
+          _this3.setState({
+            active_marker: null
+          });
+        },
         visible: true,
-        position: this.state.position,
-        id: this.state.id,
+        position: this.state.active_marker,
+        id: this.state.cool,
         title: this.state.title
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.filter(function (_ref) {
-        var stationId = _ref.stationId;
-        return stationId === _this3.state.id;
-      }).map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, item.trashTypeName));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.map(function (item, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+          key: index
+        }, item.trashTypeName);
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
+        src: "img/icon/1-plastic1.svg",
         className: "menu-image",
         alt: "glass"
       })));
@@ -83358,7 +83292,7 @@ function (_Component) {
           width: "100px",
           height: "100px"
         },
-        defaultZoom: 8,
+        defaultZoom: 18,
         defaultCenter: {
           lat: this.state.lat,
           lng: this.state.lng
@@ -83370,7 +83304,7 @@ function (_Component) {
         averageCenter: true,
         enableRetinaIcons: true,
         gridSize: 60
-      }, mymarker, listOfMarkers, console.log(this.state.locations), myInfowindow));
+      }, listOfMarkers, myInfowindow));
     }
   }]);
 
