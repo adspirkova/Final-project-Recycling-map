@@ -14,16 +14,16 @@ import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClust
 
 const imageIcon = "/img/favicon2.png";
 class MapContainer extends Component {
-    constructor(props){
-      super(props);
+    constructor(props) {
+        super(props);
 
-      this.state = {
-        lat: 50.062059,
-        lng: 14.437462,
-        active_marker: {},
-        locations: [],
-        bins: [],
-      }
+        this.state = {
+            lat: 50.062059,
+            lng: 14.437462,
+            active_marker: {},
+            locations: [],
+            bins: []
+        };
     }
 
     updateBins = () => {
@@ -71,33 +71,20 @@ class MapContainer extends Component {
     }
 
     markerClicked = (props, location) => {
-      //console.log('==============================', location);
-      this.setState({
-        active_marker: location
-      })
+        //console.log('==============================', location);
+        this.setState({
+            active_marker: location
+        });
+    };
 
-    }
-
-    render () {
+    render() {
         const listOfLocations = this.state.locations.map((location, index) => {
-          //console.log(location.stationName);
-          return (
-            location.stationName
-          );
+            //console.log(location.stationName);
+            return location.stationName;
         });
         //console.log(listOfLocations);
-        return (
-          <Map
-         className={"map-size"}
-          google={this.props.google}
-          initialCenter={{
-            lat: this.state.lat,
-            lng: this.state.lng
-          }}
-          zoom={18}
-          onClick={ this.onMapClicked }
-        >
-        { this.state.locations.map((location, index) => {
+
+        //this.state.locations.map((location, index) => {
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
@@ -115,11 +102,11 @@ class MapContainer extends Component {
                     enableRetinaIcons
                     gridSize={60}
                 >
-                    {mymarker}
-                    {listOfMarkers}
+                    {/* {mymarker} */}
+                    {/* {listOfMarkers} */}
                     {console.log(this.state.locations)}
 
-                    {myInfowindow}
+                    {/* {myInfowindow} */}
                 </MarkerClusterer>
             </GoogleMap>
         );
