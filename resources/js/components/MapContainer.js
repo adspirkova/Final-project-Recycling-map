@@ -70,7 +70,7 @@ class MapContainer extends Component {
         }
     }
 
-    markerClicked = (props, location) => {
+    markerClicked = (props, location, event) => {
         //console.log('==============================', location);
         this.setState({
             active_marker: location
@@ -78,13 +78,99 @@ class MapContainer extends Component {
     };
 
     render() {
-        const listOfLocations = this.state.locations.map((location, index) => {
-            //console.log(location.stationName);
-            return location.stationName;
+        let listOfMarkers = this.state.locations.map(location => {
+            return (
+                <Marker
+                    key={location.id}
+                    title={location.stationName}
+                    position={{ lat: location.lat, lng: location.lng }}
+                    onClick={this.markerClicked.bind(this)}
+                    icon={imageIcon}
+                />
+            );
         });
-        //console.log(listOfLocations);
 
-        //this.state.locations.map((location, index) => {
+        // *************RANDOM DATA
+        const listOfMarkers2 = [
+            {
+                key: 1,
+                lat: 50.059862,
+                lng: 14.324908,
+                pet: "dog",
+                icon: {
+                    url: imageIcon
+                }
+            },
+            {
+                key: 2,
+                lat: 50.060024,
+                lng: 14.324725,
+                pet: "cat",
+                icon: { url: imageIcon }
+            },
+            {
+                key: 3,
+                lat: 50.060281,
+                lng: 14.325643,
+                pet: "fish",
+                icon: { url: imageIcon }
+            },
+            {
+                key: 4,
+                lat: 50.060261,
+                lng: 14.324749,
+                pet: "bird",
+                icon: { url: imageIcon }
+            }
+        ];
+        let mymarker = listOfMarkers2.map(
+            el => (
+                <Marker
+                    key={el.key}
+                    title={el.pet}
+                    icon={el.icon}
+                    name={"SOMA"}
+                    position={{ lat: el.lat, lng: el.lng }}
+                    onClick={e => {
+                        console.log(e);
+                        this.setState({
+                            active_marker: { lat: el.lat, lng: el.lng }
+                        });
+                        //this.markerClicked.bind(this)
+                    }}
+                />
+            )
+            // *************   end of RANDOM DATA
+        );
+
+        let myInfowindow = (
+            <InfoWindow marker={this.state.active_marker} visible={true}>
+                <div>
+                    {console.log(this.state.active_marker)}
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                </div>
+            </InfoWindow>
+        );
+
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
@@ -102,11 +188,11 @@ class MapContainer extends Component {
                     enableRetinaIcons
                     gridSize={60}
                 >
-                    {/* {mymarker} */}
-                    {/* {listOfMarkers} */}
+                    {mymarker}
+                    {listOfMarkers}
                     {console.log(this.state.locations)}
 
-                    {/* {myInfowindow} */}
+                    {myInfowindow}
                 </MarkerClusterer>
             </GoogleMap>
         );
