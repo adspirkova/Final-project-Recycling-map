@@ -83121,25 +83121,16 @@ function (_Component) {
   !*** ./resources/js/components/MapContainer.js ***!
   \*************************************************/
 /*! exports provided: default */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-<<<<<<< HEAD
-/* harmony import */ var google_maps_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! google-maps-react */ "./node_modules/google-maps-react/dist/index.js");
-/* harmony import */ var google_maps_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(google_maps_react__WEBPACK_IMPORTED_MODULE_1__);
-=======
 /* harmony import */ var react_google_maps__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-google-maps */ "./node_modules/react-google-maps/lib/index.js");
 /* harmony import */ var react_google_maps__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_google_maps__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-google-maps/lib/components/addons/MarkerClusterer */ "./node_modules/react-google-maps/lib/components/addons/MarkerClusterer.js");
 /* harmony import */ var react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2__);
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -83162,10 +83153,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
  //Google Map importing:
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
  //API Key
 
 var imageIcon = "/img/favicon2.png";
@@ -83202,11 +83190,7 @@ function (_Component) {
       });
     });
 
-<<<<<<< HEAD
-    _defineProperty(_assertThisInitialized(_this), "markerClicked", function (props, location) {
-=======
     _defineProperty(_assertThisInitialized(_this), "markerClicked", function (props, location, event) {
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
       //console.log('==============================', location);
       _this.setState({
         active_marker: location
@@ -83252,44 +83236,14 @@ function (_Component) {
     value: function render() {
       var _this3 = this;
 
-<<<<<<< HEAD
-      var listOfLocations = this.state.locations.map(function (location, index) {
-        //console.log(location.stationName);
-        return location.stationName;
-      }); //console.log(listOfLocations);
-
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Map"], {
-        className: "map-size",
-        google: this.props.google,
-        initialCenter: {
-          lat: this.state.lat,
-          lng: this.state.lng
-        },
-        zoom: 18,
-        onClick: this.onMapClicked
-      }, this.state.locations.map(function (location, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: location.id,
-          title: location.stationName,
-          icon: imageIcon,
-=======
       var listOfMarkers = this.state.locations.map(function (location) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
           key: location.id,
           title: location.stationName,
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
           position: {
             lat: location.lat,
             lng: location.lng
           },
-<<<<<<< HEAD
-          onClick: _this3.markerClicked.bind(_this3.location)
-        });
-      }), console.log(this.state.locations), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
-        marker: this.state.active_marker,
-        visible: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.active_marker.stationName), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-=======
           onClick: _this3.markerClicked.bind(_this3),
           icon: imageIcon
         });
@@ -83356,7 +83310,6 @@ function (_Component) {
         marker: this.state.active_marker,
         visible: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, console.log(this.state.active_marker), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
         src: "img/icon/3-glass2.svg",
         className: "menu-image",
         alt: "glass"
@@ -83372,9 +83325,6 @@ function (_Component) {
         src: "img/icon/3-glass2.svg",
         className: "menu-image",
         alt: "glass"
-<<<<<<< HEAD
-      }))));
-=======
       })));
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["GoogleMap"], {
         style: {
@@ -83394,18 +83344,11 @@ function (_Component) {
         enableRetinaIcons: true,
         gridSize: 60
       }, mymarker, listOfMarkers, console.log(this.state.locations), myInfowindow));
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
     }
   }]);
 
   return MapContainer;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-<<<<<<< HEAD
-=======
-/***/ (function(module, exports) {
->>>>>>> 2cdb4a235aa1191a81efac3fd309954572479394
-=======
->>>>>>> 246790f1510ff814654f1125c37123e10802988a
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["withScriptjs"])(Object(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["withGoogleMap"])(MapContainer)));
 
