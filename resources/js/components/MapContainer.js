@@ -11,8 +11,8 @@ class MapContainer extends Component {
       super(props);
 
       this.state = {
-        lat: 50.0595854,
-        lng: 14.325541,
+        lat: 50.062059,
+        lng: 14.437462,
         active_marker: {},
         locations: [],
         bins: [],
@@ -65,63 +65,22 @@ class MapContainer extends Component {
       }
     }
 
-    markerClicked(props, marker, event) {
-      console.log('==============================', marker);
+    markerClicked = (props, location) => {
+      //console.log('==============================', location);
       this.setState({
-        active_marker: marker
+        active_marker: location
       })
 
     }
 
     render () {
-      let listOfMarkers = this.state.locations.map((location) => {
-        return (
-          < Marker 
-          key={location.id}
-          title={location.stationName}
-          position={{lat: location.lat,lng: location.lng}}
-          onClick={ this.markerClicked.bind(this) } >
-          </Marker>
-          
-        )
-      });
-    
-// *************RANDOM DATA
-      const listOfMarkers2 = [
-        {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog'},
-        {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat' },
-        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish'},
-        {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird'}
-      ];
-      let mymarker = 
-      listOfMarkers2.map((el) =>
-        <Marker
-        key={el.key}
-        title={el.pet}
-        icons={el.icons}
-        name={'SOMA'}
-        position={{lat: el.lat,lng: el.lng}} 
-        onClick={ this.markerClicked.bind(this) }
-        >
-      </Marker>
-// *************   end of RANDOM DATA
-      );
-        
-        let myInfowindow =
-        <InfoWindow
-        marker={ this.state.active_marker }
-        visible={ true }
-        >
-          <div>
-            <h4>{ this.state.active_marker.title }</h4>
-            <p>{this.state.active_marker.title}</p>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-          </div>
-        </InfoWindow>
-
+        const listOfLocations = this.state.locations.map((location, index) => {
+          //console.log(location.stationName);
+          return (
+            location.stationName
+          );
+        });
+        //console.log(listOfLocations);
         return (          
           <Map
          className={"map-size"}
@@ -133,22 +92,61 @@ class MapContainer extends Component {
           zoom={18}
           onClick={ this.onMapClicked }
         >
-        {/* mymarker displays from 1 to many markers */}
-        { mymarker}
-         { listOfMarkers }
-         {console.log(this.state.locations)}
+        { this.state.locations.map((location, index) => {
+        return (
+          < Marker 
+          key={location.id}
+          title={location.stationName}
+          position={{lat: location.lat,lng: location.lng}}
+          onClick={this.markerClicked.bind(this.location)} >
+          </Marker>
+        )
+        }) }
+        {console.log(this.state.locations)}
 
-         { myInfowindow }
+        
+        <InfoWindow
+        marker={ this.state.active_marker }
+        visible={ true }
+        >
+          <div>
+            
+            <h4>{ this.state.active_marker.stationName }</h4>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+            <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
+          </div>
+           {/* <h4>{ this.state.active_marker.stationName }</h4>
+            <p>{this.state.active_marker.id}</p> */}
+                  
+            
+              {/* {this.state.bins.filter(({stationId}) => 
+              stationId === listOfLocations.filter(this.state.active_marker.title)
+            
+            ).map((item) => 
+              (<>{item.trashTypeName}</>)
+            
+            )}
 
-
-    {/* <Marker
-    title={'Marker title'}
-    name={'Namychka'}
-    position={{lat: 50.060000,lng:14.326065}} 
-    onClick={ this.markerClicked.bind(this) }
-    /> */}
+            {this.state.bins.filter(({stationId}) => 
+              stationId === this.state.active_marker.id
+            
+            ).map((item) => 
+              (<>{item.trashTypeName}</>)
+            
+            )} */}
+            {/* {console.log(this.state.bins)} */}
+            {/* {console.log(this.state.active_marker)} */}
+            { /*this.state.bins.filter(({stationId}) => 
+              stationId === this.state.active_marker.id
+            
+            ).map((item) => 
+              (<>{item.trashTypeName}</>)
+            
+            )} */}
+        </InfoWindow>
         </Map>
-
         )
         
     }

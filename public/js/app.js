@@ -69238,9 +69238,16 @@ function (_Component) {
       });
     });
 
+    _defineProperty(_assertThisInitialized(_this), "markerClicked", function (props, location) {
+      //console.log('==============================', location);
+      _this.setState({
+        active_marker: location
+      });
+    });
+
     _this.state = {
-      lat: 50.0595854,
-      lng: 14.325541,
+      lat: 50.062059,
+      lng: 14.437462,
       active_marker: {},
       locations: [],
       bins: []
@@ -69273,85 +69280,15 @@ function (_Component) {
       }
     }
   }, {
-    key: "markerClicked",
-    value: function markerClicked(props, marker, event) {
-      console.log('==============================', marker);
-      this.setState({
-        active_marker: marker
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
       var _this3 = this;
 
-      var listOfMarkers = this.state.locations.map(function (location) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: location.id,
-          title: location.stationName,
-          position: {
-            lat: location.lat,
-            lng: location.lng
-          },
-          onClick: _this3.markerClicked.bind(_this3)
-        });
-      }); // *************RANDOM DATA
+      var listOfLocations = this.state.locations.map(function (location, index) {
+        //console.log(location.stationName);
+        return location.stationName;
+      }); //console.log(listOfLocations);
 
-      var listOfMarkers2 = [{
-        key: 1,
-        lat: 50.059862,
-        lng: 14.324908,
-        pet: 'dog'
-      }, {
-        key: 2,
-        lat: 50.060024,
-        lng: 14.324725,
-        pet: 'cat'
-      }, {
-        key: 3,
-        lat: 50.060281,
-        lng: 14.325643,
-        pet: 'fish'
-      }, {
-        key: 4,
-        lat: 50.060261,
-        lng: 14.324749,
-        pet: 'bird'
-      }];
-      var mymarker = listOfMarkers2.map(function (el) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: el.key,
-          title: el.pet,
-          icons: el.icons,
-          name: 'SOMA',
-          position: {
-            lat: el.lat,
-            lng: el.lng
-          },
-          onClick: _this3.markerClicked.bind(_this3)
-        });
-      } // *************   end of RANDOM DATA
-      );
-      var myInfowindow = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
-        marker: this.state.active_marker,
-        visible: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.active_marker.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.state.active_marker.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        className: "menu-image",
-        alt: "glass"
-      })));
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Map"], {
         className: "map-size",
         google: this.props.google,
@@ -69361,7 +69298,36 @@ function (_Component) {
         },
         zoom: 18,
         onClick: this.onMapClicked
-      }, mymarker, listOfMarkers, console.log(this.state.locations), myInfowindow);
+      }, this.state.locations.map(function (location, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
+          key: location.id,
+          title: location.stationName,
+          position: {
+            lat: location.lat,
+            lng: location.lng
+          },
+          onClick: _this3.markerClicked.bind(_this3.location)
+        });
+      }), console.log(this.state.locations), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
+        marker: this.state.active_marker,
+        visible: true
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.active_marker.stationName), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image",
+        alt: "glass"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image",
+        alt: "glass"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image",
+        alt: "glass"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/3-glass2.svg",
+        className: "menu-image",
+        alt: "glass"
+      }))));
     }
   }]);
 
