@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 
 //Google Map importing:
-import {
-    withScriptjs,
-    withGoogleMap,
-    GoogleMap,
-    Marker,
-    InfoWindow
-} from "react-google-maps";
+import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 
 //API Key
@@ -167,14 +161,17 @@ class MapContainer extends Component {
         );
 
         return (
-            <GoogleMap
-                style={{ width: "100px", height: "100px" }}
-                defaultZoom={8}
-                defaultCenter={{
+            <Map
+                className={"map-size"}
+                google={this.props.google}
+                initialCenter={{
                     lat: this.state.lat,
                     lng: this.state.lng
                 }}
+                zoom={18}
+                onClick={this.onMapClicked}
             >
+                {/* mymarker displays from 1 to many markers */}
                 <MarkerClusterer
                     onClick={e => {
                         console.log(e);
@@ -184,13 +181,22 @@ class MapContainer extends Component {
                     gridSize={60}
                 >
                     {mymarker}
-                    {listOfMarkers}
-                    {console.log(this.state.locations)}
-
-                    {myInfowindow}
                 </MarkerClusterer>
-            </GoogleMap>
+                {listOfMarkers}
+                {console.log(this.state.locations)}
+
+                {myInfowindow}
+
+                {/* <Marker
+    title={'Marker title'}
+    name={'Namychka'}
+    position={{lat: 50.060000,lng:14.326065}}
+    onClick={ this.markerClicked.bind(this) }
+    /> */}
+            </Map>
         );
     }
 }
-export default withScriptjs(withGoogleMap(MapContainer));
+export default GoogleApiWrapper({
+    apiKey: "AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU"
+})(MapContainer);
