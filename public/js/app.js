@@ -69282,17 +69282,6 @@ function (_Component) {
       }
     }
   }, {
-<<<<<<< HEAD
-    key: "markerClicked",
-    value: function markerClicked(props, marker, event) {
-      console.log("==============================", marker);
-      this.setState({
-        active_marker: marker
-      });
-    }
-  }, {
-=======
->>>>>>> adelabranch
     key: "render",
     value: function render() {
       var _this3 = this;
@@ -69315,63 +69304,12 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
           key: location.id,
           title: location.stationName,
+          icon: imageIcon,
           position: {
             lat: location.lat,
             lng: location.lng
           },
-<<<<<<< HEAD
-          onClick: _this3.markerClicked.bind(_this3),
-          icon: imageIcon
-        });
-      }); // *************RANDOM DATA
-
-      var listOfMarkers2 = [{
-        key: 1,
-        lat: 50.059862,
-        lng: 14.324908,
-        pet: "dog",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 2,
-        lat: 50.060024,
-        lng: 14.324725,
-        pet: "cat",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 3,
-        lat: 50.060281,
-        lng: 14.325643,
-        pet: "fish",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 4,
-        lat: 50.060261,
-        lng: 14.324749,
-        pet: "bird",
-        icon: {
-          url: imageIcon
-        }
-      }];
-      var mymarker = listOfMarkers2.map(function (el) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: el.key,
-          title: el.pet,
-          icon: el.icon,
-          name: "SOMA",
-          position: {
-            lat: el.lat,
-            lng: el.lng
-          },
-          onClick: _this3.markerClicked.bind(_this3)
-=======
           onClick: _this3.markerClicked.bind(_this3.location)
->>>>>>> adelabranch
         });
       }), console.log(this.state.locations), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(google_maps_react__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
         marker: this.state.active_marker,
@@ -69423,8 +69361,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
