@@ -14,16 +14,16 @@ import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClust
 
 const imageIcon = "/img/favicon2.png";
 class MapContainer extends Component {
-    constructor(props){
-      super(props);
+    constructor(props) {
+        super(props);
 
-      this.state = {
-        lat: 50.062059,
-        lng: 14.437462,
-        active_marker: {},
-        locations: [],
-        bins: [],
-      }
+        this.state = {
+            lat: 50.062059,
+            lng: 14.437462,
+            active_marker: {},
+            locations: [],
+            bins: []
+        };
     }
 
     updateBins = () => {
@@ -70,34 +70,107 @@ class MapContainer extends Component {
         }
     }
 
-    markerClicked = (props, location) => {
-      //console.log('==============================', location);
-      this.setState({
-        active_marker: location
-      })
-
-    }
-
-    render () {
-        const listOfLocations = this.state.locations.map((location, index) => {
-          //console.log(location.stationName);
-          return (
-            location.stationName
-          );
+    markerClicked = (props, location, event) => {
+        //console.log('==============================', location);
+        this.setState({
+            active_marker: location
         });
-        //console.log(listOfLocations);
-        return (
-          <Map
-         className={"map-size"}
-          google={this.props.google}
-          initialCenter={{
-            lat: this.state.lat,
-            lng: this.state.lng
-          }}
-          zoom={18}
-          onClick={ this.onMapClicked }
-        >
-        { this.state.locations.map((location, index) => {
+    };
+
+    render() {
+        let listOfMarkers = this.state.locations.map(location => {
+            return (
+                <Marker
+                    key={location.id}
+                    title={location.stationName}
+                    position={{ lat: location.lat, lng: location.lng }}
+                    onClick={this.markerClicked.bind(this)}
+                    icon={imageIcon}
+                />
+            );
+        });
+
+        // *************RANDOM DATA
+        const listOfMarkers2 = [
+            {
+                key: 1,
+                lat: 50.059862,
+                lng: 14.324908,
+                pet: "dog",
+                icon: {
+                    url: imageIcon
+                }
+            },
+            {
+                key: 2,
+                lat: 50.060024,
+                lng: 14.324725,
+                pet: "cat",
+                icon: { url: imageIcon }
+            },
+            {
+                key: 3,
+                lat: 50.060281,
+                lng: 14.325643,
+                pet: "fish",
+                icon: { url: imageIcon }
+            },
+            {
+                key: 4,
+                lat: 50.060261,
+                lng: 14.324749,
+                pet: "bird",
+                icon: { url: imageIcon }
+            }
+        ];
+        let mymarker = listOfMarkers2.map(
+            el => (
+                <Marker
+                    key={el.key}
+                    title={el.pet}
+                    icon={el.icon}
+                    name={"SOMA"}
+                    position={{ lat: el.lat, lng: el.lng }}
+                    onClick={e => {
+                        console.log(e);
+                        this.setState({
+                            active_marker: { lat: el.lat, lng: el.lng }
+                        });
+                        //this.markerClicked.bind(this)
+                    }}
+                />
+            )
+            // *************   end of RANDOM DATA
+        );
+
+        let myInfowindow = (
+            <InfoWindow marker={this.state.active_marker} visible={true}>
+                <div>
+                    {console.log(this.state.active_marker)}
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                    <img
+                        src="img/icon/3-glass2.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                </div>
+            </InfoWindow>
+        );
+
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
