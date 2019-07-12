@@ -83154,7 +83154,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  //Google Map importing:
 
 
- //API Key
 
 var imageIcon = "/img/favicon2.png";
 

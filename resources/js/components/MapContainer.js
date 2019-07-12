@@ -10,9 +10,10 @@ import {
 } from "react-google-maps";
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 
-//API Key
+
 
 const imageIcon = "/img/favicon2.png";
+
 class MapContainer extends Component {
     constructor(props) {
         super(props);

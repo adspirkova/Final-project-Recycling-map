@@ -23,3 +23,6 @@ Route::view('/map/{path?}', 'map/map');
 Route::any('/locations/{lat}/{lng}', 'LocationController@getLocations');
 
 Route::any('/bins/{id}', 'BinController@getBins');
+
+
+Route::any('/locations', 'LocationController@index');
