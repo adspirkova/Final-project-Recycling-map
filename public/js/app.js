@@ -83169,29 +83169,19 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MapContainer).call(this, props));
 
-    _defineProperty(_assertThisInitialized(_this), "updateBins", function (station) {
-      var id = 1433;
-      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
-        return resp.json();
-      }).then(function (data) {
-        _this.setState({
-          bins: data.bins
-        });
-      });
-      console.log(_this.state.bins);
-    });
-
     _defineProperty(_assertThisInitialized(_this), "updateLocations", function () {
       var _this$state = _this.state,
           lat = _this$state.lat,
-          lng = _this$state.lng;
-      fetch("http://www.recycling-bins.localhost:8080/locations/".concat(lat, "/").concat(lng)).then(function (resp) {
+          lng = _this$state.lng,
+          currZoom = _this$state.currZoom;
+      fetch("http://www.recycling-bins.localhost:8080/locations/".concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
           locations: data.locations
         });
       });
+      console.log(_this.state.locations);
     });
 
     _this.state = {
@@ -83200,41 +83190,77 @@ function (_Component) {
       active_marker: null,
       locations: [],
       bins: [],
-      position: {
+      userPosition: {
         lat: 50.06203903000005,
         lng: 14.437462
-      }
+      },
+      currZoom: 18
     };
     return _this;
   }
 
   _createClass(MapContainer, [{
+    key: "updateBins",
+    value: function updateBins(station) {
+      var _this2 = this;
+
+      var id = station;
+      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this2.setState({
+          bins: data.bins
+        });
+      });
+      console.log(id);
+    }
+  }, {
     key: "componentWillMount",
     value: function componentWillMount() {
-      var _this2 = this;
+      var _this3 = this;
 
       //Geolocation API
       if (!navigator.geolocation) {
         console.log("Geolocation is not supported by your browser");
       } else {
         console.log("Locating…");
-        navigator.geolocation.getCurrentPosition(function (position) {
-          console.log(position);
+        navigator.geolocation.getCurrentPosition(function (userPosition) {
+          console.log(userPosition);
 
-          _this2.setState({
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
+          _this3.setState({
+            lat: userPosition.coords.latitude,
+            lng: userPosition.coords.longitude
+          }, function () {
+            _this3.updateLocations();
           });
         }, function () {
           console.log("error");
         });
+      }
+
+      ;
+    }
+  }, {
+    key: "binLoading",
+    value: function binLoading() {
+      if (this.state.id === null) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Loading... you"));
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.map(function (item, index) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            key: index
+          }, item.trashTypeName);
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "img/icon/1-plastic1.svg",
+          className: "menu-image",
+          alt: "glass"
+        }));
       }
     }
   }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       this.updateLocations();
-      this.updateBins();
     }
   }, {
     key: "handleToggleOpen",
@@ -83247,11 +83273,12 @@ function (_Component) {
         cool: item.id,
         title: item.stationName
       });
+      this.updateBins(item.id);
     }
   }, {
     key: "render",
     value: function render() {
-      var _this3 = this;
+      var _this4 = this;
 
       var listOfMarkers = this.state.locations.map(function (location) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
@@ -83262,14 +83289,14 @@ function (_Component) {
             lng: location.lng
           },
           onClick: function onClick() {
-            return _this3.handleToggleOpen(location);
+            return _this4.handleToggleOpen(location);
           },
           icon: imageIcon
         });
       });
       var myInfowindow = this.state.active_marker && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
         onCloseClick: function onCloseClick() {
-          _this3.setState({
+          _this4.setState({
             active_marker: null
           });
         },
@@ -83277,21 +83304,40 @@ function (_Component) {
         position: this.state.active_marker,
         id: this.state.cool,
         title: this.state.title
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-          key: index
-        }, item.trashTypeName);
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/1-plastic1.svg",
-        className: "menu-image",
-        alt: "glass"
-      })));
+      }, this.binLoading());
+      var mapRef;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["GoogleMap"], {
         style: {
           width: "100px",
           height: "100px"
         },
         defaultZoom: 18,
+        ref: function ref(_ref) {
+          mapRef = _ref;
+        },
+        onCenterChanged: function onCenterChanged(e) {
+          var center = mapRef.getCenter();
+
+          _this4.setState({
+            lat: center.lat(),
+            lng: center.lng()
+          }, function () {
+            console.log(_this4.state.lat);
+
+            _this4.updateLocations();
+          });
+        },
+        onZoomChanged: function onZoomChanged(e) {
+          mapRef.getZoom();
+          console.log(mapRef.getZoom());
+
+          _this4.setState({
+            currZoom: mapRef.getZoom()
+          }, function () {
+            _this4.updateLocations();
+          });
+        },
+        defaultMaxZoom: 19,
         defaultCenter: {
           lat: this.state.lat,
           lng: this.state.lng

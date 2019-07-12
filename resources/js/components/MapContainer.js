@@ -24,15 +24,16 @@ class MapContainer extends Component {
             active_marker: null,
             locations: [],
             bins: [],
-            position: {
+            userPosition: {
                 lat: 50.06203903000005,
                 lng: 14.437462,
             },
+            currZoom: 18,
         };
     }
 
-    updateBins = (station) => {
-        const id = 1433;
+    updateBins(station){
+        let id = station;
         fetch(`http://www.recycling-bins.localhost:8080/bins/${id}`)
             .then(resp => resp.json())
             .then(data => {
@@ -40,19 +41,19 @@ class MapContainer extends Component {
                     bins: data.bins
                 });
             });
-            console.log(this.state.bins)
+        console.log(id);
     };
 
     updateLocations = () => {
-        const { lat, lng } = this.state;
-
-        fetch(`http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}`)
+        const { lat, lng, currZoom } = this.state;
+        fetch(`http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}/${currZoom}`)
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
-                    locations: data.locations
+                    locations: data.locations,
                 });
             });
+        console.log(this.state.locations);
     };
 
     componentWillMount(){
@@ -62,24 +63,46 @@ class MapContainer extends Component {
       } else {
           console.log("Locating…");
           navigator.geolocation.getCurrentPosition(
-              position => {
-                  console.log(position);
+              userPosition => {
+                  console.log(userPosition);
   
                   this.setState({
-                      lat: position.coords.latitude,
-                      lng: position.coords.longitude
+                      lat: userPosition.coords.latitude,
+                      lng: userPosition.coords.longitude
+                  }, ()=> {
+                      this.updateLocations();
                   });
               },
               () => {
                   console.log("error");
               }
           );
-      }
-      }
+      };
+    }
+
+    binLoading(){
+        if (this.state.id === null ) {
+            return (
+                <div>
+                    <h4>{ this.state.title }</h4>
+                    <p>Loading... you</p>
+                  </div>
+            )
+        } else {
+            return (
+                <div>
+                    <h4>{ this.state.title }</h4>
+                    {this.state.bins.map((item, index) => 
+                      (<p key={index}>{item.trashTypeName}</p>)
+                    )}
+                    <img src="img/icon/1-plastic1.svg" className="menu-image" alt="glass"/>
+                </div>
+            )
+        }
+    }
 
     componentDidMount() {
         this.updateLocations();
-        this.updateBins();
     }
 
     handleToggleOpen(item){
@@ -91,6 +114,7 @@ class MapContainer extends Component {
           cool: item.id,
           title: item.stationName,
         })
+        this.updateBins(item.id)
     }
 
 
@@ -117,27 +141,43 @@ class MapContainer extends Component {
                 id={this.state.cool}
                 title={this.state.title}
                 >
-                  <div>
-                    <h4>{ this.state.title }</h4>
-                    { this.state.bins.map((item, index) => 
-                      (<p key={index}>{item.trashTypeName}</p>)
-                    
-                    )}
-        
-                    <img src="img/icon/1-plastic1.svg" className="menu-image" alt="glass"/>
-                  </div>
-                    
+                  {this.binLoading()}                  
                 </InfoWindow>
         );
-
+        let mapRef;
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
                 defaultZoom={18}
+                ref = {ref => {
+                    mapRef = ref;
+                }}
+               
+                onCenterChanged = {e => {
+                    const center = mapRef.getCenter();
+                    this.setState({
+                            lat: center.lat(),
+                            lng: center.lng()
+                    }, () => {
+                        console.log(this.state.lat);
+                        this.updateLocations();
+                    })
+                }}
+                onZoomChanged = { e => {
+                    mapRef.getZoom();
+                    console.log(mapRef.getZoom());
+                    this.setState({
+                        currZoom: mapRef.getZoom(),
+                },() => {
+                    this.updateLocations();
+                })
+                }}
+                defaultMaxZoom = {19}
                 defaultCenter={{
                     lat: this.state.lat,
                     lng: this.state.lng
                 }}
+
             >
                 <MarkerClusterer
                     onClick={e => {
