@@ -10,9 +10,8 @@ import {
 } from "react-google-maps";
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 
-//API Key
-const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
+
 class MapContainer extends Component {
     constructor(props) {
         super(props);
@@ -20,31 +19,41 @@ class MapContainer extends Component {
         this.state = {
             lat: 50.062059,
             lng: 14.437462,
-            active_marker: {},
+            active_marker: null,
             locations: [],
             bins: [],
-            position: null
+            userPosition: {
+                lat: 50.06203903000005,
+                lng: 14.437462
+            },
+            currZoom: 18
         };
     }
 
-    updateBins = () => {
-        fetch("http://www.recycling-bins.localhost:8080/bins")
+    updateBins(station) {
+        let id = station;
+        fetch(`http://www.recycling-bins.localhost:8080/bins/${id}`)
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
                     bins: data.bins
                 });
             });
-    };
+        console.log(id);
+    }
 
     updateLocations = () => {
-        fetch("http://www.recycling-bins.localhost:8080/locations")
+        const { lat, lng, currZoom } = this.state;
+        fetch(
+            `http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}/${currZoom}`
+        )
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
                     locations: data.locations
                 });
             });
+        console.log(this.state.locations);
     };
 
     componentWillMount() {
@@ -54,13 +63,18 @@ class MapContainer extends Component {
         } else {
             console.log("Locating…");
             navigator.geolocation.getCurrentPosition(
-                position => {
-                    console.log(position.coords.latitude);
+                userPosition => {
+                    console.log(userPosition);
 
-                    this.setState({
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude
-                    });
+                    this.setState(
+                        {
+                            lat: userPosition.coords.latitude,
+                            lng: userPosition.coords.longitude
+                        },
+                        () => {
+                            this.updateLocations();
+                        }
+                    );
                 },
                 () => {
                     console.log("error");
@@ -69,27 +83,45 @@ class MapContainer extends Component {
         }
     }
 
-    componentDidMount() {
-        this.updateLocations();
-        this.updateBins();
+    binLoading() {
+        if (this.state.id === null) {
+            return (
+                <div>
+                    <h4>{this.state.title}</h4>
+                    <p>Loading... you</p>
+                </div>
+            );
+        } else {
+            return (
+                <div>
+                    <h4>{this.state.title}</h4>
+                    {this.state.bins.map((item, index) => (
+                        <p key={index}>{item.trashTypeName}</p>
+                    ))}
+                    <img
+                        src="img/icon/1-plastic1.svg"
+                        className="menu-image"
+                        alt="glass"
+                    />
+                </div>
+            );
+        }
     }
 
-    markerClicked = (props, location, event) => {
-        //console.log('==============================', location);
-        this.setState({
-            active_marker: location
-        });
-    };
+    componentDidMount() {
+        this.updateLocations();
+    }
 
     handleToggleOpen(item) {
         this.setState({
-            position: {
+            active_marker: {
                 lat: item.lat,
                 lng: item.lng
             },
-            id: item.id,
+            cool: item.id,
             title: item.stationName
         });
+        this.updateBins(item.id);
     }
 
     render() {
@@ -105,120 +137,53 @@ class MapContainer extends Component {
             );
         });
 
-        // *************RANDOM DATA
-        const listOfMarkers2 = [
-            {
-                key: 1,
-                lat: 50.059862,
-                lng: 14.324908,
-                pet: "dog",
-                icon: {
-                    url: imageIcon
-                }
-            },
-            {
-                key: 2,
-                lat: 50.060024,
-                lng: 14.324725,
-                pet: "cat",
-                icon: { url: imageIcon }
-            },
-            {
-                key: 3,
-                lat: 50.060281,
-                lng: 14.325643,
-                pet: "fish",
-                icon: { url: imageIcon }
-            },
-            {
-                key: 4,
-                lat: 50.060261,
-                lng: 14.324749,
-                pet: "bird",
-                icon: { url: imageIcon }
-            }
-        ];
-        let mymarker = listOfMarkers2.map(
-            el => (
-                <Marker
-                    key={el.key}
-                    title={el.pet}
-                    icon={el.icon}
-                    name={"SOMA"}
-                    position={{ lat: el.lat, lng: el.lng }}
-                    onClick={e => {
-                        console.log(e);
-                        this.setState({
-                            active_marker: { lat: el.lat, lng: el.lng }
-                        });
-                        //this.markerClicked.bind(this)
-                    }}
-                />
-            )
-            // *************   end of RANDOM DATA
-        );
-        //// Position
-
-        let myPosition = (
-            <Marker
-                icon={myPositionicon}
-                name={"SOMA"}
-                position={{ lat: this.state.lat, lng: this.state.lng }}
-
-                //this.markerClicked.bind(this)
-            />
-        );
-
-        let myInfowindow = this.state.position && (
+        let myInfowindow = this.state.active_marker && (
             <InfoWindow
-                // marker={ this.state.active_marker }
-
-                visible={true}
-                position={{
-                    lat: this.state.position.lat + 0.0005,
-                    lng: this.state.position.lng
+                onCloseClick={() => {
+                    this.setState({ active_marker: null });
                 }}
-                id={this.state.id}
+                visible={true}
+                position={this.state.active_marker}
+                id={this.state.cool}
                 title={this.state.title}
             >
-                <div>
-                    <h4>{this.state.title}</h4>
-                    {this.state.bins
-                        .filter(({ stationId }) => stationId === this.state.id)
-                        .map((item, index) => (
-                            <>
-                                <p>{item.trashTypeName}</p>
-                            </>
-                        ))}
-
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                    <img
-                        src="img/icon/3-glass2.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
-                </div>
+                {this.binLoading()}
             </InfoWindow>
         );
-
+        let mapRef;
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
                 defaultZoom={18}
+                ref={ref => {
+                    mapRef = ref;
+                }}
+                onCenterChanged={e => {
+                    const center = mapRef.getCenter();
+                    this.setState(
+                        {
+                            lat: center.lat(),
+                            lng: center.lng()
+                        },
+                        () => {
+                            console.log(this.state.lat);
+                            this.updateLocations();
+                        }
+                    );
+                }}
+                onZoomChanged={e => {
+                    mapRef.getZoom();
+                    console.log(mapRef.getZoom());
+                    this.setState(
+                        {
+                            currZoom: mapRef.getZoom()
+                        },
+                        () => {
+                            this.updateLocations();
+                        }
+                    );
+                }}
+                defaultMaxZoom={19}
                 defaultCenter={{
                     lat: this.state.lat,
                     lng: this.state.lng
@@ -232,10 +197,7 @@ class MapContainer extends Component {
                     enableRetinaIcons
                     gridSize={60}
                 >
-                    {mymarker}
                     {listOfMarkers}
-                    {console.log(this.state.locations)}
-                    {myPosition}
                     {myInfowindow}
                 </MarkerClusterer>
             </GoogleMap>

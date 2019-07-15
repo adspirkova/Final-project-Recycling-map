@@ -83,9 +83,9 @@ class BinController extends Controller
     {
         //
     }
-    public function getBins() 
+    public function getBins($id) 
     {
-        $bins = Bin::all();
+        $bins = Bin::where('stationId',$id)->get();
         return response()->json(['bins'=> $bins],200);
     }
 }
