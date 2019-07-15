@@ -16,9 +16,7 @@ class CreateBinsTable extends Migration
         Schema::create('bins', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedbigInteger('stationId');
-            $table->string('trashTypeCode');
             $table->string('trashTypeName');
-            $table->integer('containers');
             $table->integer('cleaningFrequencyCode');
             $table->string('containerType');
             $table->timestamps();

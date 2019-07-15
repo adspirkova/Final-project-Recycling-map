@@ -21,7 +21,9 @@ class App extends Component {
     super(props);
     this.state = {
         jump: false,
-        auth: localStorage.usertoken
+        auth: localStorage.usertoken,
+        page: "map",
+        index: true
     };
     }
 

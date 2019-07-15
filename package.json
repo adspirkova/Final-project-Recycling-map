@@ -35,7 +35,9 @@
     "jwt-decode": "^2.2.0",
     "react-router-dom": "^5.0.1",
     "react-toggle": "^4.0.2",
-    "react-toggle-pattern": "^1.4.1"
+    "react-toggle-pattern": "^1.4.1",
+    "json2csv": "^4.5.2",
+    "react-google-maps": "^9.4.5"
   },
   "name": "final-project-recycling-map",
   "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",

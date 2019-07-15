@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Location;
+use App\Bin;
 
-class LocationController extends Controller
+class BinController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,7 @@ class LocationController extends Controller
      */
     public function index()
     {
-        $locations = Location::all();
-        return response()->json(['locations'=> $locations],200);
+        //
     }
 
     /**
@@ -84,9 +83,9 @@ class LocationController extends Controller
     {
         //
     }
-    public function getLocations($lat, $lng, $currZoom) 
+    public function getBins($id) 
     {
-        $locations = Location::where('lat', '<', $lat + (0.0121631246478468 * (19-$currZoom)))->where('lat', '>', $lat - (0.0121631246478468 * (19-$currZoom)))->where('lng', '<', $lng + (0.021769436*(19-$currZoom)))->where('lng', '>', $lng - (0.021769436*(19-$currZoom)))->get();
-        return response()->json(['locations'=> $locations],200);
+        $bins = Bin::where('stationId',$id)->get();
+        return response()->json(['bins'=> $bins],200);
     }
 }

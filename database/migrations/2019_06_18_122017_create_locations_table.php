@@ -15,10 +15,11 @@ class CreateLocationsTable extends Migration
     {
         Schema::create('locations', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('stationName');
-            $table->string('cityDistrict');
             $table->double('lat'); // Coordinate X
             $table->double('lng'); // Coordinate Y
+            $table->string('stationName');
+            $table->string('cityDistrict');
+            $table->string('Access');
             $table->timestamps();
         });
     }
