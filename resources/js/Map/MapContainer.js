@@ -56,7 +56,7 @@ class MapContainer extends Component {
         console.log(this.state.locations);
     };
 
-    componentWillMount() {
+    componentDidMount() {
         //Geolocation API
         if (!navigator.geolocation) {
             console.log("Geolocation is not supported by your browser");
@@ -81,6 +81,7 @@ class MapContainer extends Component {
                 }
             );
         }
+        this.updateLocations();
     }
 
     binLoading() {
@@ -108,9 +109,6 @@ class MapContainer extends Component {
         }
     }
 
-    componentDidMount() {
-        this.updateLocations();
-    }
 
     handleToggleOpen(item) {
         this.setState({

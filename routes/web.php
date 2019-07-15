@@ -19,7 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 Route::view('/map/{path?}', 'map/map');
+Route::view('/userpage', 'map/map');
 Route::any('/locations/{lat}/{lng}/{currZoom}', 'LocationController@getLocations');
 
 Route::any('/bins/{id}', 'BinController@getBins');

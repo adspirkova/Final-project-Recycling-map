@@ -9,6 +9,7 @@ export default class NewAccount extends Component {
             name:'',
             email: '',
             password: '',
+            password_confirmation: '',
         }
         this.onChange = this.onChange.bind(this)
         this.onSubmit = this.onSubmit.bind(this)
@@ -24,7 +25,8 @@ export default class NewAccount extends Component {
         const newUser = {
             name: this.state.name,
             email: this.state.email,
-            password: this.state.password
+            password: this.state.password,
+            password_confirmation: this.state.password_confirmation,
         }
 
         register(newUser).then(res=>{
@@ -50,7 +52,7 @@ export default class NewAccount extends Component {
                             type="name"
                             name="name"
                             className="form-control"
-                            id="contact-email"
+                            id="contact-name"
                             placeholder="Your Name"
                             data-rule="email"
                             data-msg="Please enter a valid email"
@@ -90,7 +92,7 @@ export default class NewAccount extends Component {
                         <label htmlFor="confirm-password">Confirm Password</label>
                         <input
                         type="password"
-                        name="password"
+                        name="password_confirmation"
                         className="form-control"
                         id="confirm-password"
                         placeholder="Re-enter Password"

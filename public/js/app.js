@@ -87311,7 +87311,8 @@ function (_Component) {
     _this.state = {
       name: '',
       email: '',
-      password: ''
+      password: '',
+      password_confirmation: ''
     };
     _this.onChange = _this.onChange.bind(_assertThisInitialized(_this));
     _this.onSubmit = _this.onSubmit.bind(_assertThisInitialized(_this));
@@ -87332,7 +87333,8 @@ function (_Component) {
       var newUser = {
         name: this.state.name,
         email: this.state.email,
-        password: this.state.password
+        password: this.state.password,
+        password_confirmation: this.state.password_confirmation
       };
       Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["register"])(newUser).then(function (res) {
         _this2.props.history.push("/login");
@@ -87361,7 +87363,7 @@ function (_Component) {
         type: "name",
         name: "name",
         className: "form-control",
-        id: "contact-email",
+        id: "contact-name",
         placeholder: "Your Name",
         "data-rule": "email",
         "data-msg": "Please enter a valid email",
@@ -87398,7 +87400,7 @@ function (_Component) {
         htmlFor: "confirm-password"
       }, "Confirm Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "password",
-        name: "password",
+        name: "password_confirmation",
         className: "form-control",
         id: "confirm-password",
         placeholder: "Re-enter Password",
@@ -87761,8 +87763,8 @@ function (_Component) {
       console.log(id);
     }
   }, {
-    key: "componentWillMount",
-    value: function componentWillMount() {
+    key: "componentDidMount",
+    value: function componentDidMount() {
       var _this3 = this;
 
       //Geolocation API
@@ -87783,6 +87785,8 @@ function (_Component) {
           console.log("error");
         });
       }
+
+      this.updateLocations();
     }
   }, {
     key: "binLoading",
@@ -87800,11 +87804,6 @@ function (_Component) {
           alt: "glass"
         }));
       }
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.updateLocations();
     }
   }, {
     key: "handleToggleOpen",
@@ -88369,8 +88368,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
