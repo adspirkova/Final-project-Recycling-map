@@ -83158,7 +83158,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 var plasticBottle = "img/water.png";
-var glassBottle = "img/icon/3-glass2.svg";
+var glassBottle = "img/colored-glass.png";
 var alumCan = "img/can.png";
 
 var MapContainer =
