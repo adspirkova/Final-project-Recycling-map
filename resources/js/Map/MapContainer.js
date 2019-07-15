@@ -30,32 +30,6 @@ class MapContainer extends Component {
         };
     }
 
-    updateBins(station) {
-        let id = station;
-        fetch(`http://www.recycling-bins.localhost:8080/bins/${id}`)
-            .then(resp => resp.json())
-            .then(data => {
-                this.setState({
-                    bins: data.bins
-                });
-            });
-        console.log(id);
-    }
-
-    updateLocations = () => {
-        const { lat, lng, currZoom } = this.state;
-        fetch(
-            `http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}/${currZoom}`
-        )
-            .then(resp => resp.json())
-            .then(data => {
-                this.setState({
-                    locations: data.locations
-                });
-            });
-        console.log(this.state.locations);
-    };
-
     componentDidMount() {
         //Geolocation API
         if (!navigator.geolocation) {
@@ -81,8 +55,33 @@ class MapContainer extends Component {
                 }
             );
         }
-        this.updateLocations();
     }
+
+    updateBins(station) {
+        let id = station;
+        fetch(`http://www.recycling-bins.localhost:8080/bins/${id}`)
+            .then(resp => resp.json())
+            .then(data => {
+                this.setState({
+                    bins: data.bins
+                });
+            });
+        console.log(id);
+    }
+
+    updateLocations = () => {
+        const { lat, lng, currZoom } = this.state;
+        fetch(
+            `http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}/${currZoom}`
+        )
+            .then(resp => resp.json())
+            .then(data => {
+                this.setState({
+                    locations: data.locations
+                });
+            });
+        console.log(this.state.locations);
+    };
 
     binLoading() {
         if (this.state.id === null) {
