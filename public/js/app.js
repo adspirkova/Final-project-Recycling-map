@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87748,45 +87748,53 @@ function (_Component) {
   }
 
   _createClass(MapContainer, [{
-    key: "updateBins",
-    value: function updateBins(station) {
-      var _this2 = this;
-
-      var id = station;
-      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
-        return resp.json();
-      }).then(function (data) {
-        _this2.setState({
-          bins: data.bins
-        });
-      });
-      console.log(id);
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      this.updateLocations();
     }
   }, {
     key: "componentDidMount",
     value: function componentDidMount() {
-      var _this3 = this;
+      var _this2 = this;
 
       //Geolocation API
       if (!navigator.geolocation) {
         console.log("Geolocation is not supported by your browser");
       } else {
         console.log("Locating…");
-        navigator.geolocation.getCurrentPosition(function (userPosition) {
-          console.log(userPosition);
+        navigator.geolocation.getCurrentPosition(function (position) {
+          console.log(position.coords.latitude);
 
-          _this3.setState({
-            lat: userPosition.coords.latitude,
-            lng: userPosition.coords.longitude
+          _this2.setState({
+            userPosition: {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            }
           }, function () {
-            _this3.updateLocations();
+            _this2.updateLocations();
           });
         }, function () {
           console.log("error");
         });
+        console.log(this.state.userPosition);
+        console.log(this.state.lat);
+        console.log(this.state.lng);
       }
+    }
+  }, {
+    key: "updateBins",
+    value: function updateBins(station) {
+      var _this3 = this;
 
-      this.updateLocations();
+      var id = station;
+      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this3.setState({
+          bins: data.bins
+        });
+      });
+      console.log(id);
     }
   }, {
     key: "binLoading",
@@ -87841,8 +87849,8 @@ function (_Component) {
         icon: myPositionicon,
         name: "SOMA",
         position: {
-          lat: this.state.lat,
-          lng: this.state.lng
+          lat: this.state.userPosition.lat,
+          lng: this.state.userPosition.lng
         } //this.markerClicked.bind(this)
 
       });
@@ -87875,6 +87883,7 @@ function (_Component) {
             lng: center.lng()
           }, function () {
             console.log(_this4.state.lat);
+            console.log(_this4.state.userPosition);
 
             _this4.updateLocations();
           });
