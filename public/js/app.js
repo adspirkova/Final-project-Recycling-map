@@ -83155,6 +83155,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 
 var MapContainer =
@@ -83356,7 +83357,7 @@ function (_Component) {
         averageCenter: true,
         enableRetinaIcons: true,
         gridSize: 60
-      }, listOfMarkers, myInfowindow));
+      }, listOfMarkers, myInfowindow, myPosition));
     }
   }]);
 
