@@ -11,7 +11,9 @@ import {
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
-
+const plasticBottle = "img/water.png";
+const glassBottle = "img/icon/3-glass2.svg";
+const alumCan = "img/can.png";
 class MapContainer extends Component {
     constructor(props) {
         super(props);
@@ -55,7 +57,20 @@ class MapContainer extends Component {
             });
         console.log(this.state.locations);
     };
+    // textToImage($a)
+    // {
+    //     $trashTypeimage = [
+    //         'Paper' => 'img/water.png',
+    //         'Coloured glass' => 'img/icon/3-glass2.svg',
+    //         'Plastic' => 'img/water.png',
+    //         'Electric equipment' => 'img/water.png',
+    //         'Cardboard' => 'img/icon/3-glass2.svg',
+    //         'Clear glass' => 'img/icon/3-glass2.svg',
+    //         'Metals' => 'img/water.png',
+    //     ];
 
+    //     return $trashTypeimage[$a];
+    // }
     componentWillMount() {
         //Geolocation API
         if (!navigator.geolocation) {
@@ -95,14 +110,83 @@ class MapContainer extends Component {
             return (
                 <div>
                     <h4>{this.state.title}</h4>
-                    {this.state.bins.map((item, index) => (
-                        <p key={index}>{item.trashTypeName}</p>
-                    ))}
-                    <img
-                        src="img/icon/1-plastic1.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
+                    {this.state.bins.map((item, index) => {
+                        let img = null;
+                        switch (item.trashTypeName) {
+                            case "Clear glass":
+                                img = (
+                                    <img
+                                        src={alumCan}
+                                        className="menu-image"
+                                        alt="Clear glass"
+                                    />
+                                );
+                                break;
+                            case "Metals":
+                                img = (
+                                    <img
+                                        src={alumCan}
+                                        className="menu-image"
+                                        alt="Metals"
+                                    />
+                                );
+                                break;
+                            case "Cardboard":
+                                img = (
+                                    <img
+                                        src={alumCan}
+                                        className="menu-image"
+                                        alt="Cardboard"
+                                    />
+                                );
+                                break;
+                            case "Paper":
+                                img = (
+                                    <img
+                                        src={alumCan}
+                                        className="menu-image"
+                                        alt="Paper"
+                                    />
+                                );
+                                break;
+
+                            case "Coloured glass":
+                                img = (
+                                    <img
+                                        src={glassBottle}
+                                        className="menu-image"
+                                        alt="Coloured glass"
+                                    />
+                                );
+                                break;
+                            case "Plastic":
+                                img = (
+                                    <img
+                                        src={plasticBottle}
+                                        className="menu-image"
+                                        alt="Plastic"
+                                    />
+                                );
+                                break;
+                            case "Electric equipment":
+                                img = (
+                                    <img
+                                        src={plasticBottle}
+                                        className="menu-image"
+                                        alt="Electric equipment"
+                                    />
+                                );
+                                break;
+                            default:
+                                img = "";
+                        }
+                        return (
+                            <p key={index}>
+                                {item.trashTypeName}
+                                {img}
+                            </p>
+                        );
+                    })}
                 </div>
             );
         }

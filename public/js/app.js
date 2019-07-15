@@ -83157,6 +83157,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
+var plasticBottle = "img/water.png";
+var glassBottle = "img/icon/3-glass2.svg";
+var alumCan = "img/can.png";
 
 var MapContainer =
 /*#__PURE__*/
@@ -83217,6 +83220,19 @@ function (_Component) {
     }
   }, {
     key: "componentWillMount",
+    // textToImage($a)
+    // {
+    //     $trashTypeimage = [
+    //         'Paper' => 'img/water.png',
+    //         'Coloured glass' => 'img/icon/3-glass2.svg',
+    //         'Plastic' => 'img/water.png',
+    //         'Electric equipment' => 'img/water.png',
+    //         'Cardboard' => 'img/icon/3-glass2.svg',
+    //         'Clear glass' => 'img/icon/3-glass2.svg',
+    //         'Metals' => 'img/water.png',
+    //     ];
+    //     return $trashTypeimage[$a];
+    // }
     value: function componentWillMount() {
       var _this3 = this;
 
@@ -83246,13 +83262,72 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Loading... you"));
       } else {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.state.title), this.state.bins.map(function (item, index) {
+          var img = null;
+
+          switch (item.trashTypeName) {
+            case "Clear glass":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: alumCan,
+                className: "menu-image",
+                alt: "Clear glass"
+              });
+              break;
+
+            case "Metals":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: alumCan,
+                className: "menu-image",
+                alt: "Metals"
+              });
+              break;
+
+            case "Cardboard":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: alumCan,
+                className: "menu-image",
+                alt: "Cardboard"
+              });
+              break;
+
+            case "Paper":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: alumCan,
+                className: "menu-image",
+                alt: "Paper"
+              });
+              break;
+
+            case "Coloured glass":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: glassBottle,
+                className: "menu-image",
+                alt: "Coloured glass"
+              });
+              break;
+
+            case "Plastic":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: plasticBottle,
+                className: "menu-image",
+                alt: "Plastic"
+              });
+              break;
+
+            case "Electric equipment":
+              img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+                src: plasticBottle,
+                className: "menu-image",
+                alt: "Electric equipment"
+              });
+              break;
+
+            default:
+              img = "";
+          }
+
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
             key: index
-          }, item.trashTypeName);
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/icon/1-plastic1.svg",
-          className: "menu-image",
-          alt: "glass"
+          }, item.trashTypeName, img);
         }));
       }
     }
