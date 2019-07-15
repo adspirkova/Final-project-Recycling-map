@@ -83158,7 +83158,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 var plasticBottle = "img/water.png";
-var glassBottle = "img/colored-glass.png";
+var glassBottle = "img/glass.png";
 var alumCan = "img/can.png";
 
 var MapContainer =
@@ -83283,7 +83283,7 @@ function (_Component) {
 
             case "Cardboard":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: alumCan,
+                src: "img/cardboard.png",
                 className: "menu-image",
                 alt: "Cardboard"
               });
@@ -83291,7 +83291,7 @@ function (_Component) {
 
             case "Paper":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: alumCan,
+                src: "img/paper.png",
                 className: "menu-image",
                 alt: "Paper"
               });

@@ -12,7 +12,7 @@ import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClust
 const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
 const plasticBottle = "img/water.png";
-const glassBottle = "img/colored-glass.png";
+const glassBottle = "img/glass.png";
 const alumCan = "img/can.png";
 class MapContainer extends Component {
     constructor(props) {
@@ -134,7 +134,7 @@ class MapContainer extends Component {
                             case "Cardboard":
                                 img = (
                                     <img
-                                        src={alumCan}
+                                        src="img/cardboard.png"
                                         className="menu-image"
                                         alt="Cardboard"
                                     />
@@ -143,7 +143,7 @@ class MapContainer extends Component {
                             case "Paper":
                                 img = (
                                     <img
-                                        src={alumCan}
+                                        src="img/paper.png"
                                         className="menu-image"
                                         alt="Paper"
                                     />
