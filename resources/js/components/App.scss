@@ -47,10 +47,12 @@
   .garbageBin{
     width:150px;
     margin:4rem;
-    &:hover{
+    // &:hover{
     display: inline-block;
     animation: hurueru .1s  infinite;
-    }
+    animation-duration: 0.3s;
+    animation-delay: 4s;
+    // }
   }
 
   @keyframes hurueru {

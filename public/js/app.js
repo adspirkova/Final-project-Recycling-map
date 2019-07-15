@@ -8846,7 +8846,7 @@ exports.push([module.i, "/* Before & After Login form **************************
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "#topwrap {\n  background-color: #ABBD8C;\n  text-align: center;\n  height: 100vh;\n  width: 100vw;\n  padding: 1vh;\n  background-size: 100%;\n  background-size: cover;\n  margin: 0;\n}\n\n#topwrap h1 {\n  margin-top: 18vh;\n  color: #407A60;\n  font-size: 50px;\n  font-weight: 700;\n  letter-spacing: 3px;\n  z-index: 1;\n}\n\n#topwrap h2 {\n  color: black;\n  font-size: 1.5rem;\n  font-weight: 100;\n  letter-spacing: 2px;\n}\n\n@media screen and (max-width: 640px) {\n  #topwrap {\n    position: fixed;\n    line-height: 2;\n  }\n\n  #topwrap h1 {\n    margin-top: 15vh;\n    font-size: 40px;\n  }\n\n  #topwrap h2 {\n    font-size: 1rem;\n  }\n\n  .garbageBin {\n    margin: 0rem;\n  }\n}\n.garbageBin {\n  width: 150px;\n  margin: 4rem;\n}\n.garbageBin:hover {\n  display: inline-block;\n  animation: hurueru 0.1s infinite;\n}\n\n@keyframes hurueru {\n  0% {\n    transform: translate(0px, 0px) rotateZ(0deg);\n  }\n  25% {\n    transform: translate(2px, 2px) rotateZ(1deg);\n  }\n  50% {\n    transform: translate(0px, 2px) rotateZ(0deg);\n  }\n  75% {\n    transform: translate(2px, 0px) rotateZ(-1deg);\n  }\n  100% {\n    transform: translate(0px, 0px) rotateZ(0deg);\n  }\n}\n/* bin Pop out from garbage bin(still working on)*/\n.bin1 {\n  position: absolute;\n  display: block;\n  width: 5px;\n  height: auto;\n  left: 40px;\n  animation-duration: 5s;\n  animation-delay: 0.2s;\n}\n\n.bin1 img {\n  width: 30px;\n}\n\n.dropBin div {\n  opacity: 0;\n  -ms-transform-origin: 0px 0px;\n  left: 50vw;\n  transform-origin: 100px 100px;\n  animation-name: Drop;\n  animation-iteration-count: 1;\n  animation-timing-function: linear;\n  animation-fill-mode: forwards;\n}\n\n@keyframes Drop {\n  0% {\n    top: 30vh;\n    left: 60vw;\n    opacity: 0.4;\n  }\n  50% {\n    top: 40vh;\n    left: 50vw;\n    opacity: 1;\n  }\n  100% {\n    top: 50vh;\n    left: 50vw;\n    opacity: 0;\n  }\n}\n.menu-image {\n  width: 20px;\n}\n\n.menu {\n  background-color: lightgrey;\n  position: fixed;\n  width: 100vw;\n  height: 10vh;\n  bottom: 0;\n  z-index: 10;\n  text-align: center;\n}\n\n.menu a {\n  color: grey;\n  font-size: 12px;\n  font-weight: bold;\n  letter-spacing: 0.05em;\n}\n\n.menu a:hover, .activeTab {\n  color: #ABBD8C;\n  font-weight: 900px;\n}\n\n.menu a:active {\n  color: grey;\n}\n\n.menu .menu-bar {\n  padding: 10px;\n}\n\n.menu .now {\n  background-color: #E9E7F1;\n}\n\n.menu .row .menu-bar .activeTab {\n  color: black;\n  font-weight: 900px;\n}", ""]);
+exports.push([module.i, "#topwrap {\n  background-color: #ABBD8C;\n  text-align: center;\n  height: 100vh;\n  width: 100vw;\n  padding: 1vh;\n  background-size: 100%;\n  background-size: cover;\n  margin: 0;\n}\n\n#topwrap h1 {\n  margin-top: 18vh;\n  color: #407A60;\n  font-size: 50px;\n  font-weight: 700;\n  letter-spacing: 3px;\n  z-index: 1;\n}\n\n#topwrap h2 {\n  color: black;\n  font-size: 1.5rem;\n  font-weight: 100;\n  letter-spacing: 2px;\n}\n\n@media screen and (max-width: 640px) {\n  #topwrap {\n    position: fixed;\n    line-height: 2;\n  }\n\n  #topwrap h1 {\n    margin-top: 15vh;\n    font-size: 40px;\n  }\n\n  #topwrap h2 {\n    font-size: 1rem;\n  }\n\n  .garbageBin {\n    margin: 0rem;\n  }\n}\n.garbageBin {\n  width: 150px;\n  margin: 4rem;\n  display: inline-block;\n  animation: hurueru 0.1s infinite;\n  animation-duration: 0.3s;\n  animation-delay: 4s;\n}\n\n@keyframes hurueru {\n  0% {\n    transform: translate(0px, 0px) rotateZ(0deg);\n  }\n  25% {\n    transform: translate(2px, 2px) rotateZ(1deg);\n  }\n  50% {\n    transform: translate(0px, 2px) rotateZ(0deg);\n  }\n  75% {\n    transform: translate(2px, 0px) rotateZ(-1deg);\n  }\n  100% {\n    transform: translate(0px, 0px) rotateZ(0deg);\n  }\n}\n/* bin Pop out from garbage bin(still working on)*/\n.bin1 {\n  position: absolute;\n  display: block;\n  width: 5px;\n  height: auto;\n  left: 40px;\n  animation-duration: 5s;\n  animation-delay: 0.2s;\n}\n\n.bin1 img {\n  width: 30px;\n}\n\n.dropBin div {\n  opacity: 0;\n  -ms-transform-origin: 0px 0px;\n  left: 50vw;\n  transform-origin: 100px 100px;\n  animation-name: Drop;\n  animation-iteration-count: 1;\n  animation-timing-function: linear;\n  animation-fill-mode: forwards;\n}\n\n@keyframes Drop {\n  0% {\n    top: 30vh;\n    left: 60vw;\n    opacity: 0.4;\n  }\n  50% {\n    top: 40vh;\n    left: 50vw;\n    opacity: 1;\n  }\n  100% {\n    top: 50vh;\n    left: 50vw;\n    opacity: 0;\n  }\n}\n.menu-image {\n  width: 20px;\n}\n\n.menu {\n  background-color: lightgrey;\n  position: fixed;\n  width: 100vw;\n  height: 10vh;\n  bottom: 0;\n  z-index: 10;\n  text-align: center;\n}\n\n.menu a {\n  color: grey;\n  font-size: 12px;\n  font-weight: bold;\n  letter-spacing: 0.05em;\n}\n\n.menu a:hover, .activeTab {\n  color: #ABBD8C;\n  font-weight: 900px;\n}\n\n.menu a:active {\n  color: grey;\n}\n\n.menu .menu-bar {\n  padding: 10px;\n}\n\n.menu .now {\n  background-color: #E9E7F1;\n}\n\n.menu .row .menu-bar .activeTab {\n  color: black;\n  font-weight: 900px;\n}", ""]);
 
 
 
@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87748,24 +87748,9 @@ function (_Component) {
   }
 
   _createClass(MapContainer, [{
-    key: "updateBins",
-    value: function updateBins(station) {
-      var _this2 = this;
-
-      var id = station;
-      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
-        return resp.json();
-      }).then(function (data) {
-        _this2.setState({
-          bins: data.bins
-        });
-      });
-      console.log(id);
-    }
-  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
-      var _this3 = this;
+      var _this2 = this;
 
       //Geolocation API
       if (!navigator.geolocation) {
@@ -87775,18 +87760,31 @@ function (_Component) {
         navigator.geolocation.getCurrentPosition(function (userPosition) {
           console.log(userPosition);
 
-          _this3.setState({
+          _this2.setState({
             lat: userPosition.coords.latitude,
             lng: userPosition.coords.longitude
           }, function () {
-            _this3.updateLocations();
+            _this2.updateLocations();
           });
         }, function () {
           console.log("error");
         });
       }
+    }
+  }, {
+    key: "updateBins",
+    value: function updateBins(station) {
+      var _this3 = this;
 
-      this.updateLocations();
+      var id = station;
+      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this3.setState({
+          bins: data.bins
+        });
+      });
+      console.log(id);
     }
   }, {
     key: "binLoading",
@@ -88368,8 +88366,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
