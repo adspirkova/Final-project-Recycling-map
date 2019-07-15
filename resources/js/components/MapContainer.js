@@ -11,9 +11,7 @@ import {
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
-const plasticBottle = "img/water.png";
-const glassBottle = "img/glass2.png";
-const alumCan = "img/can.png";
+
 class MapContainer extends Component {
     constructor(props) {
         super(props);
@@ -57,20 +55,7 @@ class MapContainer extends Component {
             });
         console.log(this.state.locations);
     };
-    // textToImage($a)
-    // {
-    //     $trashTypeimage = [
-    //         'Paper' => 'img/water.png',
-    //         'Coloured glass' => 'img/icon/3-glass2.svg',
-    //         'Plastic' => 'img/water.png',
-    //         'Electric equipment' => 'img/water.png',
-    //         'Cardboard' => 'img/icon/3-glass2.svg',
-    //         'Clear glass' => 'img/icon/3-glass2.svg',
-    //         'Metals' => 'img/water.png',
-    //     ];
 
-    //     return $trashTypeimage[$a];
-    // }
     componentWillMount() {
         //Geolocation API
         if (!navigator.geolocation) {
@@ -116,7 +101,7 @@ class MapContainer extends Component {
                             case "Clear glass":
                                 img = (
                                     <img
-                                        src={alumCan}
+                                        src="img/clear-glass2.png"
                                         className="menu-image"
                                         alt="Clear glass"
                                     />
@@ -125,7 +110,7 @@ class MapContainer extends Component {
                             case "Metals":
                                 img = (
                                     <img
-                                        src={alumCan}
+                                        src="img/can.png"
                                         className="menu-image"
                                         alt="Metals"
                                     />
@@ -153,7 +138,7 @@ class MapContainer extends Component {
                             case "Coloured glass":
                                 img = (
                                     <img
-                                        src={glassBottle}
+                                        src="img/glass2.png"
                                         className="menu-image"
                                         alt="Coloured glass"
                                     />
@@ -162,7 +147,7 @@ class MapContainer extends Component {
                             case "Plastic":
                                 img = (
                                     <img
-                                        src={plasticBottle}
+                                        src="img/water.png"
                                         className="menu-image"
                                         alt="Plastic"
                                     />
@@ -171,7 +156,7 @@ class MapContainer extends Component {
                             case "Electric equipment":
                                 img = (
                                     <img
-                                        src={plasticBottle}
+                                        src="img/electric.png"
                                         className="menu-image"
                                         alt="Electric equipment"
                                     />
@@ -224,7 +209,7 @@ class MapContainer extends Component {
             <Marker
                 icon={myPositionicon}
                 name={"SOMA"}
-                position={{ lat: this.state.lat, lng: this.state.lng }}
+                position={{ lat: userPosition.lat, lng: userPosition.lng }}
 
                 //this.markerClicked.bind(this)
             />

@@ -83157,9 +83157,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
-var plasticBottle = "img/water.png";
-var glassBottle = "img/glass2.png";
-var alumCan = "img/can.png";
 
 var MapContainer =
 /*#__PURE__*/
@@ -83220,19 +83217,6 @@ function (_Component) {
     }
   }, {
     key: "componentWillMount",
-    // textToImage($a)
-    // {
-    //     $trashTypeimage = [
-    //         'Paper' => 'img/water.png',
-    //         'Coloured glass' => 'img/icon/3-glass2.svg',
-    //         'Plastic' => 'img/water.png',
-    //         'Electric equipment' => 'img/water.png',
-    //         'Cardboard' => 'img/icon/3-glass2.svg',
-    //         'Clear glass' => 'img/icon/3-glass2.svg',
-    //         'Metals' => 'img/water.png',
-    //     ];
-    //     return $trashTypeimage[$a];
-    // }
     value: function componentWillMount() {
       var _this3 = this;
 
@@ -83267,7 +83251,7 @@ function (_Component) {
           switch (item.trashTypeName) {
             case "Clear glass":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: alumCan,
+                src: "img/clear-glass2.png",
                 className: "menu-image",
                 alt: "Clear glass"
               });
@@ -83275,7 +83259,7 @@ function (_Component) {
 
             case "Metals":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: alumCan,
+                src: "img/can.png",
                 className: "menu-image",
                 alt: "Metals"
               });
@@ -83299,7 +83283,7 @@ function (_Component) {
 
             case "Coloured glass":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: glassBottle,
+                src: "img/glass2.png",
                 className: "menu-image",
                 alt: "Coloured glass"
               });
@@ -83307,7 +83291,7 @@ function (_Component) {
 
             case "Plastic":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: plasticBottle,
+                src: "img/water.png",
                 className: "menu-image",
                 alt: "Plastic"
               });
@@ -83315,7 +83299,7 @@ function (_Component) {
 
             case "Electric equipment":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: plasticBottle,
+                src: "img/electric.png",
                 className: "menu-image",
                 alt: "Electric equipment"
               });
@@ -83372,8 +83356,8 @@ function (_Component) {
         icon: myPositionicon,
         name: "SOMA",
         position: {
-          lat: this.state.lat,
-          lng: this.state.lng
+          lat: userPosition.lat,
+          lng: userPosition.lng
         } //this.markerClicked.bind(this)
 
       });
