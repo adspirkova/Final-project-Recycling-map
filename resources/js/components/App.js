@@ -78,7 +78,16 @@ class App extends Component {
                 </nav>
                 <Switch>
                     {/* <Route path="/map" component={MapContainer}/> */}
-                    <Route path="/map" component={(props)=> <MapContainer {...props}/> } />
+                    <Route path="/map" component={(props)=> <MapContainer {...props}
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU&v=3.exp&libraries=geometry,drawing,places"
+                    loadingElement={
+                        <div style={{ height: "100px" }} />
+                    }
+                    containerElement={
+                        <div style={{ height: "90vh" }} />
+                    }
+                    mapElement={<div style={{ height: "100%" }} /> } /> } />
+
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/login" component={(props) => <BeforeLogin {...props} handleAuth={
