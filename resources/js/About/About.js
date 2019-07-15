@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import './About.scss';
 
 export default class About extends Component {
-    
+
     render () {
-        return (          
+        return (
             <div id="about-wrap">
                 <div className="big-icon">
                     <img src="img/icon/search3.svg" alt="garbage" className="big"/>
@@ -16,8 +17,8 @@ export default class About extends Component {
                     <img src="img/icon/1-plastic1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Plastic<br/>
+                    CZ:Plasly
                     </div>
                 </div>
 
@@ -26,8 +27,8 @@ export default class About extends Component {
                     <img src="img/icon/2-namagomi2.svg" alt="namagomi" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Food Scrap<br/>
+                    CZ:-
                     </div>
                 </div>
 
@@ -36,8 +37,8 @@ export default class About extends Component {
                         <img src="img/icon/3-glass2.svg" alt="glass" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Transparent Glass<br/>
+                    CZ:Bile Sklo
                     </div>
                 </div>
 
@@ -46,8 +47,8 @@ export default class About extends Component {
                         <img src="img/icon/4-glass1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Colorful Glass<br/>
+                    CZ:Barevne Sklo
                     </div>
                 </div>
 
@@ -56,8 +57,8 @@ export default class About extends Component {
                         <img src="img/icon/5-paper1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Paper<br/>
+                    CZ:Papir
                     </div>
                 </div>
 
@@ -66,8 +67,8 @@ export default class About extends Component {
                     <img src="img/icon/6-battery1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Battery<br/>
+                    CZ:-
                     </div>
                 </div>
 
@@ -76,8 +77,8 @@ export default class About extends Component {
                     <img src="img/icon/7-can1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Metal Can<br/>
+                    CZ:-
                     </div>
                 </div>
 
@@ -86,8 +87,8 @@ export default class About extends Component {
                     <img src="img/icon/8-textil1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Textil<br/>
+                    CZ:-
                     </div>
                 </div>
 
@@ -96,13 +97,13 @@ export default class About extends Component {
                     <img src="img/icon/9-cloth1.svg" alt="plastic" className="explainIcon"/>
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic Bag<br/>
-                    CZ:Plastic Bag
+                    EN:Cloth<br/>
+                    CZ:-
                     </div>
                 </div>
                 <br/><br/><br/>
             </div>
         )
-        
+
     }
 }

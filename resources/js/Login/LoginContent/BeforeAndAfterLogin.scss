@@ -1,0 +1,126 @@
+/* Before & After Login form *****************************/
+#login-wrap {
+    padding: 20px 20vw;
+    color: black;
+    background-color:#ECE2DD;
+    width: 100vw;
+    background-size: 100%;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 640px) {
+    #login-wrap {
+        padding: 5vh 1vw;
+      }
+  }
+
+  #login-wrap h2,#contact-wrap h2 {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .big-icon{
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .big-icon .big{
+    width:100px;
+    height:auto;
+  }
+
+  .box{
+    border:dotted black 1px;
+    margin:1.5rem 0;
+    padding:0.8rem;
+    line-height:0.5rem;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    .box {
+        line-height:1.4em;
+        text-align: left;
+      }
+  }
+
+  .box-img,
+  .box-text{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .box .box-img .smallIcon{
+    width:20px;
+    height:auto;
+    padding:0;
+    margin:0 10px 15px 0px;
+  }
+
+  input[type=email]:focus{
+      background-color: transparent;
+  }
+
+  input[type=password]:focus{
+    background-color: transparent;
+  }
+
+  .pink{
+      color:#E65D52;
+  }
+
+
+/* After Login form *****************************/
+  .box2{
+    // line-height:0.5rem;
+    padding: 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .btn-gray {
+    color: black;
+    background-color:transparent;
+    border-color:black;
+    font-weight: 500;
+    width:230px;
+    margin:2rem;
+    text-align: left;
+  }
+
+  .btn-gray:hover, .btn-gray:focus, .btn-gray:active {
+    color: green;
+    background-color: lightgray;
+    border-color: black;
+    font-weight: 500;
+  }
+
+  .red{
+    color:red;
+  }
+
+  .blue{
+    color:blue;
+  }
+
+  .gray{
+    background-color: gainsboro	;
+  }
+
+//   ****change password**************
+  #contact-wrap {
+    padding: 20px 20vw;
+    color: black;
+    background-color:#ECE2DD;
+    width: 100vw;
+    background-size: 100%;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 640px) {
+    #contact-wrap {
+        padding: 4vw 8vw 8vw 8vw;
+      }
+  }

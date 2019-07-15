@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 //Google Map importing:
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import './MapContainer.scss';
 
 //API Key
 import apiKey from '../../database_import/apikey.js';
@@ -18,9 +19,6 @@ class MapContainer extends Component {
     }
 
     componentDidMount(){
-
-
-      //Geolocation API
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
       } else {
@@ -33,12 +31,12 @@ class MapContainer extends Component {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             });
-          }, () => {
+            }, () => {
             console.log('error');
           }
         );
       }
-    
+
     }
 
     markerClicked(props, marker, event) {
@@ -50,43 +48,7 @@ class MapContainer extends Component {
     }
 
     render () {
-      const listOfMarkers = [
-        {key: 1, lat: 50.059862,lng: 14.324908, pet: 'dog', icons: [true,true,true,true]},
-        {key: 2, lat: 50.060024,lng:14.324725, pet: 'cat', icons: [true,false,true,true] },
-        {key: 3, lat: 50.060281,lng: 14.325643, pet: 'fish-test', icons: [true,false,false,true]},
-        {key: 4,lat: 50.060261,lng:14.324749, pet: 'bird', icons: [true,true,true,false]}
-      ];
-
-
-
-let mymarker = 
-listOfMarkers.map((el) =>
-  <Marker
-  key={el.key}
-  title={el.pet}
-  icons={el.icons}
-  name={'SOMA'}
-  position={{lat: el.lat,lng: el.lng}} 
-  onClick={ this.markerClicked.bind(this) }
-  >
-</Marker>
-);
-
-let myInfowindow =
-<InfoWindow
-marker={ this.state.active_marker }
-visible={ true }
->
-  <div>
-    <h4>{ this.state.active_marker.title }</h4>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-    <img src="img/icon/3-glass2.svg" className="menu-image" alt="glass"/>
-  </div>
-</InfoWindow>
-
-        return (          
+        return (
           <Map
          className={"map-size"}
           google={this.props.google}
@@ -103,18 +65,15 @@ visible={ true }
          { myInfowindow }
 
 
-    {/* <Marker
-    title={'Marker title'}
-    name={'Namychka'}
-    position={{lat: 50.060000,lng:14.326065}} 
-    onClick={ this.markerClicked.bind(this) }
-    /> */}
-        </Map>
+        <Marker
+            title={'The marker`s title will appear as a tooltip.'}
+            name={'SOMA'}
+            position={{lat: 37.778519, lng: -122.405640}} />
 
+        </Map>
         )
-        
     }
 }
 export default GoogleApiWrapper({
-    apiKey: ({apiKey})
+    apiKey: ("AIzaSyDhycN05oMi7_OYP1z5c4xzjWbhsDCdrsQ")
   })(MapContainer)
