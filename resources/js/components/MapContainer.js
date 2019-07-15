@@ -136,7 +136,15 @@ class MapContainer extends Component {
                 />
             );
         });
+        let myPosition = (
+            <Marker
+                icon={myPositionicon}
+                name={"SOMA"}
+                position={{ lat: this.state.lat, lng: this.state.lng }}
 
+                //this.markerClicked.bind(this)
+            />
+        );
         let myInfowindow = this.state.active_marker && (
             <InfoWindow
                 onCloseClick={() => {

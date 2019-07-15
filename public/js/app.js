@@ -83292,6 +83292,15 @@ function (_Component) {
           icon: imageIcon
         });
       });
+      var myPosition = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
+        icon: myPositionicon,
+        name: "SOMA",
+        position: {
+          lat: this.state.lat,
+          lng: this.state.lng
+        } //this.markerClicked.bind(this)
+
+      });
       var myInfowindow = this.state.active_marker && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
         onCloseClick: function onCloseClick() {
           _this4.setState({
