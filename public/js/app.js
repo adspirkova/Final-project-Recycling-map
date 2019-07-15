@@ -83155,7 +83155,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 
 var MapContainer =
@@ -83225,14 +83224,6 @@ function (_Component) {
         console.log("Geolocation is not supported by your browser");
       } else {
         console.log("Locating…");
-<<<<<<< HEAD
-        navigator.geolocation.getCurrentPosition(function (position) {
-          console.log(position.coords.latitude);
-
-          _this2.setState({
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
-=======
         navigator.geolocation.getCurrentPosition(function (userPosition) {
           console.log(userPosition);
 
@@ -83241,14 +83232,11 @@ function (_Component) {
             lng: userPosition.coords.longitude
           }, function () {
             _this3.updateLocations();
->>>>>>> 3c2bdeaadf63fede77f000c90687370cb2ffd085
           });
         }, function () {
           console.log("error");
         });
       }
-
-      ;
     }
   }, {
     key: "binLoading",
@@ -83303,85 +83291,6 @@ function (_Component) {
           },
           icon: imageIcon
         });
-<<<<<<< HEAD
-      }); // *************RANDOM DATA
-
-      var listOfMarkers2 = [{
-        key: 1,
-        lat: 50.059862,
-        lng: 14.324908,
-        pet: "dog",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 2,
-        lat: 50.060024,
-        lng: 14.324725,
-        pet: "cat",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 3,
-        lat: 50.060281,
-        lng: 14.325643,
-        pet: "fish",
-        icon: {
-          url: imageIcon
-        }
-      }, {
-        key: 4,
-        lat: 50.060261,
-        lng: 14.324749,
-        pet: "bird",
-        icon: {
-          url: imageIcon
-        }
-      }];
-      var mymarker = listOfMarkers2.map(function (el) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-          key: el.key,
-          title: el.pet,
-          icon: el.icon,
-          name: "SOMA",
-          position: {
-            lat: el.lat,
-            lng: el.lng
-          },
-          onClick: function onClick(e) {
-            console.log(e);
-
-            _this3.setState({
-              active_marker: {
-                lat: el.lat,
-                lng: el.lng
-              }
-            }); //this.markerClicked.bind(this)
-
-          }
-        });
-      } // *************   end of RANDOM DATA
-      ); //// Position
-
-      var myPosition = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["Marker"], {
-        icon: myPositionicon,
-        name: "SOMA",
-        position: {
-          lat: this.state.lat,
-          lng: this.state.lng
-        } //this.markerClicked.bind(this)
-
-      });
-      var myInfowindow = this.state.position && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"] // marker={ this.state.active_marker }
-      , {
-        visible: true,
-        position: {
-          lat: this.state.position.lat + 0.0005,
-          lng: this.state.position.lng
-        },
-        id: this.state.id,
-=======
       });
       var myInfowindow = this.state.active_marker && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["InfoWindow"], {
         onCloseClick: function onCloseClick() {
@@ -83392,7 +83301,6 @@ function (_Component) {
         visible: true,
         position: this.state.active_marker,
         id: this.state.cool,
->>>>>>> 3c2bdeaadf63fede77f000c90687370cb2ffd085
         title: this.state.title
       }, this.binLoading());
       var mapRef;
@@ -83402,8 +83310,6 @@ function (_Component) {
           height: "100px"
         },
         defaultZoom: 18,
-<<<<<<< HEAD
-=======
         ref: function ref(_ref) {
           mapRef = _ref;
         },
@@ -83430,7 +83336,6 @@ function (_Component) {
           });
         },
         defaultMaxZoom: 19,
->>>>>>> 3c2bdeaadf63fede77f000c90687370cb2ffd085
         defaultCenter: {
           lat: this.state.lat,
           lng: this.state.lng
@@ -83442,11 +83347,7 @@ function (_Component) {
         averageCenter: true,
         enableRetinaIcons: true,
         gridSize: 60
-<<<<<<< HEAD
-      }, mymarker, listOfMarkers, console.log(this.state.locations), myPosition, myInfowindow));
-=======
       }, listOfMarkers, myInfowindow));
->>>>>>> 3c2bdeaadf63fede77f000c90687370cb2ffd085
     }
   }]);
 
