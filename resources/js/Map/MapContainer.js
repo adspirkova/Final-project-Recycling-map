@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import './MapContainer.scss';
 
 class MapContainer extends Component {
     constructor(props){
@@ -12,9 +13,6 @@ class MapContainer extends Component {
     }
 
     componentDidMount(){
-
-
-    
       if (!navigator.geolocation) {
         console.log('Geolocation is not supported by your browser');
       } else {
@@ -27,16 +25,16 @@ class MapContainer extends Component {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             });
-          }, () => {
+            }, () => {
             console.log('error');
           }
         );
       }
-    
+
     }
 
     render () {
-        return (          
+        return (
           <Map
          className={"map-size"}
           google={this.props.google}
@@ -48,14 +46,13 @@ class MapContainer extends Component {
           onClick={this.onMapClicked}
         >
 
-<Marker
-    title={'The marker`s title will appear as a tooltip.'}
-    name={'SOMA'}
-    position={{lat: 37.778519, lng: -122.405640}} />
-        </Map>
+        <Marker
+            title={'The marker`s title will appear as a tooltip.'}
+            name={'SOMA'}
+            position={{lat: 37.778519, lng: -122.405640}} />
 
+        </Map>
         )
-        
     }
 }
 export default GoogleApiWrapper({
