@@ -9,7 +9,7 @@ import {
     InfoWindow
 } from "react-google-maps";
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
-
+const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
 
 class MapContainer extends Component {
@@ -207,6 +207,7 @@ class MapContainer extends Component {
                 >
                     {listOfMarkers}
                     {myInfowindow}
+                    {myPosition}
                 </MarkerClusterer>
             </GoogleMap>
         );
