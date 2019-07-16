@@ -31,3 +31,5 @@ Route::any('/bins/{id}', 'BinController@getBins');
 Route::any('/locations', 'LocationController@index');
 
 Route::any('/cities', 'LocationController@getCities');
+
+Route::any('/stations/{city}', 'LocationController@getStation');

@@ -33,16 +33,19 @@ export default class AddBinForm extends Component {
             message: '',
             file:'',
             agree:false,
-            droplist: null,
+            cities: null,
+            stations: null,
+            chosencity: 'Praha 1',
         }
-        this.onChange = this.onChange.bind(this)
+        this.handleChange = this.handleChange.bind(this); 
     }
 
-    onChange(e){
-        this.setState({
-            [e.target.name]:e.target.value
-        })
-    }
+    handleChange(e){
+       this.setState({
+        chosencity: e.target.value,
+       });
+       this.updateStations(e.target.value);
+    } 
 
     onSubmit(e){
         e.preventDefault()
@@ -57,27 +60,44 @@ export default class AddBinForm extends Component {
 
     }
 
-    updateLocations = () => {
+    updateCities = () => {
         fetch(
-            `http://www.recycling-bins.localhost:8080/locations/`
+            `http://www.recycling-bins.localhost:8080/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
             this.setState({
-                droplist: data.locations
+                cities: data.cities
             });
         });
     };
+    updateStations(item) {
+        let lookupcity = item;
+        fetch(
+            `http://www.recycling-bins.localhost:8080/stations/${lookupcity}`
+        )
+        .then(resp => resp.json())
+        .then(data => {
+            this.setState({
+                stations: data.stationName
+            });
+        });
+        console.log(this.state.stations);
+    };
+
 
     componentDidMount(){
-        this.updateLocations();
+        this.updateCities();
+        this.updateStations()
     }
 
 
-    render () {
-        console.log(this.state.droplist)
-        /* let listOfCities = this.state.droplist.map(location => {
-                return (<option>{location.cityDistrict}</option>)}); */
+
+    render (){
+        const cities = this.state.cities;
+        console.log(cities);
+        const stations = this.state.stations;
+        console.log(stations);
         return (
             <div className="contact-wrap">
                 <div className="contact-title">
@@ -92,28 +112,24 @@ export default class AddBinForm extends Component {
                     <form className="contact-form php-mail-form" role="form" action="" method="POST">
 
                         <div className="form-group">
-                            <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
+                        <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Location</label>
-                            {/* <select>
-                                {listOfCities.forEach(city => {
-                                    <option>{city}</option>
-                                })}
-                            </select> */}
-                            <input type="text"
-                                    className="form-control"
-                                    name="location"
-                                    id="contact-name"
-                                    onChange={this.onChange}
-                                    value={ this.state.email }
-                                    placeholder="The location"
-                                    data-rule="minlen:3"
-                                    data-msg="Please enter at least 3 chars" />
+                            <select className="form-control" onChange={(e) => this.handleChange(e)}  >
+                                {cities == null ? (<option>Please wait...</option>): (cities.map((city,index) => {
+                                    return (<option key={index} value={city.cityDistrict}>{city.cityDistrict}</option>)
+                                }))}
+                            </select>
+                            <select className="form-control">
+                                {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
+                                    return (<option key={index}>{station.stationName}</option>)
+                                }))}
+                            </select>
                             <div className="validate"></div>
                         </div>
 
                         <div className="form-group">
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
-                            <label htmlFor="contact-name">Choose the problem.</label>
+                            <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
                                 { images.map((image, index) => <Li key={`${image}-${index}`} image={image}/>) }
                             </div>
