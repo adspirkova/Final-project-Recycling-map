@@ -29,9 +29,24 @@ export default class NewAccount extends Component {
             password_confirmation: this.state.password_confirmation,
         }
 
-        register(newUser).then(res=>{
-            this.props.history.push(`/login`)
-        })
+        if(this.state.name.length < 2){
+            document.querySelector(".validate_name").innerHTML="Name should be more than 2 letters.";
+        }
+
+        if(!this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)){
+            document.querySelector(".validate_email").innerHTML="Incorrect the email address.";
+        }
+
+        if(this.state.password.length < 8 && this.state.password.length < 8){
+            document.querySelector(".validate_password1").innerHTML="Password should be more than 8 letters.";
+            document.querySelector(".validate_password2").innerHTML="Password should be more than 8 letters.";
+        }
+
+        if((this.state.name.length > 2) && (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) && (!this.state.password.length > 8) && (!this.state.password.length > 8)){
+            register(newUser).then(res=>{
+                this.props.history.push(`/login`)
+            })
+        }
     }
 
 
@@ -58,6 +73,7 @@ export default class NewAccount extends Component {
                             data-msg="Please enter a valid email"
                             onChange={this.onChange}
                         />
+                        <div className="validate_name"></div>
                     </div>
 
                     <div className="form-group">
@@ -72,6 +88,7 @@ export default class NewAccount extends Component {
                             data-msg="Please enter a valid email"
                             onChange={this.onChange}
                         />
+                        <div className="validate_email"></div>
                     </div>
 
                     <div className="form-group">
@@ -86,6 +103,7 @@ export default class NewAccount extends Component {
                         data-msg="Please enter your new password"
                         onChange={this.onChange}
                         />
+                        <div className="validate_password1"></div>
                     </div>
 
                     <div className="form-group">
@@ -100,6 +118,7 @@ export default class NewAccount extends Component {
                         data-msg="Please enter new password again"
                         onChange={this.onChange}
                         />
+                        <div className="validate_password2"></div>
                     </div>
 
                     <div className="form-send">
@@ -109,6 +128,7 @@ export default class NewAccount extends Component {
                     </div>
                 </form>
             </div>
+            <br/><br/><br/>
             </>
         )
     }

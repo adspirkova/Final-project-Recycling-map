@@ -8831,7 +8831,7 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 1vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}", ""]);
+exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2 {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}", ""]);
 
 
 
@@ -86715,7 +86715,7 @@ function (_Component) {
         onChange: this.onChange,
         value: this.state.email
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
+        className: "validate_email"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -86731,7 +86731,7 @@ function (_Component) {
         onChange: this.onChange,
         value: this.state.password
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
+        className: "validate_password"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/reset"
       }, "Forget the password"), "\xA0or\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -87336,9 +87336,25 @@ function (_Component) {
         password: this.state.password,
         password_confirmation: this.state.password_confirmation
       };
-      Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["register"])(newUser).then(function (res) {
-        _this2.props.history.push("/login");
-      });
+
+      if (this.state.name.length < 2) {
+        document.querySelector(".validate_name").innerHTML = "Name should be more than 2 letters.";
+      }
+
+      if (!this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+        document.querySelector(".validate_email").innerHTML = "Incorrect the email address.";
+      }
+
+      if (this.state.password.length < 8 && this.state.password.length < 8) {
+        document.querySelector(".validate_password1").innerHTML = "Password should be more than 8 letters.";
+        document.querySelector(".validate_password2").innerHTML = "Password should be more than 8 letters.";
+      }
+
+      if (this.state.name.length > 2 && this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) && !this.state.password.length > 8 && !this.state.password.length > 8) {
+        Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["register"])(newUser).then(function (res) {
+          _this2.props.history.push("/login");
+        });
+      }
     }
   }, {
     key: "render",
@@ -87368,6 +87384,8 @@ function (_Component) {
         "data-rule": "email",
         "data-msg": "Please enter a valid email",
         onChange: this.onChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_name"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -87381,6 +87399,8 @@ function (_Component) {
         "data-rule": "email",
         "data-msg": "Please enter a valid email",
         onChange: this.onChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_email"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -87394,6 +87414,8 @@ function (_Component) {
         "data-rule": "email",
         "data-msg": "Please enter your new password",
         onChange: this.onChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_password1"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -87407,12 +87429,14 @@ function (_Component) {
         "data-rule": "email",
         "data-msg": "Please enter new password again",
         onChange: this.onChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_password2"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-send"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "",
         className: "btn btn-green"
-      }, "Create Your Account")))));
+      }, "Create Your Account")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 
@@ -87751,6 +87775,11 @@ function (_Component) {
   }
 
   _createClass(MapContainer, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      this.updateLocations();
+    }
+  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       var _this2 = this;
@@ -87760,18 +87789,23 @@ function (_Component) {
         console.log("Geolocation is not supported by your browser");
       } else {
         console.log("Locating…");
-        navigator.geolocation.getCurrentPosition(function (userPosition) {
-          console.log(userPosition);
+        navigator.geolocation.getCurrentPosition(function (position) {
+          console.log(position.coords.latitude);
 
           _this2.setState({
-            lat: userPosition.coords.latitude,
-            lng: userPosition.coords.longitude
+            userPosition: {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            }
           }, function () {
             _this2.updateLocations();
           });
         }, function () {
           console.log("error");
         });
+        console.log(this.state.userPosition);
+        console.log(this.state.lat);
+        console.log(this.state.lng);
       }
     }
   }, {
@@ -87842,8 +87876,8 @@ function (_Component) {
         icon: myPositionicon,
         name: "SOMA",
         position: {
-          lat: this.state.lat,
-          lng: this.state.lng
+          lat: this.state.userPosition.lat,
+          lng: this.state.userPosition.lng
         } //this.markerClicked.bind(this)
 
       });
@@ -87879,6 +87913,7 @@ function (_Component) {
             lng: center.lng()
           }, function () {
             console.log(_this4.state.lat);
+            console.log(_this4.state.userPosition);
 
             _this4.updateLocations();
           });
