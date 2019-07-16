@@ -105,19 +105,87 @@ class MapContainer extends Component {
             return (
                 <div>
                     <h4>{this.state.title}</h4>
-                    {this.state.bins.map((item, index) => (
-                        <p key={index}>{item.trashTypeName}</p>
-                    ))}
-                    <img
-                        src="img/icon/1-plastic1.svg"
-                        className="menu-image"
-                        alt="glass"
-                    />
+                    {this.state.bins.map((item, index) => {
+                        let img = null;
+                        switch (item.trashTypeName) {
+                            case "Clear glass":
+                                img = (
+                                    <img
+                                        src="img/clear-glass2.png"
+                                        className="menu-image"
+                                        alt="Clear glass"
+                                    />
+                                );
+                                break;
+                            case "Metals":
+                                img = (
+                                    <img
+                                        src="img/can.png"
+                                        className="menu-image"
+                                        alt="Metals"
+                                    />
+                                );
+                                break;
+                            case "Cardboard":
+                                img = (
+                                    <img
+                                        src="img/cardboard.png"
+                                        className="menu-image"
+                                        alt="Cardboard"
+                                    />
+                                );
+                                break;
+                            case "Paper":
+                                img = (
+                                    <img
+                                        src="img/paper.png"
+                                        className="menu-image"
+                                        alt="Paper"
+                                    />
+                                );
+                                break;
+
+                            case "Coloured glass":
+                                img = (
+                                    <img
+                                        src="img/glass2.png"
+                                        className="menu-image"
+                                        alt="Coloured glass"
+                                    />
+                                );
+                                break;
+                            case "Plastic":
+                                img = (
+                                    <img
+                                        src="img/water.png"
+                                        className="menu-image"
+                                        alt="Plastic"
+                                    />
+                                );
+                                break;
+                            case "Electric equipment":
+                                img = (
+                                    <img
+                                        src="img/electric.png"
+                                        className="menu-image"
+                                        alt="Electric equipment"
+                                    />
+                                );
+                                break;
+                            default:
+                                img = "";
+                        }
+                        return (
+                            <p key={index}>
+                                {item.trashTypeName}
+                                {img}
+                            </p>
+                        );
+                    })}
                 </div>
             );
         }
     }
-
 
     handleToggleOpen(item) {
         this.setState({

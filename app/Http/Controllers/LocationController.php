@@ -89,4 +89,10 @@ class LocationController extends Controller
         $locations = Location::where('lat', '<', $lat + (0.0121631246478468 * (19-$currZoom)))->where('lat', '>', $lat - (0.0121631246478468 * (19-$currZoom)))->where('lng', '<', $lng + (0.021769436*(19-$currZoom)))->where('lng', '>', $lng - (0.021769436*(19-$currZoom)))->get();
         return response()->json(['locations'=> $locations],200);
     }
+
+    public function getCities() 
+    {
+        $cities = Location::select('cityDistrict')->get();
+        return response()->json(['cities'=> $cities],200);
+    }
 }
