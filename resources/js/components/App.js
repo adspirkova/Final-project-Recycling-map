@@ -10,6 +10,8 @@ import Contact from '../Contact/Contact';
 import ForgetPassword from '../Login/LoginContent/ForgetPassword';
 import NewAccount from '../Login/LoginContent/NewAccount';
 import UserPage from '../Login/LoginContent/UserPage';
+import AddBinForm from '../Login/AddBin/AddBinForm';
+
 
 import ChangePassword from "../Login/LoginContent/ChangePassword";
 import DeleteTheAccount from "../Login/LoginContent/DeleteTheAccount";
@@ -103,6 +105,7 @@ class App extends Component {
                             this.setState({auth: token})
                         }
                     } />}/>
+                    <Route path="/addbin" component={AddBinForm} />
                     <Route path="/changepw" component={ChangePassword} />
                     <Route path="/delete" component={DeleteTheAccount} />
                     <Route path="/deletedone" component={AfterDelete} />

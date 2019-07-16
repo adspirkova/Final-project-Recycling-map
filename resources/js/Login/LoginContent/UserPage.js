@@ -52,7 +52,7 @@ export default class UserPage extends Component {
                 <h2>- Welcome, <span className="blue">{this.state.name}</span> ! -</h2>
                 <div className="box2">
                     <div className="box-text">
-                        <Link to="/map">
+                        <Link to="/addbin">
                             <button type="submit" className="btn btn-gray">
                                 <img src="img/icon/map1.svg" alt="map" className="smallIcon" style={ { width: '30px' } } />
                                 &ensp;Add new bin to map
