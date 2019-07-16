@@ -177,7 +177,6 @@ class MapContainer extends Component {
         }
     }
 
-
     handleToggleOpen(item) {
         this.setState({
             active_marker: {
@@ -206,7 +205,10 @@ class MapContainer extends Component {
             <Marker
                 icon={myPositionicon}
                 name={"SOMA"}
-                position={{ lat: userPosition.lat, lng: userPosition.lng }}
+                position={{
+                    lat: this.state.lat,
+                    lng: this.state.lng
+                }}
 
                 //this.markerClicked.bind(this)
             />
