@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87350,10 +87350,11 @@ function (_Component) {
         document.querySelector(".validate_password2").innerHTML = "Password should be more than 8 letters.";
       }
 
-      if (this.state.name.length > 2 && this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) && !this.state.password.length > 8 && !this.state.password.length > 8) {
+      if (this.state.name.length > 2 && this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) && this.state.password.length > 8 && this.state.password.length > 8) {
         Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["register"])(newUser).then(function (res) {
           _this2.props.history.push("/login");
         });
+        console.log("register");
       }
     }
   }, {

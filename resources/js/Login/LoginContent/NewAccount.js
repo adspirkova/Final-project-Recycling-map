@@ -42,10 +42,11 @@ export default class NewAccount extends Component {
             document.querySelector(".validate_password2").innerHTML="Password should be more than 8 letters.";
         }
 
-        if((this.state.name.length > 2) && (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) && (!this.state.password.length > 8) && (!this.state.password.length > 8)){
+        if((this.state.name.length > 2) && (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) && (this.state.password.length > 8) && (this.state.password.length > 8)){
             register(newUser).then(res=>{
                 this.props.history.push(`/login`)
             })
+            console.log("register");
         }
     }
 
