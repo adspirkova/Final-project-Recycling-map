@@ -125,7 +125,6 @@ export default class Contact extends Component {
                                 <button type="submit" className="btn btn-large">Send Message</button>
                             </div>
                         </div>
-                        <br/><br/><br/>
                         <div className="loading"></div>
                         <div className="error-message"></div>
                         <div className="sent-message">Your message has been sent. Thank you!</div>

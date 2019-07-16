@@ -32,7 +32,7 @@ export default class ChangePassword extends Component {
     onSubmit(e){
         e.preventDefault()
 
-        if(getCurrentPassword == currentPassword && this.state.newPassword == this.state.newPassword2){
+        if((this.state.getCurrentPassword === this.state.currentPassword) && (this.state.newPassword === this.state.newPassword2)){
         const user = {
             password: this.state.newPassword
         }}else{

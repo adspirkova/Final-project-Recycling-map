@@ -37,13 +37,17 @@ export default class NewAccount extends Component {
             document.querySelector(".validate_email").innerHTML="Incorrect the email address.";
         }
 
-        if(this.state.password.length < 8 && this.state.password.length < 8){
+        if(this.state.password.length < 8 && this.state.password_confirmation.length < 8){
             document.querySelector(".validate_password1").innerHTML="Password should be more than 8 letters.";
             document.querySelector(".validate_password2").innerHTML="Password should be more than 8 letters.";
         }
 
-        if((this.state.name.length > 2) && (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) && (this.state.password.length > 8) && (this.state.password.length > 8)){
-            register(newUser).then(res=>{
+        if(this.state.password !== this.state.password_confirmation){
+            document.querySelector(".validate_password2").innerHTML="These passwords don't match. Try again.";
+        }
+
+        if( (this.state.name.length > 2) && (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) && (this.state.password.length >= 8) && (this.state.password_confirmation.length >= 8) && (this.state.password === this.state.password_confirmation))  {
+                register(newUser).then(res=>{
                 this.props.history.push(`/login`)
             })
             console.log("register");
@@ -128,8 +132,8 @@ export default class NewAccount extends Component {
                         </button>
                     </div>
                 </form>
+                <br/><br/><br/>
             </div>
-            <br/><br/><br/>
             </>
         )
     }

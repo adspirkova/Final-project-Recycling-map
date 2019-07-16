@@ -8831,7 +8831,7 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2 {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}", ""]);
+exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* FrogetPassword.js form *****************************/\n.reset_message {\n  color: blue;\n  font-weight: bolder;\n}", ""]);
 
 
 
@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86396,7 +86396,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-large"
-      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "loading"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "error-message"
@@ -86659,9 +86659,11 @@ function (_Component) {
 
           _this2.props.history.push('/userpage');
 
+          document.querySelector(".validate_password1").innerHTML = "";
           console.log("login!");
         }
       })["catch"](function (err) {
+        document.querySelector(".validate_password1").innerHTML = "Incorrect email or password.";
         console.log(err);
       });
     }
@@ -86731,7 +86733,7 @@ function (_Component) {
         onChange: this.onChange,
         value: this.state.password
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate_password"
+        className: "validate_password1"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/reset"
       }, "Forget the password"), "\xA0or\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -86746,135 +86748,7 @@ function (_Component) {
   }]);
 
   return BeforeLogin;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]); // What Honza code***********************************************
-// import React, { Component } from 'react';
-// import { BrowserRouter, Link, Route } from 'react-router-dom';
-// import './BeforeAndAfterLogin.scss';
-// import UserPage from './UserPage';
-// import ForgetPassword from './ForgetPassword';
-// import NewAccount from './NewAccount';
-// export default class BeforeLogin extends Component {
-//     constructor(props){
-//         super(props);
-//         this.state = {
-//             email: '',
-//             password: '',
-//             clicked: false
-//         }
-//     }
-//     valueChanged(key, value){
-//         console.log(key, value);
-//         this.setState((state) => {
-//             state[key] = value;
-//             return state;
-//         })
-//     }
-//     tryLogin(ev){
-//         ev.preventDefault();
-//         fetch('http://www.recycling-bins.localhost:8080/api/login', {
-//             method: "post",
-//             headers: {
-//                 "Content-Type": "application/json; charset=utf-8",
-//                 'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-//                 // "Content-Type": "application/x-www-form-urlencoded",
-//             },
-//             body: JSON.stringify({
-//                 email:this.state.email,
-//                 password:this.state.password
-//             })
-//         })
-//         .then(function(response) {
-//             return response.json(); // parses response as JSON
-//         })
-//         .then(function(data) {
-//             console.log(data);
-//         });
-//         // console.log("loginFail");
-//     }
-//     render () {
-//         return (
-//         <>
-//             <>
-//             <BrowserRouter>
-//               <Route path="/new" component={NewAccount} />
-//               <Route path="/reset" component={ForgetPassword} />
-//               <Route path="/userpage" component={UserPage} />
-//             </BrowserRouter>
-//             </>
-//         <div id="login-wrap">
-//         <form className="contact-form php-mail-form" role="form" action="/login" method="POST">
-//             <div className="big-icon">
-//                 <img src="img/icon/waste.svg" alt="garbage" className="big"/>
-//             </div>
-//             <h2>- Login Page -</h2>
-//             <br/>
-//             <div className="box">
-//               <div className="box-img">
-//                 <img src="img/icon/question.svg" alt="question" className="smallIcon"/>
-//               </div>
-//               <div className="box-text">
-//                 <p>What Can you do after Login?</p>
-//               </div>
-//               <br/>
-//               <div className="box-text">
-//                 <p> → Adding the new bin to the map.</p>
-//                 <p> → Adding the bin to the favorite list.</p>
-//               </div>
-//             </div>
-//             <div className="form-group">
-//                 <label htmlFor="contact-email">Your Email</label>
-//                 <input
-//                     type="email"
-//                     name="email"
-//                     className="form-control"
-//                     id="contact-email"
-//                     placeholder="Your Email"
-//                     data-rule="email"
-//                     data-msg="Please enter a valid email"
-//                     onChange={ (ev) => this.valueChanged('email', ev.target.value) }
-//                     value={ this.state.email }
-//                 />
-//                 <div className="validate"></div>
-//             </div>
-//             <div className="form-group">
-//                 <label htmlFor="contact-email">Password</label>
-//                 <input
-//                     type="password"
-//                     name="password"
-//                     className="form-control"
-//                     id="contact-password"
-//                     placeholder="Your Password"
-//                     data-rule="email"
-//                     data-msg="Please enter your password"
-//                     onChange={ (ev) => this.valueChanged('password', ev.target.value) }
-//                     value={ this.state.password }
-//                 />
-//                 <div className="validate"></div>
-//             </div>
-//             <p>
-//                 <Link to="/reset">Forget the password</Link>&nbsp;or&nbsp;
-//                 <Link to="/new">Create the new account</Link> ?<br/>
-//                 <Link to="/userpage">Temporary Login Page(Delete later!)</Link>
-//             </p>
-//             <br/>
-//             <div className="form-send">
-//             <a href="#" onClick={(props)=>{
-//                 this.setState({
-//                     page: 'afterlogin'
-//                 })
-//             }}>
-//                 <button type="submit" className="btn btn-green" onClick={ (ev) => this.tryLogin(ev) }>
-//                     Login
-//                 </button>
-//             </a>
-//             </div>
-//           </form>
-//         </div>
-//         </>
-//         )
-//     }
-// }
-
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
 
@@ -86964,7 +86838,7 @@ function (_Component) {
     value: function onSubmit(e) {
       e.preventDefault();
 
-      if (getCurrentPassword == currentPassword && this.state.newPassword == this.state.newPassword2) {
+      if (this.state.getCurrentPassword === this.state.currentPassword && this.state.newPassword === this.state.newPassword2) {
         var user = {
           password: this.state.newPassword
         };
@@ -87172,6 +87046,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -87180,9 +87056,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -87203,23 +87079,38 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(ForgetPassword).call(this, props));
     _this.state = {
-      name: '',
-      email: '',
-      password: ''
+      email: ''
     };
+    _this.onChange = _this.onChange.bind(_assertThisInitialized(_this));
+    _this.onSubmit = _this.onSubmit.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(ForgetPassword, [{
+    key: "onChange",
+    value: function onChange(e) {
+      this.setState(_defineProperty({}, e.target.name, e.target.value));
+    }
+  }, {
+    key: "onSubmit",
+    value: function onSubmit(e) {
+      e.preventDefault();
+      console.log(this.state.email);
+
+      if (this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+        document.querySelector(".reset_message").innerHTML = "We've sent a password reset link to the email address.";
+      } else {
+        document.querySelector(".reset_message").innerHTML = "Invalid email address.";
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        className: "contact-form php-mail-form",
-        role: "form",
-        action: "/login",
-        method: "POST"
+        onSubmit: this.onSubmit,
+        className: "contact-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -87237,17 +87128,16 @@ function (_Component) {
         id: "contact-email",
         placeholder: "Your Email",
         "data-rule": "email",
-        "data-msg": "Please enter a valid email" // onChange={ (ev) => this.valueChanged('email', ev.target.value) }
-        ,
-        value: this.state.email
+        "data-msg": "Please enter a valid email",
+        onChange: this.onChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "reset_message"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-send"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "/AfterLogin"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "",
         className: "btn btn-green"
-      }, "Reset your password to send email"))))));
+      }, "Reset your password to send email")))));
     }
   }]);
 
@@ -87345,12 +87235,16 @@ function (_Component) {
         document.querySelector(".validate_email").innerHTML = "Incorrect the email address.";
       }
 
-      if (this.state.password.length < 8 && this.state.password.length < 8) {
+      if (this.state.password.length < 8 && this.state.password_confirmation.length < 8) {
         document.querySelector(".validate_password1").innerHTML = "Password should be more than 8 letters.";
         document.querySelector(".validate_password2").innerHTML = "Password should be more than 8 letters.";
       }
 
-      if (this.state.name.length > 2 && this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) && this.state.password.length > 8 && this.state.password.length > 8) {
+      if (this.state.password !== this.state.password_confirmation) {
+        document.querySelector(".validate_password2").innerHTML = "These passwords don't match. Try again.";
+      }
+
+      if (this.state.name.length > 2 && this.state.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) && this.state.password.length >= 8 && this.state.password_confirmation.length >= 8 && this.state.password === this.state.password_confirmation) {
         Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["register"])(newUser).then(function (res) {
           _this2.props.history.push("/login");
         });
@@ -87437,7 +87331,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "",
         className: "btn btn-green"
-      }, "Create Your Account")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }, "Create Your Account"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)));
     }
   }]);
 

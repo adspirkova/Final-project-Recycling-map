@@ -72,7 +72,7 @@
 .form-group label{
     font-weight: bold;
 }
-.validate_name, .validate_email, .validate_password1, .validate_password2{
+.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message{
     color:red;
     font-weight: bolder;
 }
@@ -131,3 +131,9 @@
         padding: 4vw 8vw 8vw 8vw;
       }
   }
+
+  /* FrogetPassword.js form *****************************/
+.reset_message{
+    color:blue;
+    font-weight: bolder;
+}
