@@ -97,7 +97,7 @@ export default class BeforeLogin extends Component {
                     onChange={this.onChange}
                     value={ this.state.email }
                 />
-                <div className="validate"></div>
+                <div className="validate_email"></div>
             </div>
 
             <div className="form-group">
@@ -113,7 +113,7 @@ export default class BeforeLogin extends Component {
                     onChange={ this.onChange }
                     value={ this.state.password }
                 />
-                <div className="validate"></div>
+                <div className="validate_password"></div>
             </div>
 
             <p>

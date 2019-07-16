@@ -10,7 +10,7 @@
 
   @media screen and (max-width: 640px) {
     #login-wrap {
-        padding: 5vh 1vw;
+        padding: 5vh 4vw;
       }
   }
 
@@ -68,7 +68,14 @@
   .pink{
       color:#E65D52;
   }
-
+/* NewAccount.js form *****************************/
+.form-group label{
+    font-weight: bold;
+}
+.validate_name, .validate_email, .validate_password1, .validate_password2{
+    color:red;
+    font-weight: bolder;
+}
 
 /* After Login form *****************************/
   .box2{

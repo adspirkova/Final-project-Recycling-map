@@ -33,7 +33,7 @@ export const getProfile = () => {
 
 export const changePassword = newPassword => {
     return axios
-    .post('api/register',newPassword,{
+    .post('api/new',newPassword,{
         headers:{'Content-Type': 'application/json'}
     })
     .then(res => {

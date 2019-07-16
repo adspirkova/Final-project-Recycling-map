@@ -66,10 +66,11 @@ a:before, a:after {
   font-weight: 300;
 }
 
+/* BOTTOM MENU **********************************/
+/*
 .menu-image{
   width:20px;
 }
-/* BOTTOM MENU **********************************/
 .menu {
   background-color: lightgrey;
   position: fixed;
@@ -87,7 +88,7 @@ a:before, a:after {
   letter-spacing: 0.05em;
 }
 
-.menu a:hover {
+.menu a:hover, .activeTab{
   color:#ABBD8C;
   font-weight: 900px;
 }
@@ -104,10 +105,12 @@ a:before, a:after {
   background-color:#E9E7F1;
 }
 
-
+.menu .row .menu-bar .activeTab{
+    color:#ABBD8C;
+    font-weight: 900px;
+} */
 /* FIRST PAGE **********************************/
-#topwrap {
-  /* position:relative; */
+/* #topwrap {
   background-color:#ABBD8C;
   text-align: center;
   height: 100vh;
@@ -116,7 +119,7 @@ a:before, a:after {
   background-size: 100%;
   background-size: cover;
   margin:0;
-}
+} */
 
 /* .top {
   position:absolute;
@@ -127,7 +130,7 @@ a:before, a:after {
   transform : translateY(-50%);
   transform : translateX(-50%);
 } */
-
+/*
 .garbageBin{
   width:150px;
   margin:4rem;
@@ -160,10 +163,10 @@ a:before, a:after {
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 2px;
-}
+} */
 
 /* bin Pop out from garbage bin(still working on)*/
-.bin1 {
+/* .bin1 {
   position: absolute;
   display: block;
   width:5px;
@@ -206,9 +209,9 @@ a:before, a:after {
     left:50vw;
     opacity: 0;
   }
-}
+} */
 /* MAP PAGE **********************************/
-.map-wrap {
+/* .map-wrap {
   height: 100vh;
   width: 100vw;
   background-size: 100%;
@@ -262,14 +265,13 @@ a:before, a:after {
   -ms-transition: all .1s ease-in-out;
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
-}
+} */
 
 /* ABOUT PAGE **********************************/
-#about-wrap {
+/* #about-wrap {
   padding: 20px;
   color: black;
   background-color:#FFF6C2;
-  /* height: 100vh; */
   width: 100vw;
   background-size: 100%;
   background-size: cover;
@@ -292,10 +294,10 @@ a:before, a:after {
 
 .col-xs-3{
   margin:0 1.5rem;
-}
+} */
 
 /* Contact Form *****************************/
-.contact-wrap {
+/* .contact-wrap {
   padding: 20px;
   color: black;
   background-color:#ABBD8C;
@@ -448,9 +450,11 @@ border: 2px solid rgba(0, 0, 0, 0);
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
-}
-/* Login form *****************************/
-#login-wrap {
+} */
+
+
+/* Before Login form *****************************/
+/* #login-wrap {
   padding: 20px 10vw;
   color: black;
   background-color:#ECE2DD;
@@ -494,4 +498,4 @@ border: 2px solid rgba(0, 0, 0, 0);
   height:auto;
   padding:0;
   margin:0 10px 15px 0px;
-}
+} */
