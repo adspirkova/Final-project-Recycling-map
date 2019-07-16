@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86443,6 +86443,268 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Login/AddBin/AddBinForm.js":
+/*!*************************************************!*\
+  !*** ./resources/js/Login/AddBin/AddBinForm.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AddBinForm; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contact_Contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Contact/Contact.js */ "./resources/js/Contact/Contact.js");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+ // ******* For the images Start ************
+
+var images = ["img/icon/waste.svg", "img/icon/map1.svg", "img/icon/3-glass.svg", "img/icon/map2.svg", "img/icon/login.svg", "img/icon/map1.svg"];
+
+var Li =
+/*#__PURE__*/
+function (_React$PureComponent) {
+  _inherits(Li, _React$PureComponent);
+
+  function Li(props) {
+    var _this;
+
+    _classCallCheck(this, Li);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Li).call(this, props));
+    _this.state = {
+      clicked: false
+    };
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Li, [{
+    key: "handleClick",
+    value: function handleClick() {
+      this.setState({
+        clicked: !this.state.clicked
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var image = this.props.image;
+      var background = this.state.clicked ? "#ECE2DD" : "transparent";
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: image,
+        style: {
+          background: background
+        },
+        onClick: this.handleClick,
+        className: "contact-icon2",
+        alt: "problems"
+      });
+    }
+  }]);
+
+  return Li;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent); // ******* For the images End ************
+
+
+var AddBinForm =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(AddBinForm, _Component);
+
+  function AddBinForm(props) {
+    var _this2;
+
+    _classCallCheck(this, AddBinForm);
+
+    _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_this2), "updateLocations", function () {
+      fetch("http://www.recycling-bins.localhost:8080/locations/").then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this2.setState({
+          droplist: data.locations
+        });
+      });
+    });
+
+    _this2.state = {
+      location: '',
+      problem: '',
+      message: '',
+      file: '',
+      agree: false,
+      droplist: null
+    };
+    _this2.onChange = _this2.onChange.bind(_assertThisInitialized(_this2));
+    return _this2;
+  }
+
+  _createClass(AddBinForm, [{
+    key: "onChange",
+    value: function onChange(e) {
+      this.setState(_defineProperty({}, e.target.name, e.target.value));
+    }
+  }, {
+    key: "onSubmit",
+    value: function onSubmit(e) {
+      e.preventDefault();
+      var send = {
+        location: this.state.location,
+        problem: this.state.problem,
+        message: this.state.message,
+        file: this.state.file,
+        agree: this.state.agree
+      };
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.updateLocations();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      console.log(this.state.droplist);
+      /* let listOfCities = this.state.droplist.map(location => {
+              return (<option>{location.cityDistrict}</option>)}); */
+
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-wrap"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "big-icon"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/waste.svg",
+        alt: "garbage",
+        className: "big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Add a new Bin -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "contact-form php-mail-form",
+        role: "form",
+        action: "",
+        method: "POST"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/map2.svg",
+        alt: "location",
+        className: "contact-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "contact-name"
+      }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        className: "form-control",
+        name: "location",
+        id: "contact-name",
+        onChange: this.onChange,
+        value: this.state.email,
+        placeholder: "The location",
+        "data-rule": "minlen:3",
+        "data-msg": "Please enter at least 3 chars"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/problem1.svg",
+        alt: "location",
+        className: "contact-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "contact-name"
+      }, "Choose the problem."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "icons"
+      }, images.map(function (image, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
+          key: "".concat(image, "-").concat(index),
+          image: image
+        });
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/contact2.svg",
+        alt: "location",
+        className: "contact-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "contact-message"
+      }, "Your Message"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        className: "form-control",
+        name: "message",
+        id: "contact-message",
+        onChange: this.onChange,
+        value: this.state.message,
+        placeholder: "Your Feedback",
+        rows: "5",
+        "data-rule": "required",
+        "data-msg": "Please write something for us"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/icon/message1.svg",
+        alt: "location",
+        className: "contact-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "uploadFile"
+      }, "Add a file or picture."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "file",
+        name: "upload",
+        size: "30"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        id: "box1",
+        type: "checkbox"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "contact-agree"
+      }, "I agree with terms & conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-send"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "btn btn-large"
+      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "loading"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "error-message"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "sent-message"
+      }, "Your message has been sent. Thank you!")));
+    }
+  }]);
+
+  return AddBinForm;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Login/LoginContent/AfterDelete.js":
 /*!********************************************************!*\
   !*** ./resources/js/Login/LoginContent/AfterDelete.js ***!
@@ -87596,7 +87858,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-        to: "/map"
+        to: "/addbin"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-gray"
@@ -88042,10 +88304,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Login_LoginContent_ForgetPassword__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Login/LoginContent/ForgetPassword */ "./resources/js/Login/LoginContent/ForgetPassword.js");
 /* harmony import */ var _Login_LoginContent_NewAccount__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Login/LoginContent/NewAccount */ "./resources/js/Login/LoginContent/NewAccount.js");
 /* harmony import */ var _Login_LoginContent_UserPage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Login/LoginContent/UserPage */ "./resources/js/Login/LoginContent/UserPage.js");
-/* harmony import */ var _Login_LoginContent_ChangePassword__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Login/LoginContent/ChangePassword */ "./resources/js/Login/LoginContent/ChangePassword.js");
-/* harmony import */ var _Login_LoginContent_DeleteTheAccount__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Login/LoginContent/DeleteTheAccount */ "./resources/js/Login/LoginContent/DeleteTheAccount.js");
-/* harmony import */ var _Login_LoginContent_AfterDelete__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Login/LoginContent/AfterDelete */ "./resources/js/Login/LoginContent/AfterDelete.js");
-/* harmony import */ var _Login_LoginContent_BeforeLogin__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Login/LoginContent/BeforeLogin */ "./resources/js/Login/LoginContent/BeforeLogin.js");
+/* harmony import */ var _Login_AddBin_AddBinForm__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Login/AddBin/AddBinForm */ "./resources/js/Login/AddBin/AddBinForm.js");
+/* harmony import */ var _Login_LoginContent_ChangePassword__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Login/LoginContent/ChangePassword */ "./resources/js/Login/LoginContent/ChangePassword.js");
+/* harmony import */ var _Login_LoginContent_DeleteTheAccount__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Login/LoginContent/DeleteTheAccount */ "./resources/js/Login/LoginContent/DeleteTheAccount.js");
+/* harmony import */ var _Login_LoginContent_AfterDelete__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Login/LoginContent/AfterDelete */ "./resources/js/Login/LoginContent/AfterDelete.js");
+/* harmony import */ var _Login_LoginContent_BeforeLogin__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../Login/LoginContent/BeforeLogin */ "./resources/js/Login/LoginContent/BeforeLogin.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -88065,6 +88328,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -88199,7 +88463,7 @@ function (_Component) {
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/login",
           component: function component(props) {
-            return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Login_LoginContent_BeforeLogin__WEBPACK_IMPORTED_MODULE_13__["default"], _extends({}, props, {
+            return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Login_LoginContent_BeforeLogin__WEBPACK_IMPORTED_MODULE_14__["default"], _extends({}, props, {
               handleAuth: function handleAuth(token) {
                 _this2.setState({
                   auth: token
@@ -88225,14 +88489,17 @@ function (_Component) {
             }));
           }
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/addbin",
+          component: _Login_AddBin_AddBinForm__WEBPACK_IMPORTED_MODULE_10__["default"]
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/changepw",
-          component: _Login_LoginContent_ChangePassword__WEBPACK_IMPORTED_MODULE_10__["default"]
+          component: _Login_LoginContent_ChangePassword__WEBPACK_IMPORTED_MODULE_11__["default"]
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/delete",
-          component: _Login_LoginContent_DeleteTheAccount__WEBPACK_IMPORTED_MODULE_11__["default"]
+          component: _Login_LoginContent_DeleteTheAccount__WEBPACK_IMPORTED_MODULE_12__["default"]
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/deletedone",
-          component: _Login_LoginContent_AfterDelete__WEBPACK_IMPORTED_MODULE_12__["default"]
+          component: _Login_LoginContent_AfterDelete__WEBPACK_IMPORTED_MODULE_13__["default"]
         })));
       } else {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
