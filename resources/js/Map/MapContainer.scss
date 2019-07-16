@@ -1,56 +1,72 @@
 /* MAP PAGE **********************************/
-.map-wrap {
-    height: 100vh;
-    width: 100vw;
-    background-size: 100%;
-    background-size: cover;
-  }
+// .map-wrap {
+//     height: 100vh;
+//     width: 100vw;
+//     background-size: 100%;
+//     background-size: cover;
+//   }
 
-  #mapindex {
-    position:fixed;
-    vertical-align: middle;
-    top:0;
-    background-color:#ABBD8C;
-    text-align: center;
-    height: 7vh;
-    width: 100%;
-  }
+//   #mapindex {
+//     position:fixed;
+//     vertical-align: middle;
+//     top:0;
+//     background-color:#ABBD8C;
+//     text-align: center;
+//     height: 7vh;
+//     width: 100%;
+//   }
 
-  #mapindex h2 {
-    color: rgb(10, 9, 9);
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin: 1rem;
-  }
+//   #mapindex h2 {
+//     color: rgb(10, 9, 9);
+//     font-size: 20px;
+//     letter-spacing: 2px;
+//     margin: 1rem;
+//   }
 
   /* (still working on the menu button) */
-  #menuToggle {
+//   #menuToggle {
+//     position: absolute;
+//     top: 0px;
+//     left: 0;
+//     z-index: 11;
+//     display: block;
+//     text-align: center;
+//     font-size: 14px;
+//     color: #fff;
+//     width: 40px;
+//     height: 40px;
+//     line-height: 40px;
+//     cursor: pointer;
+//     background: rgba(0, 0, 0, .25);
+//     -webkit-transition: all .1s ease-in-out;
+//     -moz-transition: all .1s ease-in-out;
+//     -ms-transition: all .1s ease-in-out;
+//     -o-transition: all .1s ease-in-out;
+//     transition: all .1s ease-in-out;
+//   }
+
+//   #menuToggle:hover {
+//     color: #fff;
+//     background: rgba(0, 0, 0, .2);
+//     -webkit-transition: all .1s ease-in-out;
+//     -moz-transition: all .1s ease-in-out;
+//     -ms-transition: all .1s ease-in-out;
+//     -o-transition: all .1s ease-in-out;
+//     transition: all .1s ease-in-out;
+//   }
+
+  .secretMenu{
     position: absolute;
     top: 0px;
     left: 0;
-    z-index: 11;
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    cursor: pointer;
-    background: rgba(0, 0, 0, .25);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+      background-color: orange;
+      color:white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
   }
 
-  #menuToggle:hover {
-    color: #fff;
-    background: rgba(0, 0, 0, .2);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+  #openMenu{
+    display:none;
+    clear:both;
   }
