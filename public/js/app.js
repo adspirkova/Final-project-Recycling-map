@@ -86539,12 +86539,12 @@ function (_Component) {
 
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
-    _defineProperty(_assertThisInitialized(_this2), "updateLocations", function () {
-      fetch("http://www.recycling-bins.localhost:8080/locations/").then(function (resp) {
+    _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
+      fetch("http://www.recycling-bins.localhost:8080/cities/").then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
-          droplist: data.locations
+          cities: data.cities
         });
       });
     });
@@ -86555,16 +86555,21 @@ function (_Component) {
       message: '',
       file: '',
       agree: false,
-      droplist: null
+      cities: null,
+      stations: null,
+      chosencity: 'Praha 1'
     };
-    _this2.onChange = _this2.onChange.bind(_assertThisInitialized(_this2));
+    _this2.handleChange = _this2.handleChange.bind(_assertThisInitialized(_this2));
     return _this2;
   }
 
   _createClass(AddBinForm, [{
-    key: "onChange",
-    value: function onChange(e) {
-      this.setState(_defineProperty({}, e.target.name, e.target.value));
+    key: "handleChange",
+    value: function handleChange(e) {
+      this.setState({
+        chosencity: e.target.value
+      });
+      this.updateStations(e.target.value);
     }
   }, {
     key: "onSubmit",
@@ -86579,17 +86584,35 @@ function (_Component) {
       };
     }
   }, {
+    key: "updateStations",
+    value: function updateStations(item) {
+      var _this3 = this;
+
+      var lookupcity = item;
+      fetch("http://www.recycling-bins.localhost:8080/stations/".concat(lookupcity)).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this3.setState({
+          stations: data.stationName
+        });
+      });
+      console.log(this.state.stations);
+    }
+  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
-      this.updateLocations();
+      this.updateCities();
+      this.updateStations();
     }
   }, {
     key: "render",
     value: function render() {
-      console.log(this.state.droplist);
-      /* let listOfCities = this.state.droplist.map(location => {
-              return (<option>{location.cityDistrict}</option>)}); */
+      var _this4 = this;
 
+      var cities = this.state.cities;
+      console.log(cities);
+      var stations = this.state.stations;
+      console.log(stations);
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -86613,17 +86636,23 @@ function (_Component) {
         className: "contact-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "contact-name"
-      }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "text",
+      }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
         className: "form-control",
-        name: "location",
-        id: "contact-name",
-        onChange: this.onChange,
-        value: this.state.email,
-        placeholder: "The location",
-        "data-rule": "minlen:3",
-        "data-msg": "Please enter at least 3 chars"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        onChange: function onChange(e) {
+          return _this4.handleChange(e);
+        }
+      }, cities == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please wait...") : cities.map(function (city, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: index,
+          value: city.cityDistrict
+        }, city.cityDistrict);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+        className: "form-control"
+      }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: index
+        }, station.stationName);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
@@ -86633,7 +86662,7 @@ function (_Component) {
         className: "contact-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "contact-name"
-      }, "Choose the problem."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Add not tracked bins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "icons"
       }, images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
