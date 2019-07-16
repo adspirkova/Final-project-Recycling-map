@@ -205,14 +205,10 @@ class MapContainer extends Component {
             <Marker
                 icon={myPositionicon}
                 name={"SOMA"}
-<<<<<<< HEAD
                 position={{
-                    lat: this.state.lat,
-                    lng: this.state.lng
+                    lat: this.state.userPosition.lat,
+                    lng: this.state.userPosition.lng
                 }}
-=======
-                position={{ lat: this.state.userPosition.lat, lng: this.state.userPosition.lng }}
->>>>>>> 9f19d1f46c4c8bdc9d135de4c1c45940187dcc7b
 
                 //this.markerClicked.bind(this)
             />
