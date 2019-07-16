@@ -31,6 +31,10 @@ class MapContainer extends Component {
         };
     }
 
+    componentWillMount(){
+        this.updateLocations();
+    }
+
     componentDidMount() {
         //Geolocation API
         if (!navigator.geolocation) {
@@ -38,13 +42,15 @@ class MapContainer extends Component {
         } else {
             console.log("Locating…");
             navigator.geolocation.getCurrentPosition(
-                userPosition => {
-                    console.log(userPosition);
+                position => {
+                    console.log(position.coords.latitude);
 
                     this.setState(
                         {
-                            lat: userPosition.coords.latitude,
-                            lng: userPosition.coords.longitude
+                            userPosition: {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                            }
                         },
                         () => {
                             this.updateLocations();
@@ -55,6 +61,9 @@ class MapContainer extends Component {
                     console.log("error");
                 }
             );
+            console.log(this.state.userPosition);
+            console.log(this.state.lat);
+            console.log(this.state.lng);
         }
     }
 
@@ -138,7 +147,7 @@ class MapContainer extends Component {
             <Marker
                 icon={myPositionicon}
                 name={"SOMA"}
-                position={{ lat: this.state.lat, lng: this.state.lng }}
+                position={{ lat: this.state.userPosition.lat, lng: this.state.userPosition.lng }}
 
                 //this.markerClicked.bind(this)
             />
@@ -174,6 +183,7 @@ class MapContainer extends Component {
                         },
                         () => {
                             console.log(this.state.lat);
+                            console.log(this.state.userPosition);
                             this.updateLocations();
                         }
                     );
