@@ -8831,7 +8831,7 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* FrogetPassword.js form *****************************/\n.reset_message {\n  color: blue;\n  font-weight: bolder;\n}", ""]);
+exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,\n.validate_newPassword1, .validate_newPassword2, .validate_currentPassword {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* ForgetPassword.js / ChangePassword.js form *****************************/\n.reset_message, .validate_passwordChanged {\n  color: tomato;\n  font-weight: bolder;\n}\n\n.validate_passwordChanged {\n  margin: 1rem;\n  text-align: center;\n  background-color: #D3D3D3;\n}", ""]);
 
 
 
@@ -86843,9 +86843,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _UserFunctions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./UserFunctions */ "./resources/js/Login/LoginContent/UserFunctions.js");
 /* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
 /* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _UserPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./UserPage */ "./resources/js/Login/LoginContent/UserPage.js");
-/* harmony import */ var _ForgetPassword__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ForgetPassword */ "./resources/js/Login/LoginContent/ForgetPassword.js");
-/* harmony import */ var _NewAccount__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NewAccount */ "./resources/js/Login/LoginContent/NewAccount.js");
+/* harmony import */ var _ForgetPassword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ForgetPassword */ "./resources/js/Login/LoginContent/ForgetPassword.js");
+/* harmony import */ var _NewAccount__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./NewAccount */ "./resources/js/Login/LoginContent/NewAccount.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -86865,7 +86864,6 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
 
 
 
@@ -86934,10 +86932,10 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/new",
-        component: _NewAccount__WEBPACK_IMPORTED_MODULE_6__["default"]
+        component: _NewAccount__WEBPACK_IMPORTED_MODULE_5__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/reset",
-        component: _ForgetPassword__WEBPACK_IMPORTED_MODULE_5__["default"]
+        component: _ForgetPassword__WEBPACK_IMPORTED_MODULE_4__["default"]
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -87068,54 +87066,85 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(ChangePassword).call(this));
     _this.state = {
-      id: '',
-      getCurrentPassword: '',
-      currentPassword: '',
-      newPassword: '',
+      // id:'',
+      // getCurrentPassword:'',
+      inputCurrentPassword: '',
+      newPassword1: '',
       newPassword2: ''
     };
     return _this;
-  }
+  } //try to get the current user id and password from database
+  // componentDidMount(){
+  //     getProfile().then(res=>{
+  //         this.setState({
+  //             id: res.data.user.id,
+  //             getCurrentPassword: res.data.user.password,
+  //         })
+  //     })
+  //     console.log("id:"+ this.state.id+"userPassword:"+ this.state.getCurrentPassword);
+  // }
+  //define the value of variable from input field
+
 
   _createClass(ChangePassword, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["getProfile"])().then(function (res) {
-        _this2.setState({
-          id: res.data.user.id,
-          getCurrentPassword: res.data.user.password
-        });
-      });
-      console.log("id:" + this.state.id + "userPassword:" + this.state.getCurrentPassword);
-    }
-  }, {
     key: "onChange",
     value: function onChange(e) {
       this.setState(_defineProperty({}, e.target.name, e.target.value));
-    }
+    } //change the password
+
   }, {
     key: "onSubmit",
     value: function onSubmit(e) {
-      e.preventDefault();
+      e.preventDefault(); // make sure the validation***************
 
-      if (this.state.getCurrentPassword === this.state.currentPassword && this.state.newPassword === this.state.newPassword2) {
-        var user = {
-          password: this.state.newPassword
-        };
-      } else {
-        alert("Please make sure your current Password and new Password.");
+      if (this.state.newPassword1.length < 8 || this.state.newPassword2.length < 8) {
+        document.querySelector(".validate_newPassword1").innerHTML = "Password should be more than 8 letters.";
+        document.querySelector(".validate_newPassword2").innerHTML = "Password should be more than 8 letters.";
       }
+
+      ;
+
+      if (this.state.newPassword1 !== this.state.newPassword2) {
+        document.querySelector(".validate_newPassword3").innerHTML = "New passwords don't match.";
+      }
+
+      ; // Valid ok and change password***************
+
+      if (this.state.newPassword1.length > 8 && this.state.newPassword2.length > 8 && this.state.newPassword1 === this.state.newPassword2) {
+        Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_1__["changePassword"])({
+          current: this.state.inputCurrentPassword,
+          "new": this.state.newPassword1
+        }).then(function (res) {
+          console.log(res.data);
+          document.querySelector(".validate_passwordChanged").innerHTML = "Password has changed.";
+          alert("Password has changed.");
+        })["catch"](function (error) {
+          document.querySelector(".validate_passwordChanged").innerHTML = "Error";
+
+          if (error.response.status === 403) {
+            document.querySelector(".validate_currentPassword").innerHTML = "Current password is incorrect.";
+          }
+
+          console.log(error.response.data);
+          console.log(error.response.status);
+          console.log(error.response.headers);
+        });
+      }
+
+      ;
     }
   }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "contact-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         noValidate: true,
-        onSubmit: this.onSubmit,
+        onSubmit: function onSubmit(e) {
+          _this2.onSubmit(e);
+        },
         className: "contact-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
@@ -87129,26 +87158,34 @@ function (_Component) {
         htmlFor: "current-password"
       }, "Current Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "password",
-        name: "currentPassword",
+        name: "inputCurrentPassword",
         className: "form-control",
-        onChange: this.onChange,
+        onChange: function onChange(e) {
+          _this2.onChange(e);
+        },
         id: "contact-password",
         placeholder: "Current Password",
         "data-rule": "password",
         "data-msg": "Please enter the current password"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_currentPassword"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "new-password"
       }, "New Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "password",
-        name: "newPassword",
+        name: "newPassword1",
         className: "form-control",
-        onChange: this.onChange,
+        onChange: function onChange(e) {
+          _this2.onChange(e);
+        },
         id: "contact-password2",
         placeholder: "New Password",
         "data-rule": "email",
-        "data-msg": "Please enter your new password"
+        "data-msg": "Please enter your new password1"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_newPassword1"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -87157,19 +87194,25 @@ function (_Component) {
         type: "password",
         name: "newPassword2",
         className: "form-control",
-        onChange: this.onChange,
+        onChange: function onChange(e) {
+          _this2.onChange(e);
+        },
         id: "confirm-password",
         placeholder: "Re-enter Password",
         "data-rule": "email",
         "data-msg": "Please enter new password again"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_newPassword2"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_newPassword3"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "validate_passwordChanged"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-send"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "/AfterLogin"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-green"
-      }, "Change the password"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)));
+      }, "Change the password")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)));
     }
   }]);
 
@@ -87648,15 +87691,12 @@ var getProfile = function getProfile() {
     }
   });
 };
-var changePassword = function changePassword(newPassword) {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('api/new', newPassword, {
+var changePassword = function changePassword(data) {
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('api/change', data, {
     headers: {
+      Authorization: "Bearer ".concat(localStorage.usertoken),
       'Content-Type': 'application/json'
     }
-  }).then(function (res) {
-    console.log(res);
-  })["catch"](function (err) {
-    console.log(err);
   });
 };
 
@@ -88639,8 +88679,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

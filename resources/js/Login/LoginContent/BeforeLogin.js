@@ -3,7 +3,6 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 import {login} from './UserFunctions';
 import './BeforeAndAfterLogin.scss';
 
-import UserPage from './UserPage';
 import ForgetPassword from './ForgetPassword';
 import NewAccount from './NewAccount';
 
@@ -96,7 +95,7 @@ export default class BeforeLogin extends Component {
                     data-rule="email"
                     data-msg="Please enter a valid email"
                     onChange={this.onChange}
-                    value={ this.state.email }
+                    value={this.state.email}
                 />
                 <div className="validate_email"></div>
             </div>
@@ -111,8 +110,8 @@ export default class BeforeLogin extends Component {
                     placeholder="Your Password"
                     data-rule="email"
                     data-msg="Please enter your password"
-                    onChange={ this.onChange }
-                    value={ this.state.password }
+                    onChange={this.onChange}
+                    value={this.state.password}
                 />
                 <div className="validate_password1"></div>
             </div>
