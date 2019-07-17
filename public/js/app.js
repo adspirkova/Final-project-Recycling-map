@@ -86705,7 +86705,7 @@ function (_Component) {
       }, "Add not tracked bins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "icons"
       }, images.map(function (image, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           name: "trashTypeName"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
           key: "".concat(image.img, "-").concat(index),

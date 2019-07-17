@@ -144,7 +144,7 @@ export default class AddBinForm extends Component {
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
-                                { images.map((image, index) => <input name="trashTypeName"><Li key={`${image.img}-${index}`} value={image.type} image={image.img}/></input>) }
+                                { images.map((image, index) => {return(<span name="trashTypeName"><Li key={`${image.img}-${index}`} value={image.type} image={image.img}/></span>) })}
                             </div>
                             <div className="validate"></div>
                         </div>
