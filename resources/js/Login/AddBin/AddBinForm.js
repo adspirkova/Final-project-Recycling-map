@@ -5,7 +5,7 @@ import '../../Contact/Contact.js';
 
 
 // ******* For the images Start ************
-const images = [{img: "img/clear-glass2.png", type: 'Clear glass'}, {img: "img/glass2.png", type: 'Coloured glass'}, {img: "img/paper.png", type: 'Paper'}, {img: "img/water.png", type:'Plastic'},{img: "img/cardboard.png", type: 'Cardboard'}, {img:"img/can.png", type: 'Metals'}, {img:"img/electric.png", type:'Electric equipment'} ];
+const images = [{img: "img/clear-glass2.png", type: 'Clear glass'}, {img: "img/glass2.png", type: 'Coloured glass'}, {img: "img/paper.png", type: 'Paper'}, {img: "img/water.png", type:'Plastic'},{img: "img/cardboard.png", type: 'Cardboard'}, {img:"img/can.png", type: '"Metals"'}, {img:"img/electric.png", type:'Electric equipment'} ];
 
 class Li extends React.PureComponent {
     constructor(props) {
