@@ -24,6 +24,8 @@ Route::view('/map/{path?}', 'map/map');
 Route::view('/userpage', 'map/map');
 Route::view('/addbin', 'map/map');
 
+Route::any('/addbin/create', 'BinController@create');
+
 Route::any('/locations/{lat}/{lng}/{currZoom}', 'LocationController@getLocations');
 
 Route::any('/bins/{id}', 'BinController@getBins');

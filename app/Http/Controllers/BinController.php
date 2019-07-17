@@ -23,9 +23,45 @@ class BinController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $record = (object)[
+            'id'          => null,
+            'stationId'        => null,
+            'trashTypeName'        => null,
+            'cleaningFrequencyCode'        => null,
+            'containerType'        => null,
+        ];
+
+        if ($request->method() == 'POST') {
+
+            $valid = true;
+
+            $record->stationId = $request->input('stationId');
+            $record->trashTypeName = $request->input('trashTypeName');
+            $record->cleaningFrequencyCode = 11;
+            $record->containerType = '240 normální HV';
+
+            $query = 
+                       "INSERT
+                       INTO `bins`
+                       (`stationId`, `trashTypeName`, `cleaningFrequencyCode`, `containerType`)
+                       VALUES
+                       (?, ?, ?, ?)
+                    ";
+
+                    Bin::insert($query, [
+                        $record->stationId,
+                        $record->trashTypeName,
+                        $record->cleaningFrequencyCode,
+                        $record->containerType,
+                        // ...
+                    ]);
+            $record->id = Bin::getPdo()->lastInsertId();
+            Session::flash('success_message', 'OK!');
+            return redirect('/map');
+        }
+
     }
 
     /**

@@ -131,7 +131,7 @@ export default class AddBinForm extends Component {
                             </select>
                             <select className="form-control">
                                 {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
-                                    return (<option key={index} value={station.id}>{station.stationName}</option>)
+                                    return (<option key={index} name='stationId' value={station.id}>{station.stationName}</option>)
                                 }))}
                             </select>
                             <div className="validate"></div>
@@ -141,7 +141,7 @@ export default class AddBinForm extends Component {
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
-                                { images.map((image, index) => <Li key={`${image.img}-${index}`} value={image.type} image={image.img}/>) }
+                                { images.map((image, index) => <Li key={`${image.img}-${index}`} value={image.type} name='trashTypeName' image={image.img}/>) }
                             </div>
                             <div className="validate"></div>
                         </div>
