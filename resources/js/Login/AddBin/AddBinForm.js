@@ -120,7 +120,7 @@ export default class AddBinForm extends Component {
                 </div>
                     <br/>
                     <form className="contact-form php-mail-form" role="form" action="/addbin/create" method="POST">
-
+                    <input type="hidden" name="_token" value={csrf_token} />
                         <div className="form-group">
                         <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Location</label>
