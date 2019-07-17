@@ -67,7 +67,27 @@ class UserController extends Controller
             return response()->json(['token_absent'],$e->getStatesCode());
         }
         return response()->json(compact('user'));
+    }
 
+    public function changePassword(Request $request){
+        $user = JWTAuth::parseToken()->authenticate();
+        //入力した値と現在のパスワードがあっているかを確認し、違っていたら403エラーを出す
+        if(!Hash::check($request->current, $user->password)){
+            abort(403);
+        }else{
+        //$user->passwordはリクエストでcurrentとして定義したものである。
+        $user->password = Hash::make($request->new);
+        //$userを保存する
+        $user->save();
+        }
+    }
+
+    public function deleteUser(Request $request){
+        $user = JWTAuth::parseToken()->authenticate();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = $request->password;
+        $user->save();
     }
     /**
      * Display a listing of the resource.

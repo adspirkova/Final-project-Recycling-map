@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 import {getProfile} from './UserFunctions';
 import ChangePassword from './ChangePassword';
 import DeleteTheAccount from './DeleteTheAccount';
+import AfterDelete from "./AfterDelete";
 import MapContainer from '../../Map/MapContainer';
 import './BeforeAndAfterLogin.scss';
 
@@ -42,6 +43,7 @@ export default class UserPage extends Component {
                 <Route path="/map" component={MapContainer} />
                 <Route path="/changepw" component={ChangePassword} />
                 <Route path="/delete" component={DeleteTheAccount} />
+                <Route path="/deletedone" component={AfterDelete} />
             </BrowserRouter>
             </>
             <div id="login-wrap">

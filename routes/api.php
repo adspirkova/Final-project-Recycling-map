@@ -5,6 +5,8 @@ use Illuminate\Http\Request;
 Route::post('register','UserController@register');
 Route::post('login','UserController@login');
 Route::post('profile','UserController@getAuthenticatedUser');
+Route::post('change','UserController@changePassword');
+Route::post('delete','UserController@deleteUser');
 
 /*
 |--------------------------------------------------------------------------
