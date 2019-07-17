@@ -86546,7 +86546,6 @@ function (_React$PureComponent) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "button",
         value: this.props.value,
-        name: "trashTypeName",
         style: {
           style: style
         },
@@ -86704,15 +86703,15 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "contact-name"
       }, "Add not tracked bins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "icons",
-        name: "trashTypeName"
+        className: "icons"
       }, images.map(function (image, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          name: "trashTypeName"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
           key: "".concat(image.img, "-").concat(index),
-          name: "trashTypeName",
           value: image.type,
           image: image.img
-        });
+        }));
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

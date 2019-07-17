@@ -32,7 +32,7 @@ class Li extends React.PureComponent {
       const {image} = this.props;
       const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
       //const color = "transparent";
-      return <input type='button' value={this.props.value} name="trashTypeName"  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+      return <input type='button' value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
     }
   }
 // ******* For the images End ************
@@ -143,8 +143,8 @@ export default class AddBinForm extends Component {
                         <div className="form-group">
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
-                            <div className="icons" name="trashTypeName" >
-                                { images.map((image, index) => <Li key={`${image.img}-${index}`} name="trashTypeName"  value={image.type} image={image.img}/>) }
+                            <div className="icons">
+                                { images.map((image, index) => <input name="trashTypeName"><Li key={`${image.img}-${index}`} value={image.type} image={image.img}/></input>) }
                             </div>
                             <div className="validate"></div>
                         </div>
