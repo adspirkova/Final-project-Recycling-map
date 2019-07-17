@@ -134,7 +134,7 @@ export default class AddBinForm extends Component {
                             </select>
                             <select className="form-control">
                                 {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
-                                    return (<option key={index} name='stationId' value={station.id}>{station.stationName}</option>)
+                                    return (<option key={index} name="stationId" value={station.id}>{station.stationName}</option>)
                                 }))}
                             </select>
                             <div className="validate"></div>
