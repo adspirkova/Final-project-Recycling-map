@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../../Contact/Contact.js';
-var csurf = require('csurf');
+
+
 
 
 // ******* For the images Start ************
@@ -105,6 +106,7 @@ export default class AddBinForm extends Component {
     }
 
     render (){
+        let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');  
         const cities = this.state.cities;
         console.log(cities);
         const stations = this.state.stations;
@@ -121,7 +123,7 @@ export default class AddBinForm extends Component {
                 </div>
                     <br/>
                     <form className="contact-form php-mail-form" role="form" action="/addbin/create" method="POST">
-                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                    <input type="hidden" name="_token" value={token}></input>
                         <div className="form-group">
                         <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Location</label>
