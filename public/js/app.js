@@ -86496,7 +86496,7 @@ var images = [{
   type: 'Cardboard'
 }, {
   img: "img/can.png",
-  type: '"Metals"'
+  type: 'Metals'
 }, {
   img: "img/electric.png",
   type: 'Electric equipment'

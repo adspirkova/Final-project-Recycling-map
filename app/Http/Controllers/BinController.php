@@ -34,7 +34,7 @@ class BinController extends Controller
         ];
 
         if ($request->method() == 'POST') {
-
+            dd($request);
             $valid = true;
 
             $record->stationId = $request->input('stationId');
