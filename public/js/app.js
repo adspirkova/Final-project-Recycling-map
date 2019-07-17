@@ -86703,12 +86703,12 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "contact-name"
       }, "Add not tracked bins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "icons"
+        className: "icons",
+        name: "trashTypeName"
       }, images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
           key: "".concat(image.img, "-").concat(index),
           value: image.type,
-          name: "trashTypeName",
           image: image.img
         });
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
