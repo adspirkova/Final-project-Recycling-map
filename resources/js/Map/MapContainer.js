@@ -59,7 +59,7 @@ class MapContainer extends Component {
 
     updateBins(station) {
         let id = station;
-        fetch(`http://www.recycling-bins.localhost:8080/bins/${id}`)
+        fetch(`http://recycling-bins.data4you.cz/bins/${id}`)
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
@@ -72,7 +72,7 @@ class MapContainer extends Component {
     updateLocations = () => {
         const { lat, lng, currZoom } = this.state;
         fetch(
-            `http://www.recycling-bins.localhost:8080/locations/${lat}/${lng}/${currZoom}`
+            `http://recycling-bins.data4you.cz/locations/${lat}/${lng}/${currZoom}`
         )
             .then(resp => resp.json())
             .then(data => {

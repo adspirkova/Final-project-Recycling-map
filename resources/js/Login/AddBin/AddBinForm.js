@@ -74,7 +74,7 @@ export default class AddBinForm extends Component {
 
     updateCities = () => {
         fetch(
-            `http://www.recycling-bins.localhost:8080/cities/`
+            `http://recycling-bins.data4you.cz/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -86,7 +86,7 @@ export default class AddBinForm extends Component {
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `http://www.recycling-bins.localhost:8080/stations/${lookupcity}`
+            `http://recycling-bins.data4you.cz/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {
