@@ -86685,11 +86685,11 @@ function (_Component) {
           value: city.cityDistrict
         }, city.cityDistrict);
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-        className: "form-control"
+        className: "form-control",
+        name: "stationId"
       }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
           key: index,
-          name: "stationId",
           value: station.id
         }, station.stationName);
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
