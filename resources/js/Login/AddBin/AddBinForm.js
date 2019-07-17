@@ -28,9 +28,9 @@ class Li extends React.PureComponent {
     render() {
         console.log(this.props);
       const {image} = this.props;
-      const background = this.state.clicked ? `url(${image})no-repeat 10px center #cccccc` : `url(${image}) no-repeat 10px center`;
-      const color = "transparent";
-      return <input type='button' value={this.props.value}  style={{...background,...color}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+      const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
+      //const color = "transparent";
+      return <input type='button' value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
     }
   }
 // ******* For the images End ************
