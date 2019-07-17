@@ -1,4 +1,5 @@
 /node_modules
+/functions/node_modules
 /public/hot
 /public/storage
 /storage/*.key
@@ -9,4 +10,10 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD
 phploy.ini
+=======
+phploy.ini
+public/js/app.js
+public/mix-manifest.json
+>>>>>>> bcd17f5a20452f3749081d9b5b9bf692ee9fd2f2

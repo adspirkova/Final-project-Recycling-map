@@ -31,16 +31,23 @@ export const getProfile = () => {
     })
 }
 
-export const changePassword = newPassword => {
+export const changePassword = data => {
     return axios
-    .post('api/new',newPassword,{
-        headers:{'Content-Type': 'application/json'}
+    .post('api/change',data,{
+        headers:{
+            Authorization: `Bearer ${localStorage.usertoken}`,
+            'Content-Type': 'application/json'
+        }
     })
-    .then(res => {
-        console.log(res)
-    })
-    .catch(err =>{
-        console.log(err)
+}
+
+export const deleteUser = data => {
+    return axios
+    .post('api/delete',data,{
+        headers:{
+            Authorization: `Bearer ${localStorage.usertoken}`,
+            'Content-Type': 'application/json'
+        }
     })
 }
 

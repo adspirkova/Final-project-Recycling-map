@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import './App.scss';
 
 import MapContainer from '../Map/MapContainer';
@@ -136,89 +136,3 @@ class App extends Component {
     <BrowserRouter>
         <App/>
     </BrowserRouter>, document.getElementById('app'));
-
-// Old Version(Please don't use it again since we can't make any link in other pages in this way)***************************
-// export default class App extends Component {
-//     constructor(props){
-//         super(props);
-
-//         this.state = {
-//             page: 'map',
-//             index: true
-//         }
-//     }
-
-//     render() {
-//         if(this.state.index)
-//             return (<Index handleClick={() => { this.setState({index:false})}}/>)
-
-//         return (
-//             <div>
-//                 <BrowserRouter>
-//                     {
-//                         (()=>{
-//                             if(this.state.page == 'map')
-//                                     return (<MapContainer/>);
-//                                 else if(this.state.page == 'about')
-//                                     return (<About/>)
-//                                 else if(this.state.page == 'contact')
-//                                     return (<Contact/>)
-//                                 else if(this.state.page == 'login')
-//                                     return (<Login/>)
-//                                 else if(this.state.page == 'afterLogin')
-//                                     return (<AfterLogin/>)
-//                                 else if(this.state.page == 'newAccount')
-//                                     return (<NewAccount/>)
-//                                 else if(this.state.page == 'changePassword')
-//                                     return (<ChangePassword/>)
-//                         })()
-//                     }
-//                 </BrowserRouter>
-//                 <nav className="menu" id="theMenu">
-//                     <div className="row">
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'map'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/map1.svg" alt="map" className="menu-image"/><br/>
-//                                 Map
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar ">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'about'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/waste2.svg" alt="waste" className="menu-image"/><br/>
-//                                 About
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'contact'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/contact1.svg" alt="contact" className="menu-image"/><br/>
-//                                 Contact
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'login'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/login.svg" alt="login"  className="menu-image"/><br/>
-//                                 Login
-//                             </a>
-//                         </div>
-//                     </div>
-//                 </nav>
-//             </div>
-//         );
-//     }
-// }

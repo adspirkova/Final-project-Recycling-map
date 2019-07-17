@@ -72,7 +72,8 @@
 .form-group label{
     font-weight: bold;
 }
-.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message{
+.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,
+.validate_newPassword1, .validate_newPassword2, .validate_currentPassword{
     color:red;
     font-weight: bolder;
 }
@@ -132,8 +133,14 @@
       }
   }
 
-  /* FrogetPassword.js form *****************************/
-.reset_message{
-    color:blue;
+  /* ForgetPassword.js / ChangePassword.js form *****************************/
+.reset_message, .validate_passwordChanged{
+    color:tomato;
     font-weight: bolder;
+}
+
+.validate_passwordChanged{
+    margin:1rem;
+    text-align:center;
+    background-color:#D3D3D3;
 }

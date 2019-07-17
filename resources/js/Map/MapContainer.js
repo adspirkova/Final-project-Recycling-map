@@ -9,7 +9,6 @@ import {
     InfoWindow
 } from "react-google-maps";
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
-import MapStyle from "./MapStyle.json";
 const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
 
@@ -31,10 +30,6 @@ class MapContainer extends Component {
         };
     }
 
-    componentWillMount(){
-        this.updateLocations();
-    }
-
     componentDidMount() {
         //Geolocation API
         if (!navigator.geolocation) {
@@ -42,15 +37,13 @@ class MapContainer extends Component {
         } else {
             console.log("Locating…");
             navigator.geolocation.getCurrentPosition(
-                position => {
-                    console.log(position.coords.latitude);
+                userPosition => {
+                    console.log(userPosition);
 
                     this.setState(
                         {
-                            userPosition: {
-                            lat: position.coords.latitude,
-                            lng: position.coords.longitude
-                            }
+                            lat: userPosition.coords.latitude,
+                            lng: userPosition.coords.longitude
                         },
                         () => {
                             this.updateLocations();
@@ -61,9 +54,6 @@ class MapContainer extends Component {
                     console.log("error");
                 }
             );
-            console.log(this.state.userPosition);
-            console.log(this.state.lat);
-            console.log(this.state.lng);
         }
     }
 
@@ -215,7 +205,10 @@ class MapContainer extends Component {
             <Marker
                 icon={myPositionicon}
                 name={"SOMA"}
-                position={{ lat: this.state.userPosition.lat, lng: this.state.userPosition.lng }}
+                position={{
+                    lat: this.state.userPosition.lat,
+                    lng: this.state.userPosition.lng
+                }}
 
                 //this.markerClicked.bind(this)
             />
@@ -241,7 +234,6 @@ class MapContainer extends Component {
                 ref={ref => {
                     mapRef = ref;
                 }}
-                defaultOptions={{ styles:MapStyle }}
                 onCenterChanged={e => {
                     const center = mapRef.getCenter();
                     this.setState(
@@ -251,7 +243,6 @@ class MapContainer extends Component {
                         },
                         () => {
                             console.log(this.state.lat);
-                            console.log(this.state.userPosition);
                             this.updateLocations();
                         }
                     );
