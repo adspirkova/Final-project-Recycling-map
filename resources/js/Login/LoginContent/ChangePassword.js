@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {getProfile} from './UserFunctions';
 import {changePassword} from './UserFunctions';
 import './BeforeAndAfterLogin.scss';
 
@@ -7,24 +6,11 @@ export default class ChangePassword extends Component {
     constructor(){
         super()
         this.state={
-            // id:'',
-            // getCurrentPassword:'',
             inputCurrentPassword:'',
             newPassword1:'',
             newPassword2:'',
         }
     }
-
-    //try to get the current user id and password from database
-    // componentDidMount(){
-    //     getProfile().then(res=>{
-    //         this.setState({
-    //             id: res.data.user.id,
-    //             getCurrentPassword: res.data.user.password,
-    //         })
-    //     })
-    //     console.log("id:"+ this.state.id+"userPassword:"+ this.state.getCurrentPassword);
-    // }
 
     //define the value of variable from input field
     onChange(e){
@@ -66,8 +52,6 @@ export default class ChangePassword extends Component {
                 console.log(error.response.headers);
             })
         };
-
-
     }
 
 

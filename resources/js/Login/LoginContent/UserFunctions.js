@@ -41,3 +41,13 @@ export const changePassword = data => {
     })
 }
 
+export const deleteUser = data => {
+    return axios
+    .post('api/delete',data,{
+        headers:{
+            Authorization: `Bearer ${localStorage.usertoken}`,
+            'Content-Type': 'application/json'
+        }
+    })
+}
+

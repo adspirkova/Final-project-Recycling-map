@@ -81,6 +81,14 @@ class UserController extends Controller
         $user->save();
         }
     }
+
+    public function deleteUser(Request $request){
+        $user = JWTAuth::parseToken()->authenticate();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = $request->password;
+        $user->save();
+    }
     /**
      * Display a listing of the resource.
      *

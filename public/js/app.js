@@ -86746,9 +86746,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AfterDelete; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -86769,7 +86768,6 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
- // import MapContainer from '../../Map/MapContainer';
 
 var AfterDelete =
 /*#__PURE__*/
@@ -86783,9 +86781,19 @@ function (_Component) {
   }
 
   _createClass(AfterDelete, [{
+    key: "logOut",
+    value: function logOut(e) {
+      e.preventDefault();
+      localStorage.removeItem('usertoken');
+      this.props.handleAuth(null); //this doesn't work
+
+      this.props.history.push("/login");
+      console.log("Logout");
+    }
+  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
@@ -86804,7 +86812,8 @@ function (_Component) {
       }, "Your account have been deleted at your request."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Thank you again for being a part of this community.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "We hope to see you again!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "/map"
+        href: "/map#",
+        onClick: this.logOut.bind(this)
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-gray"
@@ -87082,7 +87091,6 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-
 var ChangePassword =
 /*#__PURE__*/
 function (_Component) {
@@ -87095,24 +87103,12 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(ChangePassword).call(this));
     _this.state = {
-      // id:'',
-      // getCurrentPassword:'',
       inputCurrentPassword: '',
       newPassword1: '',
       newPassword2: ''
     };
     return _this;
-  } //try to get the current user id and password from database
-  // componentDidMount(){
-  //     getProfile().then(res=>{
-  //         this.setState({
-  //             id: res.data.user.id,
-  //             getCurrentPassword: res.data.user.password,
-  //         })
-  //     })
-  //     console.log("id:"+ this.state.id+"userPassword:"+ this.state.getCurrentPassword);
-  // }
-  //define the value of variable from input field
+  } //define the value of variable from input field
 
 
   _createClass(ChangePassword, [{
@@ -87261,14 +87257,17 @@ function (_Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return DeleteTheAccount; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _UserPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./UserPage */ "./resources/js/Login/LoginContent/UserPage.js");
-/* harmony import */ var _AfterDelete__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AfterDelete */ "./resources/js/Login/LoginContent/AfterDelete.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _UserFunctions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./UserFunctions */ "./resources/js/Login/LoginContent/UserFunctions.js");
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _UserPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./UserPage */ "./resources/js/Login/LoginContent/UserPage.js");
+/* harmony import */ var _AfterDelete__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./AfterDelete */ "./resources/js/Login/LoginContent/AfterDelete.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -87287,6 +87286,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
 
 
 
@@ -87299,22 +87304,71 @@ function (_Component) {
   _inherits(DeleteTheAccount, _Component);
 
   function DeleteTheAccount() {
+    var _this;
+
     _classCallCheck(this, DeleteTheAccount);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(DeleteTheAccount).apply(this, arguments));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(DeleteTheAccount).call(this));
+    _this.state = {
+      id: ''
+    };
+    return _this;
   }
 
   _createClass(DeleteTheAccount, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_4__["getProfile"])().then(function (res) {
+        console.log(res);
+
+        _this2.setState({
+          id: res.data.user.id
+        });
+      });
+    }
+  }, {
+    key: "onSubmit",
+    value: function onSubmit(e) {
+      var _this3 = this;
+
+      e.preventDefault();
+      Object(_UserFunctions__WEBPACK_IMPORTED_MODULE_4__["deleteUser"])({
+        name: 'deletedAccount' + this.state.id,
+        email: 'deleted@deleted' + this.state.id,
+        password: 'deletedAccount'
+      }).then(function (res) {
+        console.log(res.data);
+        console.log("deleted");
+
+        _this3.props.history.push("/deletedone");
+      })["catch"](function (error) {
+        alert("Account Delete is failed");
+        console.log(error.response.data);
+        console.log(error.response.status);
+        console.log(error.response.headers);
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this4 = this;
+
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/userpage",
-        component: _UserPage__WEBPACK_IMPORTED_MODULE_3__["default"]
+        component: _UserPage__WEBPACK_IMPORTED_MODULE_6__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/deletedone",
-        component: _AfterDelete__WEBPACK_IMPORTED_MODULE_4__["default"]
+        component: _AfterDelete__WEBPACK_IMPORTED_MODULE_7__["default"]
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        noValidate: true,
+        onSubmit: function onSubmit(e) {
+          _this4.onSubmit(e);
+        },
+        className: "contact-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -87339,8 +87393,6 @@ function (_Component) {
         }
       }), "\u2002Back to the user page"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-        to: "/deletedone"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-gray"
@@ -87353,14 +87405,20 @@ function (_Component) {
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "red"
-      }, "\u2002I'm sure to Delete the account")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))));
+      }, "\u2002I'm sure to Delete the account"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)))));
     }
   }]);
 
   return DeleteTheAccount;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
+_defineProperty(DeleteTheAccount, "propTypes", {
+  match: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired,
+  history: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired
+});
 
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router__WEBPACK_IMPORTED_MODULE_3__["withRouter"])(DeleteTheAccount));
 
 /***/ }),
 
@@ -87680,7 +87738,7 @@ function (_Component) {
 /*!**********************************************************!*\
   !*** ./resources/js/Login/LoginContent/UserFunctions.js ***!
   \**********************************************************/
-/*! exports provided: register, login, getProfile, changePassword */
+/*! exports provided: register, login, getProfile, changePassword, deleteUser */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87689,6 +87747,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "login", function() { return login; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getProfile", function() { return getProfile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changePassword", function() { return changePassword; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteUser", function() { return deleteUser; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -87728,6 +87787,14 @@ var changePassword = function changePassword(data) {
     }
   });
 };
+var deleteUser = function deleteUser(data) {
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('api/delete', data, {
+    headers: {
+      Authorization: "Bearer ".concat(localStorage.usertoken),
+      'Content-Type': 'application/json'
+    }
+  });
+};
 
 /***/ }),
 
@@ -87747,9 +87814,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _UserFunctions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./UserFunctions */ "./resources/js/Login/LoginContent/UserFunctions.js");
 /* harmony import */ var _ChangePassword__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ChangePassword */ "./resources/js/Login/LoginContent/ChangePassword.js");
 /* harmony import */ var _DeleteTheAccount__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./DeleteTheAccount */ "./resources/js/Login/LoginContent/DeleteTheAccount.js");
-/* harmony import */ var _Map_MapContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Map/MapContainer */ "./resources/js/Map/MapContainer.js");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
-/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _AfterDelete__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./AfterDelete */ "./resources/js/Login/LoginContent/AfterDelete.js");
+/* harmony import */ var _Map_MapContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Map/MapContainer */ "./resources/js/Map/MapContainer.js");
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./BeforeAndAfterLogin.scss */ "./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss");
+/* harmony import */ var _BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_BeforeAndAfterLogin_scss__WEBPACK_IMPORTED_MODULE_7__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -87767,6 +87835,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -87824,13 +87893,16 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/map",
-        component: _Map_MapContainer__WEBPACK_IMPORTED_MODULE_5__["default"]
+        component: _Map_MapContainer__WEBPACK_IMPORTED_MODULE_6__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/changepw",
         component: _ChangePassword__WEBPACK_IMPORTED_MODULE_3__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/delete",
         component: _DeleteTheAccount__WEBPACK_IMPORTED_MODULE_4__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+        path: "/deletedone",
+        component: _AfterDelete__WEBPACK_IMPORTED_MODULE_5__["default"]
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "login-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -88575,88 +88647,7 @@ function (_Component) {
   return App;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), document.getElementById('app')); // Old Version(Please don't use it again since we can't make any link in other pages in this way)***************************
-// export default class App extends Component {
-//     constructor(props){
-//         super(props);
-//         this.state = {
-//             page: 'map',
-//             index: true
-//         }
-//     }
-//     render() {
-//         if(this.state.index)
-//             return (<Index handleClick={() => { this.setState({index:false})}}/>)
-//         return (
-//             <div>
-//                 <BrowserRouter>
-//                     {
-//                         (()=>{
-//                             if(this.state.page == 'map')
-//                                     return (<MapContainer/>);
-//                                 else if(this.state.page == 'about')
-//                                     return (<About/>)
-//                                 else if(this.state.page == 'contact')
-//                                     return (<Contact/>)
-//                                 else if(this.state.page == 'login')
-//                                     return (<Login/>)
-//                                 else if(this.state.page == 'afterLogin')
-//                                     return (<AfterLogin/>)
-//                                 else if(this.state.page == 'newAccount')
-//                                     return (<NewAccount/>)
-//                                 else if(this.state.page == 'changePassword')
-//                                     return (<ChangePassword/>)
-//                         })()
-//                     }
-//                 </BrowserRouter>
-//                 <nav className="menu" id="theMenu">
-//                     <div className="row">
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'map'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/map1.svg" alt="map" className="menu-image"/><br/>
-//                                 Map
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar ">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'about'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/waste2.svg" alt="waste" className="menu-image"/><br/>
-//                                 About
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'contact'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/contact1.svg" alt="contact" className="menu-image"/><br/>
-//                                 Contact
-//                             </a>
-//                         </div>
-//                         <div className="col-3 menu-bar">
-//                             <a href="#" onClick={()=>{
-//                                 this.setState({
-//                                     page: 'login'
-//                                 })
-//                             }}>
-//                                 <img src="img/icon/login.svg" alt="login"  className="menu-image"/><br/>
-//                                 Login
-//                             </a>
-//                         </div>
-//                     </div>
-//                 </nav>
-//             </div>
-//         );
-//     }
-// }
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), document.getElementById('app'));
 
 /***/ }),
 
