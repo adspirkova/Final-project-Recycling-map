@@ -86536,10 +86536,10 @@ function (_React$PureComponent) {
       console.log(this.props);
       var image = this.props.image;
       var style = this.state.clicked ? {
-        background: 'url(${image})no-repeat 10px center #cccccc',
+        background: "url(".concat(image, ")no-repeat 10px center #cccccc"),
         color: 'transparent'
       } : {
-        background: 'url(${image}) no-repeat 10px center',
+        background: "url(".concat(image, ") no-repeat 10px center"),
         color: 'transparent'
       }; //const color = "transparent";
 
