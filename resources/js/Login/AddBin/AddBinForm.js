@@ -3,26 +3,38 @@ import '../../Contact/Contact.js';
 
 
 // ******* For the images Start ************
-const images = ["img/icon/waste.svg","img/icon/map1.svg","img/icon/3-glass.svg","img/icon/map2.svg","img/icon/login.svg","img/icon/map1.svg"];
+const images = [{img: "img/clear-glass2.png", type: 'Clear glass'}, {img: "img/glass2.png", type: 'Coloured glass'}, {img: "img/paper.png", type: 'Paper'}, {img: "img/water.png", type:'Plastic'},{img: "img/cardboard.png", type: 'Cardboard'}, {img:"img/can.png", type: 'Metals'}, {img:"img/electric.png", type:'Electric equipment'} ];
 
 class Li extends React.PureComponent {
     constructor(props) {
       super(props);
-      this.state = { clicked: false };
+      this.state = { 
+        clicked: false,
+        values: [],
+    };
       this.handleClick = this.handleClick.bind(this)
     }
 
-    handleClick() {
-      this.setState({ clicked: !this.state.clicked });
+    handleClick(e){
+        this.setState(
+            { 
+            clicked: !this.state.clicked,
+            values:  e.target.value,
+        }
+        )
+      console.log(this.state.values);
     }
 
     render() {
+        console.log(this.props);
       const {image} = this.props;
-      const background = this.state.clicked ? "#ECE2DD" : "transparent";
-      return <img src = {image} style={{ background }} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+      const background = this.state.clicked ? `url(${image})no-repeat 10px center #cccccc` : `url(${image}) no-repeat 10px center`;
+      const color = "transparent";
+      return <input type='button' value={this.props.value}  style={{color}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
     }
   }
 // ******* For the images End ************
+
 
 export default class AddBinForm extends Component {
     constructor(props){
@@ -91,8 +103,6 @@ export default class AddBinForm extends Component {
         this.updateStations()
     }
 
-
-
     render (){
         const cities = this.state.cities;
         console.log(cities);
@@ -121,7 +131,7 @@ export default class AddBinForm extends Component {
                             </select>
                             <select className="form-control">
                                 {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
-                                    return (<option key={index}>{station.stationName}</option>)
+                                    return (<option key={index} value={station.id}>{station.stationName}</option>)
                                 }))}
                             </select>
                             <div className="validate"></div>
@@ -131,39 +141,16 @@ export default class AddBinForm extends Component {
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
-                                { images.map((image, index) => <Li key={`${image}-${index}`} image={image}/>) }
+                                { images.map((image, index) => <Li key={`${image.img}-${index}`} value={image.type} image={image.img}/>) }
                             </div>
                             <div className="validate"></div>
                         </div>
-
-                        <div className="form-group">
-                            <img src="img/icon/contact2.svg" alt="location" className="contact-icon"/>
-                            <label htmlFor="contact-message">Your Message</label>
-                            <textarea className="form-control"
-                                        name="message"
-                                        id="contact-message"
-                                        onChange={this.onChange}
-                                        value={ this.state.message }
-                                        placeholder="Your Feedback"
-                                        rows="5"
-                                        data-rule="required"
-                                        data-msg="Please write something for us"></textarea>
-                            <div className="validate"></div>
-                        </div>
-
-                        <div className="form-group">
-                            <img src="img/icon/message1.svg" alt="location" className="contact-icon"/>
-                            <label htmlFor="uploadFile">Add a file or picture.</label>
-                            <input type="file" name="upload" size="30"/>
-                            <div className="validate"></div>
-                        </div>
-
                         <div className="form-group">
                             <input id="box1" type="checkbox" />
                             <label htmlFor="contact-agree">I agree with terms & conditions.</label>
                             <br/>
                             <div className="form-send">
-                                <button type="submit" className="btn btn-large">Send Message</button>
+                                <button type="submit" className="btn btn-large">Submit</button>
                             </div>
                         </div>
                         <br/><br/><br/>

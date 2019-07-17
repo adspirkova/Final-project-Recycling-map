@@ -86479,7 +86479,28 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
  // ******* For the images Start ************
 
-var images = ["img/icon/waste.svg", "img/icon/map1.svg", "img/icon/3-glass.svg", "img/icon/map2.svg", "img/icon/login.svg", "img/icon/map1.svg"];
+var images = [{
+  img: "img/clear-glass2.png",
+  type: 'Clear glass'
+}, {
+  img: "img/glass2.png",
+  type: 'Coloured glass'
+}, {
+  img: "img/paper.png",
+  type: 'Paper'
+}, {
+  img: "img/water.png",
+  type: 'Plastic'
+}, {
+  img: "img/cardboard.png",
+  type: 'Cardboard'
+}, {
+  img: "img/can.png",
+  type: 'Metals'
+}, {
+  img: "img/electric.png",
+  type: 'Electric equipment'
+}];
 
 var Li =
 /*#__PURE__*/
@@ -86493,7 +86514,8 @@ function (_React$PureComponent) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Li).call(this, props));
     _this.state = {
-      clicked: false
+      clicked: false,
+      values: []
     };
     _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
     return _this;
@@ -86501,20 +86523,25 @@ function (_React$PureComponent) {
 
   _createClass(Li, [{
     key: "handleClick",
-    value: function handleClick() {
+    value: function handleClick(e) {
       this.setState({
-        clicked: !this.state.clicked
+        clicked: !this.state.clicked,
+        values: e.target.value
       });
+      console.log(this.state.values);
     }
   }, {
     key: "render",
     value: function render() {
+      console.log(this.props);
       var image = this.props.image;
-      var background = this.state.clicked ? "#ECE2DD" : "transparent";
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: image,
+      var background = this.state.clicked ? "url(".concat(image, ")no-repeat 10px center #cccccc") : "url(".concat(image, ") no-repeat 10px center");
+      var color = "transparent";
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "button",
+        value: this.props.value,
         style: {
-          background: background
+          color: color
         },
         onClick: this.handleClick,
         className: "contact-icon2",
@@ -86650,7 +86677,8 @@ function (_Component) {
         className: "form-control"
       }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-          key: index
+          key: index,
+          value: station.id
         }, station.stationName);
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
@@ -86666,44 +86694,11 @@ function (_Component) {
         className: "icons"
       }, images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
-          key: "".concat(image, "-").concat(index),
-          image: image
+          key: "".concat(image.img, "-").concat(index),
+          value: image.type,
+          image: image.img
         });
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/contact2.svg",
-        alt: "location",
-        className: "contact-icon"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        htmlFor: "contact-message"
-      }, "Your Message"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-        className: "form-control",
-        name: "message",
-        id: "contact-message",
-        onChange: this.onChange,
-        value: this.state.message,
-        placeholder: "Your Feedback",
-        rows: "5",
-        "data-rule": "required",
-        "data-msg": "Please write something for us"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/message1.svg",
-        alt: "location",
-        className: "contact-icon"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        htmlFor: "uploadFile"
-      }, "Add a file or picture."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "file",
-        name: "upload",
-        size: "30"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
@@ -86717,7 +86712,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-large"
-      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Submit"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "loading"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "error-message"

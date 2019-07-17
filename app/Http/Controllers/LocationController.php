@@ -98,8 +98,9 @@ class LocationController extends Controller
 
     public function getStation($city) 
     {
-        $stations = Location::select('stationName')->where('cityDistrict', '=', $city)->distinct()->orderByRaw('`stationName` ASC')->get();
+        $stations = Location::select('stationName', 'id')->where('cityDistrict', '=', $city)->distinct()->orderByRaw('`stationName` ASC')->get();
         return response()->json(['stationName'=> $stations],200);
     }
+
 }
  
