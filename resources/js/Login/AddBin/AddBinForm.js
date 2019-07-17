@@ -119,7 +119,7 @@ export default class AddBinForm extends Component {
                     <h2>- Add a new Bin -</h2>
                 </div>
                     <br/>
-                    <form className="contact-form php-mail-form" role="form" action="" method="POST">
+                    <form className="contact-form php-mail-form" role="form" action="/addbin/create" method="POST">
 
                         <div className="form-group">
                         <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
