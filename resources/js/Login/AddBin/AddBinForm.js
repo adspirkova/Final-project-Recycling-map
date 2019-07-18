@@ -14,7 +14,7 @@ class Li extends React.PureComponent {
         clicked: false,
         values: [],
     };
-      this.handleClick = this.handleClick.bind(this)
+    //   this.handleClick = this.handleClick.bind(this)
     }
 
     // handleClick(e){
