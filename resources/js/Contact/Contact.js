@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.scss";
-import axios from "axios";
+
 // ******* For the images Start ************
 const images = [
     "img/image-new/ask.png",
@@ -45,7 +45,7 @@ export default class Contact extends Component {
             location: "",
             problem: "",
             message: "",
-            file: null,
+            file: "",
             agree: false
         };
         this.onChange = this.onChange.bind(this);
@@ -69,14 +69,8 @@ export default class Contact extends Component {
         };
     }
     fileSelectedHandler = e => {
-        this.setState({
-            files: e.target.files[0]
-        });
+        console.log(e.target.files[0]);
     };
-    fileUploadHandler = e => {
-        axios.post();
-    };
-
     render() {
         return (
             <div className="contact-wrap">
@@ -183,11 +177,7 @@ export default class Contact extends Component {
                         </label>
                         <br />
                         <div className="form-send">
-                            <button
-                                type="submit"
-                                onClick={this.fileUploadHandler}
-                                className="btn btn-large"
-                            >
+                            <button type="submit" className="btn btn-large">
                                 Send Message
                             </button>
                         </div>
