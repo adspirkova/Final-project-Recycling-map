@@ -86524,12 +86524,12 @@ function (_React$PureComponent) {
   _createClass(Li, [{
     key: "handleClick",
     value: function handleClick(e) {
-      e.preventDefault();
       this.setState({
         clicked: !this.state.clicked,
         values: e.target.value
       });
       console.log(this.state.values);
+      e.preventDefault();
     }
   }, {
     key: "render",

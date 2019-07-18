@@ -18,14 +18,14 @@ class Li extends React.PureComponent {
     }
 
     handleClick(e){
-        e.preventDefault();
         this.setState(
             { 
             clicked: !this.state.clicked,
             values:  e.target.value,
         }
         )
-      console.log(this.state.values);
+        console.log(this.state.values);
+        e.preventDefault();
     }
 
     render() {
