@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import "./Contact.scss";
 import axios from "axios";
 // ******* For the images Start ************
+const images = [
+    "img/image-new/ask.png",
+    "img/image-new/cross.png",
+    "img/image-new/trash (1).png",
+    "img/image-new/wrong.png",
+    "img/image-new/lock.png",
+    "img/image-new/pencil.png"
+];
 
 class Li extends React.PureComponent {
     constructor(props) {
