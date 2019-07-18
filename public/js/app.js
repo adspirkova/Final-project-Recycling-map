@@ -86037,100 +86037,82 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/search3.svg",
+        src: "img/image-new/garbage.png",
         alt: "garbage",
         className: "big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About Bin Icon -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About \"Find bin\" -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Find Bin helps you to find a recycling bin near you in Prague. A website is made for a mobile phone, but also can be used on your laptop. Also it allows you to add new recycle bin on the map .", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Type of recycling bins that you can see on the map:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/1-plastic1.svg",
+        src: "img/clear-glass2.png",
+        alt: "clear glass",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Clear glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/glass2.png",
+        alt: "colored glass",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Colored glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/can.png",
+        alt: "metal",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Metal", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/cardboard.png",
+        alt: "cardboard",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Cardboard", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/paper.png",
+        alt: "paper",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/electric.png",
+        alt: "Electric equipment",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Electric equipment", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/water.png",
         alt: "plastic",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Plasly")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/2-namagomi2.svg",
-        alt: "namagomi",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Food Scrap", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        alt: "glass",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Transparent Glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Bile Sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/4-glass1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Colorful Glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Barevne Sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/5-paper1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Papir")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/6-battery1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Battery", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/7-can1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Metal Can", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/8-textil1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Textil", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/9-cloth1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Cloth", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 
@@ -86529,38 +86511,35 @@ function (_React$PureComponent) {
         values: e.target.value
       });
       console.log(this.state.values);
-      e.preventDefault();
+      autofill();
+      return false;
     }
   }, {
     key: "render",
     value: function render() {
       console.log(this.props);
-      var image = this.props.image;
-      var style = this.state.clicked ? {
-        background: "url(".concat(image, ")no-repeat 10px center #cccccc"),
-        color: 'transparent'
-      } : {
-        background: "url(".concat(image, ") no-repeat 10px center"),
-        color: 'transparent'
-      }; //const color = "transparent";
+      var image = this.props.image; //const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
+      //const color = "transparent";
 
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "image",
-        name: "trashTypeName",
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        forHtml: "checkbox" + this.props.value
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: image,
-        value: this.props.value,
+        alt: this.props.value
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "checkbox",
+        id: "checkbox" + this.props.value,
+        name: "trashTypeName[]",
         style: {
-          style: style
-        },
-        onClick: this.handleClick,
-        className: "contact-icon2",
-        alt: "problems"
-      });
+          display: 'none'
+        }
+      }));
     }
   }]);
 
   return Li;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent); // ******* For the images End ************
+//<input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
 
 
 var AddBinForm =
@@ -88353,7 +88332,7 @@ try {
 
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 /**
  * Next we will register the CSRF Token as a common header with Axios so that
  * all outgoing HTTP requests automatically have it attached. This is just
@@ -88363,9 +88342,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
-  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+  window.axios.defaults.headers.common["X-CSRF-TOKEN"] = token.content;
 } else {
-  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+  console.error("CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token");
 }
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

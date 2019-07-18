@@ -25,19 +25,29 @@ class Li extends React.PureComponent {
         }
         )
         console.log(this.state.values);
-        e.preventDefault();
+        autofill();
+        return false;
     }
 
     render() {
         console.log(this.props);
       const {image} = this.props;
-      const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
+      //const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
       //const color = "transparent";
-      return <input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+      return (
+          <>
+            <label forHtml={"checkbox"+this.props.value}>
+                <img src={image} alt={this.props.value}></img>
+            </label>
+            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}}>
+            </input>
+          </>
+      )
+      
     }
   }
 // ******* For the images End ************
-
+//<input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
 
 export default class AddBinForm extends Component {
     constructor(props){
