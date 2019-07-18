@@ -1,20 +1,48 @@
 import React, { Component } from "react";
 import "./Contact.scss";
+import { UncontrolledTooltip } from "reactstrap";
 
 // ******* For the images Start ************
 const images = [
-    "img/image-new/ask.png",
-    "img/image-new/cross.png",
-    "img/image-new/trash (1).png",
-    "img/image-new/wrong.png",
-    "img/image-new/lock.png",
-    "img/image-new/pencil.png"
+    {
+        image: "img/image-new/ask.png",
+        message: "I couldn't find a bin in this location",
+        value: "location not found"
+    },
+    {
+        image: "img/image-new/cross.png",
+        message: "description of the bin is wrong",
+        value: "description is wrong"
+    },
+    {
+        image: "img/image-new/trash (1).png",
+        message: "Bin is full",
+        value: "bin is full"
+    },
+    {
+        image: "img/image-new/wrong.png",
+        message: "Location of the bin is wrong",
+        value: "location is wrong"
+    },
+    {
+        image: "img/image-new/lock.png",
+        message: "Bin is private or hard to access",
+        value: "no access or private"
+    },
+    {
+        image: "img/image-new/pencil.png",
+        message:
+            "Write for some other reason. For example if you like our website:)",
+        value: "Other reason"
+    }
 ];
 
 class Li extends React.PureComponent {
     constructor(props) {
         super(props);
-        this.state = { clicked: false };
+        this.state = {
+            clicked: false
+        };
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -24,15 +52,38 @@ class Li extends React.PureComponent {
 
     render() {
         const { image } = this.props;
+
         const background = this.state.clicked ? "#ECE2DD" : "transparent";
+
         return (
-            <img
-                src={image}
-                style={{ background }}
-                onClick={this.handleClick}
-                className="contact-icon2"
-                alt="problems"
-            />
+            <>
+                <label htmlFor={"checkbox" + this.props.value}>
+                    <img
+                        className="contact-icon2"
+                        alt="problems"
+                        src={this.props.src}
+                        alt={this.props.value}
+                        style={{ background }}
+                        onClick={this.handleClick}
+                        id={"UncontrolledTooltipExample" + this.props.index}
+                        href="#"
+                    />
+                </label>
+                <input
+                    type="checkbox"
+                    id={"UncontrolledTooltipExample" + this.props.index}
+                    name="trashTypeName[]"
+                    style={{ display: "none" }}
+                    value={this.props.value}
+                />
+
+                <UncontrolledTooltip
+                    placement="bottom"
+                    target={"UncontrolledTooltipExample" + this.props.index}
+                >
+                    {this.props.message}
+                </UncontrolledTooltip>
+            </>
         );
     }
 }
@@ -71,6 +122,7 @@ export default class Contact extends Component {
     fileSelectedHandler = e => {
         console.log(e.target.files[0]);
     };
+
     render() {
         return (
             <div className="contact-wrap">
@@ -88,8 +140,8 @@ export default class Contact extends Component {
                 <br />
                 <form
                     className="contact-form php-mail-form"
-                    role="form"
-                    action="contactform/contactform.php"
+                    // role="form"
+                    // action="contactform/contactform.php"
                     method="POST"
                 >
                     <div className="form-group">
@@ -123,9 +175,17 @@ export default class Contact extends Component {
                             Choose the problem.
                         </label>
                         <div className="icons">
-                            {images.map((image, index) => (
-                                <Li key={`${image}-${index}`} image={image} />
-                            ))}
+                            {images.map((icon, index) => {
+                                return (
+                                    <Li
+                                        key={index}
+                                        index={index}
+                                        src={icon.image}
+                                        alt={icon.value}
+                                        message={icon.message}
+                                    />
+                                );
+                            })}
                         </div>
                         <div className="validate" />
                     </div>
