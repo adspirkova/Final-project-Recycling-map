@@ -86524,9 +86524,7 @@ function (_React$PureComponent) {
     key: "render",
     value: function render() {
       console.log(this.props);
-      var image = this.props.image; //const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
-      //const color = "transparent";
-
+      var image = this.props.image;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         "for": "checkbox" + this.props.value
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -86538,14 +86536,14 @@ function (_React$PureComponent) {
         name: "trashTypeName[]",
         style: {
           display: 'none'
-        }
+        },
+        value: this.props.value
       }));
     }
   }]);
 
   return Li;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent); // ******* For the images End ************
-//<input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
 
 
 var AddBinForm =
