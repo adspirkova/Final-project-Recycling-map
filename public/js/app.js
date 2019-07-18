@@ -97822,7 +97822,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Clear glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Clear glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: \u010Cir\xE9 sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97832,7 +97832,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Colored glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Colored glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: Barevn\xE9 sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97842,7 +97842,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Metal", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Metal", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: Kovy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97852,7 +97852,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Cardboard", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Cardboard", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: N\xE1pojov\xE9 kartony")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97862,7 +97862,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: Pap\xEDr")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97872,7 +97872,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Electric equipment", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "EN:Electric equipment", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: Elektroza\u0159\xEDzen\xED")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -97882,7 +97882,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ: Plasty"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 

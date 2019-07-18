@@ -37,7 +37,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Clear glass
                             <br />
-                            CZ:
+                            CZ: Čiré sklo
                         </div>
                     </div>
                     <div className="row">
@@ -51,7 +51,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Colored glass
                             <br />
-                            CZ:
+                            CZ: Barevné sklo
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Metal
                             <br />
-                            CZ:-
+                            CZ: Kovy
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Cardboard
                             <br />
-                            CZ:
+                            CZ: Nápojové kartony
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Paper
                             <br />
-                            CZ:
+                            CZ: Papír
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Electric equipment
                             <br />
-                            CZ:-
+                            CZ: Elektrozařízení
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@ export default class About extends Component {
                         <div className="col-xs-9">
                             EN:Plastic
                             <br />
-                            CZ:-
+                            CZ: Plasty
                         </div>
                     </div>
                 </div>
