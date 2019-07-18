@@ -14,32 +14,27 @@ class Li extends React.PureComponent {
         clicked: false,
         values: [],
     };
-    //   this.handleClick = this.handleClick.bind(this)
+       this.handleClick = this.handleClick.bind(this)
     }
 
-    // handleClick(e){
-    //     this.setState(
-    //         { 
-    //         clicked: !this.state.clicked,
-    //         values:  e.target.value,
-    //     }
-    //     )
-    //     console.log(this.state.values);
-    //     autofill();
-    //     return false;
-    // }
+    handleClick(e){
+        this.setState(
+            { 
+            clicked: !this.state.clicked,
+        }
+        )
+    }
 
     render() {
         console.log(this.props);
       const {image} = this.props;
-      //const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
-      //const color = "transparent";
+      const background = this.state.clicked ? "#ECE2DD" : "transparent";
       return (
           <>
-            <label for={"checkbox"+this.props.value}>
-                <img src={image} alt={this.props.value}></img>
+            <label htmlFor={"checkbox"+this.props.value}>
+                <img className="contact-icon2" src={image} alt={this.props.value} style={{ background }} onClick={this.handleClick}></img>
             </label>
-            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}}>
+            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}} value={this.props.value}>
             </input>
           </>
       )
@@ -47,7 +42,7 @@ class Li extends React.PureComponent {
     }
   }
 // ******* For the images End ************
-//<input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+
 
 export default class AddBinForm extends Component {
     constructor(props){

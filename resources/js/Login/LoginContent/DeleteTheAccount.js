@@ -44,6 +44,8 @@ class DeleteTheAccount extends Component {
             .then(res => {
                 console.log(res.data);
                 console.log("deleted");
+                localStorage.removeItem('usertoken')
+                this.props.handleAuth(null);
                 this.props.history.push(`/deletedone`)
             })
             .catch(error =>{
