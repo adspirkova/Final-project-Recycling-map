@@ -111,8 +111,9 @@ export default class Contact extends Component {
 
     onChange(e) {
         this.setState({
-            [e.target.name]: e.target.value
-        });
+            chosencity: e.target.value,
+           });
+        this.updateStations(e.target.value);
     }
 
     onSubmit(e) {

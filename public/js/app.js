@@ -98094,7 +98094,10 @@ function (_Component) {
   _createClass(Contact, [{
     key: "onChange",
     value: function onChange(e) {
-      this.setState(_defineProperty({}, e.target.name, e.target.value));
+      this.setState({
+        chosencity: e.target.value
+      });
+      this.updateStations(e.target.value);
     }
   }, {
     key: "onSubmit",
