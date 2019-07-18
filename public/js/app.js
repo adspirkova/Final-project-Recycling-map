@@ -8801,7 +8801,7 @@ var createChangeEmitter = exports.createChangeEmitter = function createChangeEmi
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* ABOUT PAGE **********************************/\n#about-wrap {\n  padding: 20px;\n  color: black;\n  background-color: #FFF6C2;\n  /* height: 100vh; */\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n#about-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n#about-wrap .row {\n  margin: 2rem;\n}\n\n.explainIcon {\n  width: 50px;\n  border: 1px solid black;\n  padding: 0.5rem;\n}\n\n.col-xs-3 {\n  margin: 0 1.5rem;\n}", ""]);
+exports.push([module.i, "/* ABOUT PAGE **********************************/\n#about-wrap {\n  padding: 20px;\n  color: black;\n  background-color: #FFF6C2;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n#about-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n#about-wrap .row {\n  margin: 2rem;\n  padding: 0 auto;\n}\n\n.explainIcon {\n  width: 50px;\n  border: 1px solid black;\n  padding: 0.5rem;\n}\n\n.col-xs-3 {\n  margin: 0 1.5rem;\n}\n\n.description {\n  border: 1px dotted black;\n  background-color: beige;\n  padding: 0.5rem;\n  margin: auto 25vw;\n}\n\n@media screen and (max-width: 768px) {\n  .description {\n    margin: auto 5vw;\n  }\n}\n.kasen {\n  border-bottom: black 0.5px solid;\n}\n\n.pictureBox {\n  margin: 0 auto;\n}", ""]);
 
 
 
@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86041,8 +86041,14 @@ function (_Component) {
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About \"Find bin\" -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Find Bin helps you to find a recycling bin near you in Prague. A website is made for a mobile phone, but also can be used on your laptop. Also it allows you to add new recycle bin on the map .", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Type of recycling bins that you can see on the map:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9 description"
+      }, "Find Bin helps you to find a recycling bin near you in Prague.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "A website is made for a mobile phone, but also can be used on your laptop.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "It also allows you to add new recycle bin on the map.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "picturesBox"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3 kasen"
+      }, "Type of recycling bins on the map:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
@@ -86112,7 +86118,7 @@ function (_Component) {
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 
@@ -88673,8 +88679,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
