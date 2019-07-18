@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import '../../Contact/Contact.js';
 
 
+const urlLive = "http://recycling-bins.data4you.cz";
+const urlServer = "http://www.recycling-bins.localhost:8080";
+
 
 
 // ******* For the images Start ************
@@ -82,7 +85,7 @@ export default class AddBinForm extends Component {
 
     updateCities = () => {
         fetch(
-            `http://recycling-bins.data4you.cz/cities/`
+            `${urlServer}/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -94,7 +97,7 @@ export default class AddBinForm extends Component {
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `http://recycling-bins.data4you.cz/stations/${lookupcity}`
+            `${urlServer}/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {

@@ -86465,7 +86465,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
- // ******* For the images Start ************
+
+var urlLive = "http://recycling-bins.data4you.cz";
+var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
   img: "img/clear-glass2.png",
@@ -86561,7 +86563,7 @@ function (_Component) {
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      fetch("http://recycling-bins.data4you.cz/cities/").then(function (resp) {
+      fetch("".concat(urlServer, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -86610,7 +86612,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("http://recycling-bins.data4you.cz/stations/".concat(lookupcity)).then(function (resp) {
+      fetch("".concat(urlServer, "/stations/").concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
