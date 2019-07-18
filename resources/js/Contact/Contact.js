@@ -197,7 +197,7 @@ export default class Contact extends Component {
                             className="contact-icon"
                         />
                         <label htmlFor="contact-name">Location</label>
-                        <select className="form-control" onChange={(e) => this.handleChange(e)}  >
+                        <select className="form-control" onChange={(e) => this.onChange(e)}  >
                                 {cities == null ? (<option>Please wait...</option>): (cities.map((city,index) => {
                                     return (<option key={index} value={city.cityDistrict}>{city.cityDistrict}</option>)
                                 }))}

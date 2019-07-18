@@ -98172,7 +98172,7 @@ function (_Component) {
       }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
         className: "form-control",
         onChange: function onChange(e) {
-          return _this4.handleChange(e);
+          return _this4.onChange(e);
         }
       }, cities == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please wait...") : cities.map(function (city, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
