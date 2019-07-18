@@ -36,7 +36,7 @@ class Li extends React.PureComponent {
       //const color = "transparent";
       return (
           <>
-            <label forHtml={"checkbox"+this.props.value}>
+            <label for={"checkbox"+this.props.value}>
                 <img src={image} alt={this.props.value}></img>
             </label>
             <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}}>
