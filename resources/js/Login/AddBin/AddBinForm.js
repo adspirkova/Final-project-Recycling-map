@@ -2,27 +2,47 @@ import React, { Component } from 'react'
 import '../../Contact/Contact.js';
 
 
+
+
 // ******* For the images Start ************
-const images = ["img/icon/waste.svg","img/icon/map1.svg","img/icon/3-glass.svg","img/icon/map2.svg","img/icon/login.svg","img/icon/map1.svg"];
+const images = [{img: "img/clear-glass2.png", type: 'Clear glass'}, {img: "img/glass2.png", type: 'Coloured glass'}, {img: "img/paper.png", type: 'Paper'}, {img: "img/water.png", type:'Plastic'},{img: "img/cardboard.png", type: 'Cardboard'}, {img:"img/can.png", type: 'Metals'}, {img:"img/electric.png", type:'Electric equipment'} ];
 
 class Li extends React.PureComponent {
     constructor(props) {
       super(props);
-      this.state = { clicked: false };
-      this.handleClick = this.handleClick.bind(this)
+      this.state = { 
+        clicked: false,
+        values: [],
+    };
+       this.handleClick = this.handleClick.bind(this)
     }
 
-    handleClick() {
-      this.setState({ clicked: !this.state.clicked });
+    handleClick(e){
+        this.setState(
+            { 
+            clicked: !this.state.clicked,
+        }
+        )
     }
 
     render() {
+        console.log(this.props);
       const {image} = this.props;
       const background = this.state.clicked ? "#ECE2DD" : "transparent";
-      return <img src = {image} style={{ background }} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+      return (
+          <>
+            <label htmlFor={"checkbox"+this.props.value}>
+                <img className="contact-icon2" src={image} alt={this.props.value} style={{ background }} onClick={this.handleClick}></img>
+            </label>
+            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}} value={this.props.value}>
+            </input>
+          </>
+      )
+      
     }
   }
 // ******* For the images End ************
+
 
 export default class AddBinForm extends Component {
     constructor(props){
@@ -62,7 +82,7 @@ export default class AddBinForm extends Component {
 
     updateCities = () => {
         fetch(
-            `http://www.recycling-bins.localhost:8080/cities/`
+            `http://recycling-bins.data4you.cz/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -74,7 +94,7 @@ export default class AddBinForm extends Component {
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `http://www.recycling-bins.localhost:8080/stations/${lookupcity}`
+            `http://recycling-bins.data4you.cz/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -91,9 +111,8 @@ export default class AddBinForm extends Component {
         this.updateStations()
     }
 
-
-
     render (){
+        let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');  
         const cities = this.state.cities;
         console.log(cities);
         const stations = this.state.stations;
@@ -109,8 +128,8 @@ export default class AddBinForm extends Component {
                     <h2>- Add a new Bin -</h2>
                 </div>
                     <br/>
-                    <form className="contact-form php-mail-form" role="form" action="" method="POST">
-
+                    <form className="contact-form php-mail-form" role="form" action="/addbin/create" method="POST">
+                    <input type="hidden" name="_token" value={token}></input>
                         <div className="form-group">
                         <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Location</label>
@@ -119,9 +138,9 @@ export default class AddBinForm extends Component {
                                     return (<option key={index} value={city.cityDistrict}>{city.cityDistrict}</option>)
                                 }))}
                             </select>
-                            <select className="form-control">
+                            <select className="form-control" name="stationId">
                                 {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
-                                    return (<option key={index}>{station.stationName}</option>)
+                                    return (<option key={index}  value={station.id}>{station.stationName}</option>)
                                 }))}
                             </select>
                             <div className="validate"></div>
@@ -131,39 +150,16 @@ export default class AddBinForm extends Component {
                             <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
-                                { images.map((image, index) => <Li key={`${image}-${index}`} image={image}/>) }
+                                { images.map((image, index) => <Li key={`${image.img}-${index}`} value={image.type} image={image.img}/>)}
                             </div>
                             <div className="validate"></div>
                         </div>
-
-                        <div className="form-group">
-                            <img src="img/icon/contact2.svg" alt="location" className="contact-icon"/>
-                            <label htmlFor="contact-message">Your Message</label>
-                            <textarea className="form-control"
-                                        name="message"
-                                        id="contact-message"
-                                        onChange={this.onChange}
-                                        value={ this.state.message }
-                                        placeholder="Your Feedback"
-                                        rows="5"
-                                        data-rule="required"
-                                        data-msg="Please write something for us"></textarea>
-                            <div className="validate"></div>
-                        </div>
-
-                        <div className="form-group">
-                            <img src="img/icon/message1.svg" alt="location" className="contact-icon"/>
-                            <label htmlFor="uploadFile">Add a file or picture.</label>
-                            <input type="file" name="upload" size="30"/>
-                            <div className="validate"></div>
-                        </div>
-
                         <div className="form-group">
                             <input id="box1" type="checkbox" />
                             <label htmlFor="contact-agree">I agree with terms & conditions.</label>
                             <br/>
                             <div className="form-send">
-                                <button type="submit" className="btn btn-large">Send Message</button>
+                                <button type="submit" className="btn btn-large">Submit</button>
                             </div>
                         </div>
                         <br/><br/><br/>

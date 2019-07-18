@@ -86,7 +86,7 @@ class LocationController extends Controller
     }
     public function getLocations($lat, $lng, $currZoom) 
     {
-        $locations = Location::where('lat', '<', $lat + (0.0121631246478468 * (19-$currZoom)))->where('lat', '>', $lat - (0.0121631246478468 * (19-$currZoom)))->where('lng', '<', $lng + (0.021769436*(19-$currZoom)))->where('lng', '>', $lng - (0.021769436*(19-$currZoom)))->get();
+        $locations = Location::where('lat', '<', $lat + (0.121631276478468 * (20-$currZoom)))->where('lat', '>', $lat - (0.121631276478468 * (20-$currZoom)))->where('lng', '<', $lng + (0.0494191226666671*(20-$currZoom)))->where('lng', '>', $lng - (0.0494191226666671*(20-$currZoom)))->get();
         return response()->json(['locations'=> $locations],200);
     }
 
@@ -98,8 +98,9 @@ class LocationController extends Controller
 
     public function getStation($city) 
     {
-        $stations = Location::select('stationName')->where('cityDistrict', '=', $city)->distinct()->orderByRaw('`stationName` ASC')->get();
+        $stations = Location::select('stationName', 'id')->where('cityDistrict', '=', $city)->distinct()->orderByRaw('`stationName` ASC')->get();
         return response()->json(['stationName'=> $stations],200);
     }
+
 }
  

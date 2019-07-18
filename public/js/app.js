@@ -79083,7 +79083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86037,100 +86037,82 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/search3.svg",
+        src: "img/image-new/garbage.png",
         alt: "garbage",
         className: "big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About Bin Icon -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About \"Find bin\" -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Find Bin helps you to find a recycling bin near you in Prague. A website is made for a mobile phone, but also can be used on your laptop. Also it allows you to add new recycle bin on the map .", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Type of recycling bins that you can see on the map:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/1-plastic1.svg",
+        src: "img/clear-glass2.png",
+        alt: "clear glass",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Clear glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/glass2.png",
+        alt: "colored glass",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Colored glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/can.png",
+        alt: "metal",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Metal", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/cardboard.png",
+        alt: "cardboard",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Cardboard", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/paper.png",
+        alt: "paper",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/electric.png",
+        alt: "Electric equipment",
+        className: "explainIcon"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9"
+      }, "EN:Electric equipment", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "img/water.png",
         alt: "plastic",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-9"
-      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Plasly")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/2-namagomi2.svg",
-        alt: "namagomi",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Food Scrap", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/3-glass2.svg",
-        alt: "glass",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Transparent Glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Bile Sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/4-glass1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Colorful Glass", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Barevne Sklo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/5-paper1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Paper", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:Papir")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/6-battery1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Battery", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/7-can1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Metal Can", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/8-textil1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Textil", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-3"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/9-cloth1.svg",
-        alt: "plastic",
-        className: "explainIcon"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-xs-9"
-      }, "EN:Cloth", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }, "EN:Plastic", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "CZ:-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 
@@ -86208,7 +86190,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
  // ******* For the images Start ************
 
-var images = ["img/icon/waste.svg", "img/icon/map1.svg", "img/icon/3-glass.svg", "img/icon/map2.svg", "img/icon/login.svg", "img/icon/map1.svg"];
+var images = ["img/image-new/ask.png", "img/image-new/cross.png", "img/image-new/trash (1).png", "img/image-new/wrong.png", "img/image-new/lock.png", "img/image-new/pencil.png"];
 
 var Li =
 /*#__PURE__*/
@@ -86267,11 +86249,16 @@ function (_Component) {
     _classCallCheck(this, Contact);
 
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(Contact).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_this2), "fileSelectedHandler", function (e) {
+      console.log(e.target.files[0]);
+    });
+
     _this2.state = {
-      location: '',
-      problem: '',
-      message: '',
-      file: '',
+      location: "",
+      problem: "",
+      message: "",
+      file: "",
       agree: false
     };
     _this2.onChange = _this2.onChange.bind(_assertThisInitialized(_this2));
@@ -86380,6 +86367,7 @@ function (_Component) {
         htmlFor: "uploadFile"
       }, "Add a file or picture."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "file",
+        onChange: this.fileSelectedHandler,
         name: "upload",
         size: "30"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -86396,7 +86384,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-large"
-      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "loading"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "error-message"
@@ -86479,7 +86467,28 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
  // ******* For the images Start ************
 
-var images = ["img/icon/waste.svg", "img/icon/map1.svg", "img/icon/3-glass.svg", "img/icon/map2.svg", "img/icon/login.svg", "img/icon/map1.svg"];
+var images = [{
+  img: "img/clear-glass2.png",
+  type: 'Clear glass'
+}, {
+  img: "img/glass2.png",
+  type: 'Coloured glass'
+}, {
+  img: "img/paper.png",
+  type: 'Paper'
+}, {
+  img: "img/water.png",
+  type: 'Plastic'
+}, {
+  img: "img/cardboard.png",
+  type: 'Cardboard'
+}, {
+  img: "img/can.png",
+  type: 'Metals'
+}, {
+  img: "img/electric.png",
+  type: 'Electric equipment'
+}];
 
 var Li =
 /*#__PURE__*/
@@ -86493,7 +86502,8 @@ function (_React$PureComponent) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Li).call(this, props));
     _this.state = {
-      clicked: false
+      clicked: false,
+      values: []
     };
     _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
     return _this;
@@ -86501,7 +86511,7 @@ function (_React$PureComponent) {
 
   _createClass(Li, [{
     key: "handleClick",
-    value: function handleClick() {
+    value: function handleClick(e) {
       this.setState({
         clicked: !this.state.clicked
       });
@@ -86509,17 +86519,28 @@ function (_React$PureComponent) {
   }, {
     key: "render",
     value: function render() {
+      console.log(this.props);
       var image = this.props.image;
       var background = this.state.clicked ? "#ECE2DD" : "transparent";
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        htmlFor: "checkbox" + this.props.value
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "contact-icon2",
         src: image,
+        alt: this.props.value,
         style: {
           background: background
         },
-        onClick: this.handleClick,
-        className: "contact-icon2",
-        alt: "problems"
-      });
+        onClick: this.handleClick
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "checkbox",
+        id: "checkbox" + this.props.value,
+        name: "trashTypeName[]",
+        style: {
+          display: 'none'
+        },
+        value: this.props.value
+      }));
     }
   }]);
 
@@ -86540,7 +86561,7 @@ function (_Component) {
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      fetch("http://www.recycling-bins.localhost:8080/cities/").then(function (resp) {
+      fetch("http://recycling-bins.data4you.cz/cities/").then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -86589,7 +86610,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("http://www.recycling-bins.localhost:8080/stations/".concat(lookupcity)).then(function (resp) {
+      fetch("http://recycling-bins.data4you.cz/stations/".concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
@@ -86609,6 +86630,7 @@ function (_Component) {
     value: function render() {
       var _this4 = this;
 
+      var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
       var cities = this.state.cities;
       console.log(cities);
       var stations = this.state.stations;
@@ -86626,9 +86648,13 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Add a new Bin -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "contact-form php-mail-form",
         role: "form",
-        action: "",
+        action: "/addbin/create",
         method: "POST"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "hidden",
+        name: "_token",
+        value: token
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/map2.svg",
@@ -86647,10 +86673,12 @@ function (_Component) {
           value: city.cityDistrict
         }, city.cityDistrict);
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-        className: "form-control"
+        className: "form-control",
+        name: "stationId"
       }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-          key: index
+          key: index,
+          value: station.id
         }, station.stationName);
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
@@ -86666,44 +86694,11 @@ function (_Component) {
         className: "icons"
       }, images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
-          key: "".concat(image, "-").concat(index),
-          image: image
+          key: "".concat(image.img, "-").concat(index),
+          value: image.type,
+          image: image.img
         });
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/contact2.svg",
-        alt: "location",
-        className: "contact-icon"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        htmlFor: "contact-message"
-      }, "Your Message"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-        className: "form-control",
-        name: "message",
-        id: "contact-message",
-        onChange: this.onChange,
-        value: this.state.message,
-        placeholder: "Your Feedback",
-        rows: "5",
-        "data-rule": "required",
-        "data-msg": "Please write something for us"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "validate"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/message1.svg",
-        alt: "location",
-        className: "contact-icon"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        htmlFor: "uploadFile"
-      }, "Add a file or picture."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "file",
-        name: "upload",
-        size: "30"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
@@ -86717,7 +86712,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-large"
-      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Submit"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "loading"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "error-message"
@@ -87999,8 +87994,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_google_maps__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_google_maps__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-google-maps/lib/components/addons/MarkerClusterer */ "./node_modules/react-google-maps/lib/components/addons/MarkerClusterer.js");
 /* harmony import */ var react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_google_maps_lib_components_addons_MarkerClusterer__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _MapStyle_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MapStyle.json */ "./resources/js/Map/MapStyle.json");
-var _MapStyle_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./MapStyle.json */ "./resources/js/Map/MapStyle.json", 1);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -88025,7 +88018,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
 
@@ -88046,7 +88038,7 @@ function (_Component) {
           lat = _this$state.lat,
           lng = _this$state.lng,
           currZoom = _this$state.currZoom;
-      fetch("http://www.recycling-bins.localhost:8080/locations/".concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
+      fetch("http://recycling-bins.data4you.cz/locations/".concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -88072,11 +88064,6 @@ function (_Component) {
   }
 
   _createClass(MapContainer, [{
-    key: "componentWillMount",
-    value: function componentWillMount() {
-      this.updateLocations();
-    }
-  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       var _this2 = this;
@@ -88086,23 +88073,18 @@ function (_Component) {
         console.log("Geolocation is not supported by your browser");
       } else {
         console.log("Locating…");
-        navigator.geolocation.getCurrentPosition(function (position) {
-          console.log(position.coords.latitude);
+        navigator.geolocation.getCurrentPosition(function (userPosition) {
+          console.log(userPosition);
 
           _this2.setState({
-            userPosition: {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            }
+            lat: userPosition.coords.latitude,
+            lng: userPosition.coords.longitude
           }, function () {
             _this2.updateLocations();
           });
         }, function () {
           console.log("error");
         });
-        console.log(this.state.userPosition);
-        console.log(this.state.lat);
-        console.log(this.state.lng);
       }
     }
   }, {
@@ -88111,7 +88093,7 @@ function (_Component) {
       var _this3 = this;
 
       var id = station;
-      fetch("http://www.recycling-bins.localhost:8080/bins/".concat(id)).then(function (resp) {
+      fetch("http://recycling-bins.data4you.cz/bins/".concat(id)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
@@ -88258,9 +88240,6 @@ function (_Component) {
         ref: function ref(_ref) {
           mapRef = _ref;
         },
-        defaultOptions: {
-          styles: _MapStyle_json__WEBPACK_IMPORTED_MODULE_3__
-        },
         onCenterChanged: function onCenterChanged(e) {
           var center = mapRef.getCenter();
 
@@ -88269,7 +88248,6 @@ function (_Component) {
             lng: center.lng()
           }, function () {
             console.log(_this4.state.lat);
-            console.log(_this4.state.userPosition);
 
             _this4.updateLocations();
           });
@@ -88304,17 +88282,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["withScriptjs"])(Object(react_google_maps__WEBPACK_IMPORTED_MODULE_1__["withGoogleMap"])(MapContainer)));
-
-/***/ }),
-
-/***/ "./resources/js/Map/MapStyle.json":
-/*!****************************************!*\
-  !*** ./resources/js/Map/MapStyle.json ***!
-  \****************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, default */
-/***/ (function(module) {
-
-module.exports = [{"elementType":"geometry","stylers":[{"color":"#ebe3cd"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#523735"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#f5f1e6"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#c9b2a6"}]},{"featureType":"administrative.land_parcel","elementType":"geometry.stroke","stylers":[{"color":"#dcd2be"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"color":"#ae9e90"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#93817c"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#a5b076"}]},{"featureType":"poi.park","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#447530"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#f5f1e6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#fdfcf8"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#f8c967"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#e9bc62"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#e98d58"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.stroke","stylers":[{"color":"#db8555"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#806b63"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},{"featureType":"transit.line","elementType":"labels.text.fill","stylers":[{"color":"#8f7d77"}]},{"featureType":"transit.line","elementType":"labels.text.stroke","stylers":[{"color":"#ebe3cd"}]},{"featureType":"transit.station","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#b9d3c2"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#92998d"}]}];
 
 /***/ }),
 
@@ -88370,7 +88337,7 @@ try {
 
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 /**
  * Next we will register the CSRF Token as a common header with Axios so that
  * all outgoing HTTP requests automatically have it attached. This is just
@@ -88380,9 +88347,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
-  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+  window.axios.defaults.headers.common["X-CSRF-TOKEN"] = token.content;
 } else {
-  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+  console.error("CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token");
 }
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -88706,8 +88673,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/adelaspirkova/web/bootcamp/projects/Final project/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
