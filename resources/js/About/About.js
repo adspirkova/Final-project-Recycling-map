@@ -1,109 +1,136 @@
-import React, { Component } from 'react'
-import './About.scss';
+import React, { Component } from "react";
+import "./About.scss";
 
 export default class About extends Component {
-
-    render () {
+    render() {
         return (
             <div id="about-wrap">
                 <div className="big-icon">
-                    <img src="img/icon/search3.svg" alt="garbage" className="big"/>
+                    <img
+                        src="img/image-new/garbage.png"
+                        alt="garbage"
+                        className="big"
+                    />
                 </div>
 
-                <h2>- About Bin Icon -</h2>
-
+                <h2>- About "Find bin" -</h2>
+                <div className="col-xs-9">
+                    <p>
+                        Find Bin helps you to find a recycling bin near you in
+                        Prague. A website is made for a mobile phone, but also
+                        can be used on your laptop. Also it allows you to add
+                        new recycle bin on the map .
+                        <br />
+                        Type of recycling bins that you can see on the map:
+                    </p>
+                </div>
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/1-plastic1.svg" alt="plastic" className="explainIcon"/>
+                        <img
+                            src="img/clear-glass2.png"
+                            alt="clear glass"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Plastic<br/>
-                    CZ:Plasly
+                        EN:Clear glass
+                        <br />
+                        CZ:
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/2-namagomi2.svg" alt="namagomi" className="explainIcon"/>
+                        <img
+                            src="img/glass2.png"
+                            alt="colored glass"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Food Scrap<br/>
-                    CZ:-
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="col-xs-3">
-                        <img src="img/icon/3-glass2.svg" alt="glass" className="explainIcon"/>
-                    </div>
-                    <div className="col-xs-9">
-                    EN:Transparent Glass<br/>
-                    CZ:Bile Sklo
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="col-xs-3">
-                        <img src="img/icon/4-glass1.svg" alt="plastic" className="explainIcon"/>
-                    </div>
-                    <div className="col-xs-9">
-                    EN:Colorful Glass<br/>
-                    CZ:Barevne Sklo
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="col-xs-3">
-                        <img src="img/icon/5-paper1.svg" alt="plastic" className="explainIcon"/>
-                    </div>
-                    <div className="col-xs-9">
-                    EN:Paper<br/>
-                    CZ:Papir
+                        EN:Colored glass
+                        <br />
+                        CZ:
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/6-battery1.svg" alt="plastic" className="explainIcon"/>
+                        <img
+                            src="img/can.png"
+                            alt="metal"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Battery<br/>
-                    CZ:-
+                        EN:Metal
+                        <br />
+                        CZ:-
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/7-can1.svg" alt="plastic" className="explainIcon"/>
+                        <img
+                            src="img/cardboard.png"
+                            alt="cardboard"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Metal Can<br/>
-                    CZ:-
+                        EN:Cardboard
+                        <br />
+                        CZ:
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/8-textil1.svg" alt="plastic" className="explainIcon"/>
+                        <img
+                            src="img/paper.png"
+                            alt="paper"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Textil<br/>
-                    CZ:-
+                        EN:Paper
+                        <br />
+                        CZ:
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-xs-3">
-                    <img src="img/icon/9-cloth1.svg" alt="plastic" className="explainIcon"/>
+                        <img
+                            src="img/electric.png"
+                            alt="Electric equipment"
+                            className="explainIcon"
+                        />
                     </div>
                     <div className="col-xs-9">
-                    EN:Cloth<br/>
-                    CZ:-
+                        EN:Electric equipment
+                        <br />
+                        CZ:-
                     </div>
                 </div>
-                <br/><br/><br/>
+
+                <div className="row">
+                    <div className="col-xs-3">
+                        <img
+                            src="img/water.png"
+                            alt="plastic"
+                            className="explainIcon"
+                        />
+                    </div>
+                    <div className="col-xs-9">
+                        EN:Plastic
+                        <br />
+                        CZ:-
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
             </div>
-        )
-
+        );
     }
 }
