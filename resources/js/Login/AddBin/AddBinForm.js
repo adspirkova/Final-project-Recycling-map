@@ -34,7 +34,7 @@ class Li extends React.PureComponent {
       const {image} = this.props;
       return (
           <>
-            <label for={"checkbox"+this.props.value}>
+            <label htmlFor={"checkbox"+this.props.value}>
                 <img src={image} alt={this.props.value}></img>
             </label>
             <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}} value={this.props.value}>

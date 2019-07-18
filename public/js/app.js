@@ -86526,7 +86526,7 @@ function (_React$PureComponent) {
       console.log(this.props);
       var image = this.props.image;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        "for": "checkbox" + this.props.value
+        htmlFor: "checkbox" + this.props.value
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: image,
         alt: this.props.value
