@@ -86544,7 +86544,7 @@ function (_React$PureComponent) {
       }; //const color = "transparent";
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "button",
+        type: "image",
         name: "trashTypeName",
         value: this.props.value,
         style: {
