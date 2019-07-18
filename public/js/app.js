@@ -86546,6 +86546,7 @@ function (_React$PureComponent) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "image",
         name: "trashTypeName",
+        src: image,
         value: this.props.value,
         style: {
           style: style
