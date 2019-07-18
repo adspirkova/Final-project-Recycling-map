@@ -32,14 +32,12 @@ class Li extends React.PureComponent {
     render() {
         console.log(this.props);
       const {image} = this.props;
-      //const style= this.state.clicked ? {background: `url(${image})no-repeat 10px center #cccccc`, color: 'transparent'} : {background: `url(${image}) no-repeat 10px center`, color: 'transparent'};
-      //const color = "transparent";
       return (
           <>
             <label for={"checkbox"+this.props.value}>
                 <img src={image} alt={this.props.value}></img>
             </label>
-            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}}>
+            <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}} value={this.props.value}>
             </input>
           </>
       )
@@ -47,7 +45,7 @@ class Li extends React.PureComponent {
     }
   }
 // ******* For the images End ************
-//<input type='image' name="trashTypeName" src={image} value={this.props.value}  style={{style}} onClick={this.handleClick} className="contact-icon2" alt="problems"/>
+
 
 export default class AddBinForm extends Component {
     constructor(props){
