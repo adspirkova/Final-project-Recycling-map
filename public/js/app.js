@@ -98375,7 +98375,7 @@ function (_Component) {
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      fetch("".concat(urlServer, "/cities/")).then(function (resp) {
+      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -98424,7 +98424,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("".concat(urlServer, "/stations/").concat(lookupcity)).then(function (resp) {
+      fetch("".concat(urlLive, "/stations/").concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
