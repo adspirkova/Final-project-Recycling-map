@@ -25,6 +25,25 @@ class BinController extends Controller
      */
     public function create(Request $request)
     {
+        $id = $request->input('stationId');
+        
+        $bins = $request->input('trashTypename');
+
+        foreach ( $bins as $value) {
+            dd($query = "
+                SELECT `$id`
+                FROM `bins`
+                WHERE `trashTypeName` = $value;
+            ");
+        }
+
+        
+
+        if ($request->has('stationId')) {
+            
+        }
+
+
         $record = (object)[
             'id'          => null,
             'stationId'        => null,
@@ -34,7 +53,7 @@ class BinController extends Controller
         ];
 
         if ($request->method() == 'POST') {
-            dd($request);
+            
             $valid = true;
 
             $record->stationId = $request->input('stationId');
