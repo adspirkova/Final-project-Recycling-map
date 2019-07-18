@@ -14,28 +14,25 @@ class Li extends React.PureComponent {
         clicked: false,
         values: [],
     };
-    //   this.handleClick = this.handleClick.bind(this)
+       this.handleClick = this.handleClick.bind(this)
     }
 
-    // handleClick(e){
-    //     this.setState(
-    //         { 
-    //         clicked: !this.state.clicked,
-    //         values:  e.target.value,
-    //     }
-    //     )
-    //     console.log(this.state.values);
-    //     autofill();
-    //     return false;
-    // }
+    handleClick(e){
+        this.setState(
+            { 
+            clicked: !this.state.clicked,
+        }
+        )
+    }
 
     render() {
         console.log(this.props);
       const {image} = this.props;
+      const background = this.state.clicked ? "#ECE2DD" : "transparent";
       return (
           <>
             <label htmlFor={"checkbox"+this.props.value}>
-                <img src={image} alt={this.props.value}></img>
+                <img src={image} alt={this.props.value} style={{ background }} onClick={this.handleClick}></img>
             </label>
             <input type='checkbox' id={"checkbox"+this.props.value} name="trashTypeName[]" style={{display: 'none'}} value={this.props.value}>
             </input>

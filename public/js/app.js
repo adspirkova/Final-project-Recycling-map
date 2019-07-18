@@ -86456,9 +86456,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -86504,32 +86504,33 @@ function (_React$PureComponent) {
     _this.state = {
       clicked: false,
       values: []
-    }; //   this.handleClick = this.handleClick.bind(this)
-
+    };
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
     return _this;
-  } // handleClick(e){
-  //     this.setState(
-  //         { 
-  //         clicked: !this.state.clicked,
-  //         values:  e.target.value,
-  //     }
-  //     )
-  //     console.log(this.state.values);
-  //     autofill();
-  //     return false;
-  // }
-
+  }
 
   _createClass(Li, [{
+    key: "handleClick",
+    value: function handleClick(e) {
+      this.setState({
+        clicked: !this.state.clicked
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       console.log(this.props);
       var image = this.props.image;
+      var background = this.state.clicked ? "#ECE2DD" : "transparent";
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "checkbox" + this.props.value
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: image,
-        alt: this.props.value
+        alt: this.props.value,
+        style: {
+          background: background
+        },
+        onClick: this.handleClick
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "checkbox",
         id: "checkbox" + this.props.value,
