@@ -185,7 +185,7 @@ export default class Contact extends Component {
                 <form
                     className="contact-form php-mail-form"
                     // role="form"
-                    action="contactform/"
+                    action="/contact/create"
                     method="POST"
                 >
                 <input type="hidden" name="_token" value={token}></input>

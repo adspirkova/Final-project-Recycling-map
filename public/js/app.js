@@ -98152,7 +98152,7 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Feed Back Form -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "contact-form php-mail-form" // role="form"
         ,
-        action: "contactform/",
+        action: "/contact/create",
         method: "POST"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "hidden",
