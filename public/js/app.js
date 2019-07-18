@@ -97938,9 +97938,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.scss */ "./resources/js/Contact/Contact.scss");
 /* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -97960,7 +97960,9 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
- // ******* For the images Start ************
+
+var urlLive = "http://recycling-bins.data4you.cz";
+var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
   image: "img/image-new/ask.png",
@@ -98016,22 +98018,24 @@ function (_React$PureComponent) {
   }, {
     key: "render",
     value: function render() {
-      var _React$createElement;
-
-      var image = this.props.image;
+      console.log(this.props);
       var background = this.state.clicked ? "#ECE2DD" : "transparent";
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "checkbox" + this.props.value
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", (_React$createElement = {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "contact-icon2",
-        alt: "problems",
-        src: this.props.src
-      }, _defineProperty(_React$createElement, "alt", this.props.value), _defineProperty(_React$createElement, "style", {
-        background: background
-      }), _defineProperty(_React$createElement, "onClick", this.handleClick), _defineProperty(_React$createElement, "id", "UncontrolledTooltipExample" + this.props.index), _defineProperty(_React$createElement, "href", "#"), _React$createElement))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        src: this.props.src,
+        alt: this.props.value,
+        style: {
+          background: background
+        },
+        onClick: this.handleClick,
+        id: "UncontrolledTooltipExample" + this.props.index,
+        href: "#"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "checkbox",
         id: "UncontrolledTooltipExample" + this.props.index,
-        name: "trashTypeName[]",
+        name: "topic[]",
         style: {
           display: "none"
         },
@@ -98063,12 +98067,25 @@ function (_Component) {
       console.log(e.target.files[0]);
     });
 
+    _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
+      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this2.setState({
+          cities: data.cities
+        });
+      });
+    });
+
     _this2.state = {
       location: "",
       problem: "",
       message: "",
       file: "",
-      agree: false
+      agree: false,
+      cities: null,
+      stations: null,
+      chosencity: 'Praha 1'
     };
     _this2.onChange = _this2.onChange.bind(_assertThisInitialized(_this2));
     return _this2;
@@ -98092,8 +98109,36 @@ function (_Component) {
       };
     }
   }, {
+    key: "updateStations",
+    value: function updateStations(item) {
+      var _this3 = this;
+
+      var lookupcity = item;
+      fetch("".concat(urlLive, "/stations/").concat(lookupcity)).then(function (resp) {
+        return resp.json();
+      }).then(function (data) {
+        _this3.setState({
+          stations: data.stationName
+        });
+      });
+      console.log(this.state.stations);
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.updateCities();
+      this.updateStations();
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this4 = this;
+
+      var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+      var cities = this.state.cities;
+      console.log(cities);
+      var stations = this.state.stations;
+      console.log(stations);
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -98106,10 +98151,14 @@ function (_Component) {
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Feed Back Form -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "contact-form php-mail-form" // role="form"
-        // action="contactform/contactform.php"
         ,
+        action: "contactform/",
         method: "POST"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "hidden",
+        name: "_token",
+        value: token
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/icon/map2.svg",
@@ -98117,17 +98166,25 @@ function (_Component) {
         className: "contact-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         htmlFor: "contact-name"
-      }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "text",
+      }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
         className: "form-control",
-        name: "location",
-        id: "contact-name",
-        onChange: this.onChange,
-        value: this.state.email,
-        placeholder: "The location",
-        "data-rule": "minlen:3",
-        "data-msg": "Please enter at least 3 chars"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        onChange: function onChange(e) {
+          return _this4.handleChange(e);
+        }
+      }, cities == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please wait...") : cities.map(function (city, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: index,
+          value: city.cityDistrict
+        }, city.cityDistrict);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+        className: "form-control",
+        name: "stationId"
+      }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: index,
+          value: station.id
+        }, station.stationName);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "validate"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
