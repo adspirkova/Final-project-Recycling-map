@@ -107,7 +107,11 @@ class App extends Component {
                     } />}/>
                     <Route path="/addbin" component={AddBinForm} />
                     <Route path="/changepw" component={ChangePassword} />
-                    <Route path="/delete" component={DeleteTheAccount} />
+                    <Route path="/delete" component={(props) => <DeleteTheAccount {...props} handleAuth={
+                        (token) => {
+                            this.setState({auth: token})
+                        }
+                    } />}/>
                     <Route path="/deletedone" component={AfterDelete} />
 
                 </Switch>
