@@ -132,6 +132,7 @@ export default class Contact extends Component {
     };
 
     updateCities = () => {
+        console.log(urlLive);
         fetch(
             `${urlLive}/cities/`
         )
