@@ -17,17 +17,17 @@ class Li extends React.PureComponent {
       this.handleClick = this.handleClick.bind(this)
     }
 
-    handleClick(e){
-        this.setState(
-            { 
-            clicked: !this.state.clicked,
-            values:  e.target.value,
-        }
-        )
-        console.log(this.state.values);
-        autofill();
-        return false;
-    }
+    // handleClick(e){
+    //     this.setState(
+    //         { 
+    //         clicked: !this.state.clicked,
+    //         values:  e.target.value,
+    //     }
+    //     )
+    //     console.log(this.state.values);
+    //     autofill();
+    //     return false;
+    // }
 
     render() {
         console.log(this.props);
