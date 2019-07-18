@@ -1,19 +1,18 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Link, Route } from 'react-router-dom';
 import './BeforeAndAfterLogin.scss';
+import MapContainer from '../../Map/MapContainer';
 
 export default class AfterDelete extends Component {
-
-    logOut(e){
-        e.preventDefault()
-        localStorage.removeItem('usertoken')
-        this.props.handleAuth(null);//this doesn't work
-        this.props.history.push(`/login`)
-        console.log("Logout");
-    }
 
     render () {
         return (
          <>
+            <>
+            <BrowserRouter>
+                <Route path="/map" component={MapContainer} />
+            </BrowserRouter>
+            </>
         <div id="login-wrap">
             <div className="big-icon">
                 <img src="img/icon/deleted.svg" alt="garbage" className="big"/>
@@ -33,18 +32,18 @@ export default class AfterDelete extends Component {
             </div>
 
                 <div className="box-text">
-                    <a href="/map#" onClick={this.logOut.bind(this)}>
+                    <Link to="/map">
                         <button type="submit" className="btn btn-gray">
                             <img src="img/icon/map1.svg" alt="map" className="smallIcon" style={{width:'30px'}}/>
                             &ensp;Go back to the top
                         </button>
-                    </a>
+                    </Link>
                 </div>
 
                 <br/>
             </div>
         </div>
-         </>
+        </>
         )
     }
 }
