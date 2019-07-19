@@ -24,10 +24,6 @@ Route::view('/map/{path?}', 'map/map');
 Route::view('/userpage', 'map/map');
 Route::view('/addbin', 'map/map');
 Route::view('/success', 'map/map');
-<<<<<<< HEAD
-=======
-
->>>>>>> de076cba4fa7b51c17a847a6589e5fd4adeeb28e
 Route::any('/addbin/create', 'BinController@create');
 
 Route::any('/contact/create', 'ContactController@create');
