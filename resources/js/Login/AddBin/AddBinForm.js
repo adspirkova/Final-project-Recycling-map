@@ -8,7 +8,7 @@ const urlServer = "http://www.recycling-bins.localhost:8080";
 
 
 // ******* For the images Start ************
-const images = [{img: "img/clear-glass2.png", type: 'Clear glass'}, {img: "img/glass2.png", type: 'Coloured glass'}, {img: "img/paper.png", type: 'Paper'}, {img: "img/water.png", type:'Plastic'},{img: "img/cardboard.png", type: 'Cardboard'}, {img:"img/can.png", type: 'Metals'}, {img:"img/electric.png", type:'Electric equipment'} ];
+const images = [{img: "/img/clear-glass2.png", type: 'Clear glass'}, {img: "/img/glass2.png", type: 'Coloured glass'}, {img: "/img/paper.png", type: 'Paper'}, {img: "/img/water.png", type:'Plastic'},{img: "/img/cardboard.png", type: 'Cardboard'}, {img:"/img/can.png", type: 'Metals'}, {img:"/img/electric.png", type:'Electric equipment'} ];
 
 class Li extends React.PureComponent {
     constructor(props) {
@@ -125,7 +125,7 @@ export default class AddBinForm extends Component {
                 <div className="contact-title">
 
                     <div className="big-icon">
-                    <img src="img/icon/waste.svg" alt="garbage" className="big"/>
+                    <img src="/img/icon/waste.svg" alt="garbage" className="big"/>
                     </div>
 
                     <h2>- Add a new Bin -</h2>
@@ -134,7 +134,7 @@ export default class AddBinForm extends Component {
                     <form className="contact-form php-mail-form" role="form" action="/addbin/create" method="POST">
                     <input type="hidden" name="_token" value={token}></input>
                         <div className="form-group">
-                        <img src="img/icon/map2.svg" alt="location" className="contact-icon"/>
+                        <img src="/img/icon/map2.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Location</label>
                             <select className="form-control" onChange={(e) => this.handleChange(e)}  >
                                 {cities == null ? (<option>Please wait...</option>): (cities.map((city,index) => {
@@ -150,7 +150,7 @@ export default class AddBinForm extends Component {
                         </div>
 
                         <div className="form-group">
-                            <img src="img/icon/problem1.svg" alt="location" className="contact-icon"/>
+                            <img src="/img/icon/problem1.svg" alt="location" className="contact-icon"/>
                             <label htmlFor="contact-name">Add not tracked bins</label>
                             <div className="icons">
                                 { images.map((image, index) => <Li key={`${image.img}-${index}`} value={image.type} image={image.img}/>)}

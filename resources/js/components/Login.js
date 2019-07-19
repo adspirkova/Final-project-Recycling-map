@@ -8,7 +8,7 @@ export default class Login extends Component {
             <form className="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
             <div className="big-icon">
-            <img src="img/icon/waste.svg" alt="garbage" className="big"/>
+            <img src="/img/icon/waste.svg" alt="garbage" className="big"/>
             </div>
 
             <h2>- Login Page -</h2>
@@ -16,7 +16,7 @@ export default class Login extends Component {
 
             <div className="box">
               <div className="box-img">
-                <img src="img/icon/question.svg" alt="question" className="smallIcon"/>
+                <img src="/img/icon/question.svg" alt="question" className="smallIcon"/>
               </div>
               <div className="box-text">
                 <p>What Can you do after Login?</p>

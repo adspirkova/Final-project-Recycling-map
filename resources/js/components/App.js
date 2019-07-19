@@ -22,8 +22,12 @@ import BeforeLogin from "../Login/LoginContent/BeforeLogin";
 class App extends Component {
     constructor(props){
     super(props);
+    let jump = true
+    if (window.location.pathname === '/' || window.location.pathname === '/map') {
+        jump = false
+    }
     this.state = {
-        jump: false,
+        jump: jump,
         auth: localStorage.usertoken,
         page: "map",
         index: true
@@ -39,14 +43,14 @@ class App extends Component {
     render() {
     const beforeLoginTab =(
             <NavLink  activeClassName="activeTab" to="/login">
-            <img src="img/icon/login.svg" alt="login"  className="menu-image"/><br/>
+            <img src="/img/icon/login.svg" alt="login"  className="menu-image"/><br/>
             Login
             </NavLink>)
 
 
     const afterLoginTab =(
             <NavLink  activeClassName="activeTab" to="/userpage">
-            <img src="img/icon/user.svg" alt="login"  className="menu-image"/><br/>
+            <img src="/img/icon/user.svg" alt="login"  className="menu-image"/><br/>
             User Page
             </NavLink>)
 
@@ -58,19 +62,19 @@ class App extends Component {
                     <div className="row">
                         <span className="col-3 menu-bar">
                             <NavLink  activeClassName="activeTab" to="/map">
-                            <img src="img/icon/map1.svg" alt="map" className="menu-image"/><br/>
+                            <img src="/img/icon/map1.svg" alt="map" className="menu-image"/><br/>
                             Map
                             </NavLink>
                         </span>
                         <div className="col-3 menu-bar">
                             <NavLink  activeClassName="activeTab" to="/about">
-                            <img src="img/icon/waste2.svg" alt="waste" className="menu-image"/><br/>
+                            <img src="/img/icon/waste2.svg" alt="waste" className="menu-image"/><br/>
                             About
                             </NavLink>
                         </div>
                         <div className="col-3 menu-bar">
                             <NavLink  activeClassName="activeTab" to="/contact">
-                            <img src="img/icon/contact1.svg" alt="contact" className="menu-image"/><br/>
+                            <img src="/img/icon/contact1.svg" alt="contact" className="menu-image"/><br/>
                             Contact
                             </NavLink>
                         </div>
@@ -93,7 +97,7 @@ class App extends Component {
 
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="/success" component={Thanks} />
+                    
                     <Route path="/login" component={(props) => <BeforeLogin {...props} handleAuth={
                         (token) => {
                             this.setState({auth: token})
@@ -124,11 +128,11 @@ class App extends Component {
         <div id="topwrap">
             <h1>Where to put?</h1>
             <h2>-Czech Garbage Bin Site-</h2><br/>
-            <img src="img/post1.png" alt="garbageBin" className="garbageBin"/>
+            <img src="/img/post1.png" alt="garbageBin" className="garbageBin"/>
 
             <div className="dropBin">
                 <div className="bin1">
-                    <img src="img/bottle.png"/>
+                    <img src="/img/bottle.png"/>
                 </div>
                 <button type="button" className="btn btn-green" onClick={() => {this.onSubmit()}}>View the map now</button>
             </div>

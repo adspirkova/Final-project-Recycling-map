@@ -7,7 +7,7 @@ export default class About extends Component {
             <div id="about-wrap">
                 <div className="big-icon">
                     <img
-                        src="img/image-new/garbage.png"
+                        src="/img/image-new/garbage.png"
                         alt="garbage"
                         className="big"
                     />
@@ -29,7 +29,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/clear-glass2.png"
+                                src="/img/clear-glass2.png"
                                 alt="clear glass"
                                 className="explainIcon"
                             />
@@ -43,7 +43,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/glass2.png"
+                                src="/img/glass2.png"
                                 alt="colored glass"
                                 className="explainIcon"
                             />
@@ -58,7 +58,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/can.png"
+                                src="/img/can.png"
                                 alt="metal"
                                 className="explainIcon"
                             />
@@ -73,7 +73,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/cardboard.png"
+                                src="/img/cardboard.png"
                                 alt="cardboard"
                                 className="explainIcon"
                             />
@@ -88,7 +88,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/paper.png"
+                                src="/img/paper.png"
                                 alt="paper"
                                 className="explainIcon"
                             />
@@ -103,7 +103,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/electric.png"
+                                src="/img/electric.png"
                                 alt="Electric equipment"
                                 className="explainIcon"
                             />
@@ -118,7 +118,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="col-xs-3">
                             <img
-                                src="img/water.png"
+                                src="/img/water.png"
                                 alt="plastic"
                                 className="explainIcon"
                             />

@@ -33,7 +33,7 @@ export default class ForgetPassword extends Component {
             <div id="login-wrap">
             <form onSubmit={this.onSubmit} className="contact-form">
                 <div className="big-icon">
-                    <img src="img/icon/reset.svg" alt="garbage" className="big"/>
+                    <img src="/img/icon/reset.svg" alt="garbage" className="big"/>
                 </div>
 
                 <h2>- Reset the Password -</h2>
