@@ -152,7 +152,7 @@ export default class Contact extends Component {
     updateCities = () => {
         console.log(urlServer);
         fetch(
-            `${urlServer}/cities/`
+            `${urlLive}/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -165,7 +165,7 @@ export default class Contact extends Component {
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `${urlServer}/stations/${lookupcity}`
+            `${urlLive}/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {

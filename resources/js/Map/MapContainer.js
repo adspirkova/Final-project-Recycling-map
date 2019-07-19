@@ -63,7 +63,7 @@ class MapContainer extends Component {
 
     updateBins(station) {
         let id = station;
-        fetch(`${urlLocal}/bins/${id}`)
+        fetch(`${urlLive}/bins/${id}`)
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
@@ -76,7 +76,7 @@ class MapContainer extends Component {
     updateLocations = () => {
         const { lat, lng, currZoom } = this.state;
         fetch(
-            `${urlLocal}/locations/${lat}/${lng}/${currZoom}`
+            `${urlLive}/locations/${lat}/${lng}/${currZoom}`
         )
             .then(resp => resp.json())
             .then(data => {

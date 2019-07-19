@@ -22188,7 +22188,7 @@ exports.push([module.i, "/* ABOUT PAGE **********************************/\n#abo
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ABBD8C;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  .contact-wrap {\n    padding: 20px;\n  }\n}\n.contact-title {\n  font-weight: bolder;\n  text-align: center;\n}\n\n.contact-form label {\n  color: #275362;\n}\n\n.icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  padding: 1rem;\n}\n\n.contact-icon {\n  width: 20px;\n}\n\n.contact-icon2 {\n  width: 40px;\n  height: 40px;\n  padding: 0.5rem;\n  border: 1px solid black;\n}\n.contact-icon2:hover {\n  cursor: pointer;\n}\n\n.contact-form input, .contact-form textarea {\n  padding: 10px 12px;\n  border-radius: 0;\n  box-shadow: none;\n  font-size: 14px;\n  height: auto;\n  background-color: #ECE2DD;\n  border: 1px black solid;\n}\n\n.contact-wrap input, .contact-wrap textarea {\n  padding: 10px 12px;\n  border-radius: 0;\n  box-shadow: none;\n  font-size: 14px;\n  height: auto;\n  background-color: #ABBD8C;\n  border: 1px black solid;\n}\n\n.contact-wrap textarea {\n  height: 60px;\n}\n\n#box1 {\n  border: 2px solid rgba(0, 0, 0, 0);\n}\n\n.contact-form .form-send {\n  text-align: center;\n}\n\n.contact-form .form-send button {\n  background: #1abc9c;\n  border: 0;\n  padding: 10px 30px;\n  color: #fff;\n  transition: 0.4s;\n  cursor: pointer;\n}\n\n.contact-form .form-send button:hover {\n  background: #19cdaa;\n}\n\n.contact-form .validate {\n  display: none;\n  color: red;\n  margin: 0 0 15px 0;\n  font-weight: 400;\n  font-size: 13px;\n}\n\n.contact-form .loading {\n  display: none;\n  color: #555;\n  background: #fff;\n  text-align: center;\n  padding: 15px;\n  margin: 15px 0;\n}\n\n.contact-form .loading:before {\n  content: \"\";\n  display: inline-block;\n  border-radius: 50%;\n  width: 24px;\n  height: 24px;\n  border: 3px solid #18d26e;\n  border-top-color: #eee;\n  animation: animate-loading 1s linear infinite;\n}\n@keyframes animate-loading {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n.contact-form .error-message {\n  display: none;\n  color: #fff;\n  background: #ed3c0d;\n  text-align: center;\n  padding: 15px;\n  font-weight: 600;\n  margin: 15px 0;\n}\n\n.contact-form .sent-message {\n  display: none;\n  color: #fff;\n  background: #18d26e;\n  text-align: center;\n  padding: 15px;\n  font-weight: 600;\n  margin: 15px 0;\n}\n\ninput[type=text]:focus {\n  background-color: transparent;\n}\n\n.form-control:focus {\n  background-color: transparent;\n}", ""]);
+exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ABBD8C;\n  width: 100vw;\n  height: 110vh;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  .contact-wrap {\n    padding: 20px;\n  }\n}\n.contact-title {\n  font-weight: bolder;\n  text-align: center;\n}\n\n.contact-form label {\n  color: #275362;\n}\n\n.icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  padding: 1rem;\n}\n\n.contact-icon {\n  width: 20px;\n}\n\n.contact-icon2 {\n  width: 40px;\n  height: 40px;\n  padding: 0.5rem;\n  border: 1px solid black;\n}\n.contact-icon2:hover {\n  cursor: pointer;\n}\n\n.contact-form input, .contact-form textarea {\n  padding: 10px 12px;\n  border-radius: 0;\n  box-shadow: none;\n  font-size: 14px;\n  height: auto;\n  background-color: #ECE2DD;\n  border: 1px black solid;\n}\n\n.contact-wrap input, .contact-wrap textarea {\n  padding: 10px 12px;\n  border-radius: 0;\n  box-shadow: none;\n  font-size: 14px;\n  height: auto;\n  background-color: #ABBD8C;\n  border: 1px black solid;\n}\n\n.contact-wrap textarea {\n  height: 60px;\n}\n\n#box1 {\n  border: 2px solid rgba(0, 0, 0, 0);\n}\n\n.contact-form .form-send {\n  text-align: center;\n}\n\n.contact-form .form-send button {\n  background: #1abc9c;\n  border: 0;\n  padding: 10px 30px;\n  color: #fff;\n  transition: 0.4s;\n  cursor: pointer;\n}\n\n.contact-form .form-send button:hover {\n  background: #19cdaa;\n}\n\n.contact-form .validate {\n  display: none;\n  color: red;\n  margin: 0 0 15px 0;\n  font-weight: 400;\n  font-size: 13px;\n}\n\n.contact-form .loading {\n  display: none;\n  color: #555;\n  background: #fff;\n  text-align: center;\n  padding: 15px;\n  margin: 15px 0;\n}\n\n.contact-form .loading:before {\n  content: \"\";\n  display: inline-block;\n  border-radius: 50%;\n  width: 24px;\n  height: 24px;\n  border: 3px solid #18d26e;\n  border-top-color: #eee;\n  animation: animate-loading 1s linear infinite;\n}\n@keyframes animate-loading {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n.contact-form .error-message {\n  display: none;\n  color: #fff;\n  background: #ed3c0d;\n  text-align: center;\n  padding: 15px;\n  font-weight: 600;\n  margin: 15px 0;\n}\n\n.contact-form .sent-message {\n  display: none;\n  color: #fff;\n  background: #18d26e;\n  text-align: center;\n  padding: 15px;\n  font-weight: 600;\n  margin: 15px 0;\n}\n\ninput[type=text]:focus {\n  background-color: transparent;\n}\n\n.form-control:focus {\n  background-color: transparent;\n}", ""]);
 
 
 
@@ -22218,7 +22218,7 @@ exports.push([module.i, "/* ThankYou PAGE **********************************/\n#
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  height: 115vh;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,\n.validate_newPassword1, .validate_newPassword2, .validate_currentPassword {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* ForgetPassword.js / ChangePassword.js form *****************************/\n.reset_message, .validate_passwordChanged {\n  color: tomato;\n  font-weight: bolder;\n}\n\n.validate_passwordChanged {\n  margin: 1rem;\n  text-align: center;\n  background-color: #D3D3D3;\n}", ""]);
+exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  height: 115vh;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,\n.validate_newPassword1, .validate_newPassword2, .validate_currentPassword {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  height: 105vh;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* ForgetPassword.js / ChangePassword.js form *****************************/\n.reset_message, .validate_passwordChanged {\n  color: tomato;\n  font-weight: bolder;\n}\n\n.validate_passwordChanged {\n  margin: 1rem;\n  text-align: center;\n  background-color: #D3D3D3;\n}", ""]);
 
 
 
@@ -112863,7 +112863,7 @@ function (_Component) {
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
       console.log(urlServer);
-      fetch("".concat(urlServer, "/cities/")).then(function (resp) {
+      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -112923,7 +112923,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("".concat(urlServer, "/stations/").concat(lookupcity)).then(function (resp) {
+      fetch("".concat(urlLive, "/stations/").concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
@@ -113249,7 +113249,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AddBinForm; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Contact_Contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Contact/Contact.js */ "./resources/js/Contact/Contact.js");
+/* harmony import */ var _Contact_Contact_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Contact/Contact.scss */ "./resources/js/Contact/Contact.scss");
+/* harmony import */ var _Contact_Contact_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_Contact_scss__WEBPACK_IMPORTED_MODULE_1__);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -113369,7 +113370,7 @@ function (_Component) {
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      fetch("".concat(urlServer, "/cities/")).then(function (resp) {
+      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -113418,7 +113419,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("".concat(urlServer, "/stations/").concat(lookupcity)).then(function (resp) {
+      fetch("".concat(urlLive, "/stations/").concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
@@ -114848,7 +114849,7 @@ function (_Component) {
           lat = _this$state.lat,
           lng = _this$state.lng,
           currZoom = _this$state.currZoom;
-      fetch("".concat(urlLocal, "/locations/").concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
+      fetch("".concat(urlLive, "/locations/").concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -114903,7 +114904,7 @@ function (_Component) {
       var _this3 = this;
 
       var id = station;
-      fetch("".concat(urlLocal, "/bins/").concat(id)).then(function (resp) {
+      fetch("".concat(urlLive, "/bins/").concat(id)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
