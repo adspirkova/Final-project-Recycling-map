@@ -68,7 +68,7 @@ class DeleteTheAccount extends Component {
         <div id="login-wrap">
             <form noValidate onSubmit={(e)=>{this.onSubmit(e)}} className="contact-form">
                 <div className="big-icon">
-                    <img src="img/icon/logout.svg" alt="garbage" className="big"/>
+                    <img src="/img/icon/logout.svg" alt="garbage" className="big"/>
                 </div>
 
                 <h2>- Delete account -</h2>
@@ -77,7 +77,7 @@ class DeleteTheAccount extends Component {
                     <div className="box-text">
                         <Link to="/userpage">
                             <button type="submit" className="btn btn-gray">
-                                <img src="img/icon/login.svg" alt="logout" className="smallIcon" style={{width:'30px'}}/>
+                                <img src="/img/icon/login.svg" alt="logout" className="smallIcon" style={{width:'30px'}}/>
                                 &ensp;Back to the user page
                             </button>
                         </Link>
@@ -88,7 +88,7 @@ class DeleteTheAccount extends Component {
                     <div className="box-text">
                         {/* <Link to="/deletedone"> */}
                             <button type="submit" className="btn btn-gray">
-                                <img src="img/icon/problem3.svg" alt="question" className="smallIcon" style={{width:'30px'}}/>
+                                <img src="/img/icon/problem3.svg" alt="question" className="smallIcon" style={{width:'30px'}}/>
                                 <span className="red">&ensp;I'm sure to Delete the account</span>
                             </button>
                         {/* </Link> */}

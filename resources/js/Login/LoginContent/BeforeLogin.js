@@ -64,7 +64,7 @@ export default class BeforeLogin extends Component {
         <form noValidate onSubmit={this.onSubmit} className="contact-form">
 
             <div className="big-icon">
-                <img src="img/icon/waste.svg" alt="garbage" className="big"/>
+                <img src="/img/icon/waste.svg" alt="garbage" className="big"/>
             </div>
 
             <h2>- Login Page -</h2>
@@ -72,7 +72,7 @@ export default class BeforeLogin extends Component {
 
             <div className="box">
               <div className="box-img">
-                <img src="img/icon/question.svg" alt="question" className="smallIcon"/>
+                <img src="/img/icon/question.svg" alt="question" className="smallIcon"/>
               </div>
               <div className="box-text">
                 <p className="pink">What Can you do after Login?</p>

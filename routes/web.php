@@ -23,7 +23,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::view('/map/{path?}', 'map/map');
 Route::view('/userpage', 'map/map');
 Route::view('/addbin', 'map/map');
-Route::view('/success', 'map/map');
+
+Route::view('/contact', 'map/map');
+
 
 Route::any('/addbin/create', 'BinController@create');
 

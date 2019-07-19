@@ -61,7 +61,7 @@ export default class NewAccount extends Component {
             <div id="login-wrap">
                 <form noValidate onSubmit={this.onSubmit} className="contact-form">
                 <div className="big-icon">
-                    <img src="img/icon/newAccount.svg" alt="garbage" className="big"/>
+                    <img src="/img/icon/newAccount.svg" alt="garbage" className="big"/>
                 </div>
 
                 <h2>- Create Your Account -</h2>

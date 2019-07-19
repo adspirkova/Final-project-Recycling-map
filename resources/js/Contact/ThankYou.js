@@ -16,7 +16,7 @@ export default class Thanks extends Component {
             <div id="about-wrap">
                 <div className="big-icon">
                     <img
-                        src="img/send.png"
+                        src="/img/send.png"
                         alt="message"
                         className="big"
                     />
@@ -26,7 +26,7 @@ export default class Thanks extends Component {
             </div>
             <div>
             <img
-                        src="img/ecologist.png"
+                        src="/img/ecologist.png"
                         alt="love"
                         className="big"
                     />
