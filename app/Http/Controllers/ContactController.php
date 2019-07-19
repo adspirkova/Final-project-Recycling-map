@@ -28,25 +28,16 @@ class ContactController extends Controller
      */
     public function create(Request $request)
     {
-        dd($request);
-        $id = $request->input('stationId');
-
-
-        foreach ($request->trashTypeName as $key => $value) {
-            if (!Bin::where([
-                'stationId' => $id,
-                'trashTypeName' => $value
-            ])->exists()) {
-                $bin = new Bin;
-                $bin->stationId = $id;
-                $bin->trashTypeName = $value;
-                $bin->cleaningFrequencyCode = 11;
-                $bin->containerType = '240 normální HV';
-                $bin->save();
-            }  
+        foreach ($request->topic as $key => $value) {
+                $contact = new Contact;
+                $contact->location = $request->stationId;
+                $contact->topic = $value;
+                $contact->message = $request->message;
+                $contact->file = $request->upload;
+                $contact->save();
         }
         Session::flash('success_message', 'OK!');
-        return redirect('/map');
+        return redirect('/success');
     }
 
     /**
