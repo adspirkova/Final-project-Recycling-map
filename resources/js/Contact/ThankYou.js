@@ -14,7 +14,7 @@ export default class Thanks extends Component {
                 </BrowserRouter>
                 <div id="thankyou-wrap">
                     <div className="big-icon">
-                        <img src="img/ecologist.svg" alt="message" className="big" />
+                        <img src="/img/ecologist.svg" alt="message" className="big" />
                     </div>
                     <h2>- Thank You -</h2>
                     <br/><br/>

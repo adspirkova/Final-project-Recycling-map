@@ -86,7 +86,7 @@ class App extends Component {
                 <Switch>
                     {/* <Route path="/map" component={MapContainer}/> */}
                     <Route path="/map" component={(props)=> <MapContainer {...props}
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU&v=3.exp&libraries=geometry,drawing,places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ise8w4dTdiouN-Xbb6LfpD1ml9fga9U=3.exp&libraries=geometry,drawing,places"
                     loadingElement={
                         <div style={{ height: "100px" }} />
                     }

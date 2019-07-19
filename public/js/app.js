@@ -95595,7 +95595,7 @@ module.exports = warning;
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -113175,7 +113175,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/ecologist.svg",
+        src: "/img/ecologist.svg",
         alt: "message",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank You -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -115337,7 +115337,7 @@ function (_Component) {
           path: "/map",
           component: function component(props) {
             return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Map_MapContainer__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
-              googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCP1AHOlN6fX05uG3vbo6QLyyaipYQucmU&v=3.exp&libraries=geometry,drawing,places",
+              googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ise8w4dTdiouN-Xbb6LfpD1ml9fga9U=3.exp&libraries=geometry,drawing,places",
               loadingElement: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
                 style: {
                   height: "100px"
