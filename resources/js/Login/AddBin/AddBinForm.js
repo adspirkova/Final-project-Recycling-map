@@ -85,7 +85,7 @@ export default class AddBinForm extends Component {
 
     updateCities = () => {
         fetch(
-            `${urlLive}/cities/`
+            `${urlServer}/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -97,7 +97,7 @@ export default class AddBinForm extends Component {
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `${urlLive}/stations/${lookupcity}`
+            `${urlServer}/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {

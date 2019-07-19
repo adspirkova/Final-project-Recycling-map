@@ -8,10 +8,14 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
+
 import MarkerClusterer from "react-google-maps/lib/components/addons/MarkerClusterer";
 const myPositionicon = "/img/street-view.png";
 const imageIcon = "/img/favicon2.png";
 
+
+const urlLive = "http://recycling-bins.data4you.cz";
+const urlLocal = "http://www.recycling-bins.localhost:8080"; 
 class MapContainer extends Component {
     constructor(props) {
         super(props);
@@ -59,7 +63,7 @@ class MapContainer extends Component {
 
     updateBins(station) {
         let id = station;
-        fetch(`http://recycling-bins.data4you.cz/bins/${id}`)
+        fetch(`${urlLocal}/bins/${id}`)
             .then(resp => resp.json())
             .then(data => {
                 this.setState({
@@ -72,7 +76,7 @@ class MapContainer extends Component {
     updateLocations = () => {
         const { lat, lng, currZoom } = this.state;
         fetch(
-            `http://recycling-bins.data4you.cz/locations/${lat}/${lng}/${currZoom}`
+            `${urlLocal}/locations/${lat}/${lng}/${currZoom}`
         )
             .then(resp => resp.json())
             .then(data => {

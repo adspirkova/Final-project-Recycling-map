@@ -113369,7 +113369,7 @@ function (_Component) {
     _this2 = _possibleConstructorReturn(this, _getPrototypeOf(AddBinForm).call(this, props));
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
+      fetch("".concat(urlServer, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -113418,7 +113418,7 @@ function (_Component) {
       var _this3 = this;
 
       var lookupcity = item;
-      fetch("".concat(urlLive, "/stations/").concat(lookupcity)).then(function (resp) {
+      fetch("".concat(urlServer, "/stations/").concat(lookupcity)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
@@ -114828,6 +114828,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var myPositionicon = "/img/street-view.png";
 var imageIcon = "/img/favicon2.png";
+var urlLive = "http://recycling-bins.data4you.cz";
+var urlLocal = "http://www.recycling-bins.localhost:8080";
 
 var MapContainer =
 /*#__PURE__*/
@@ -114846,7 +114848,7 @@ function (_Component) {
           lat = _this$state.lat,
           lng = _this$state.lng,
           currZoom = _this$state.currZoom;
-      fetch("http://recycling-bins.data4you.cz/locations/".concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
+      fetch("".concat(urlLocal, "/locations/").concat(lat, "/").concat(lng, "/").concat(currZoom)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this.setState({
@@ -114901,7 +114903,7 @@ function (_Component) {
       var _this3 = this;
 
       var id = station;
-      fetch("http://recycling-bins.data4you.cz/bins/".concat(id)).then(function (resp) {
+      fetch("".concat(urlLocal, "/bins/").concat(id)).then(function (resp) {
         return resp.json();
       }).then(function (data) {
         _this3.setState({
