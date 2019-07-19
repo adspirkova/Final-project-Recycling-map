@@ -22203,7 +22203,7 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* ThankYou PAGE **********************************/\n#thankyou-wrap {\n  padding: 20px;\n  color: black;\n  background-color: #fff6c2;\n  width: 100vw;\n  height: 100vh;\n  background-size: 100%;\n  background-size: cover;\n}\n\n#thankyou-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.box3 {\n  padding: 10px auto;\n  text-align: center;\n}\n\n.box-test {\n  margin-top: 10rem;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  height: 50px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}", ""]);
+exports.push([module.i, "/* ThankYou PAGE **********************************/\n#thankyou-wrap {\n  padding: 20px;\n  color: black;\n  background-color: #fff6c2;\n  width: 100vw;\n  height: 100vh;\n  background-size: 100%;\n  background-size: cover;\n  text-align: center;\n}\n\n#thankyou-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.box3 {\n  padding: 10px auto;\n  text-align: center;\n}\n\n.box-test {\n  margin-top: 10rem;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  height: 50px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}", ""]);
 
 
 
@@ -95595,7 +95595,7 @@ module.exports = warning;
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -113169,10 +113169,12 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/send.png",
+        src: "img/ecologist.svg",
         alt: "message",
         className: "big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank you for your feedback! -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank You -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xs-9 description"
+      }, "Your message was successfully sent.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "We appreciate your time and we honestly value your opinions.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-text"
@@ -113182,8 +113184,8 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/ecologist.png",
-        alt: "love",
+        src: "img/icon/map3.svg",
+        alt: "map",
         className: "smallIcon",
         style: {
           width: '30px'
