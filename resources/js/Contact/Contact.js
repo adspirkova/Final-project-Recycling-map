@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 import "./Contact.scss";
 import { UncontrolledTooltip } from "reactstrap";
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { isJSXExpressionContainer } from "@babel/types";
+
+import Thanks from './ThankYou';
+
+
+const urlLive = "http://recycling-bins.data4you.cz";
+const urlServer = "http://www.recycling-bins.localhost:8080";
+
 
 // ******* For the images Start ************
 const images = [
@@ -51,7 +60,7 @@ class Li extends React.PureComponent {
     }
 
     render() {
-        const { image } = this.props;
+        console.log(this.props.value);
 
         const background = this.state.clicked ? "#ECE2DD" : "transparent";
 
@@ -60,7 +69,6 @@ class Li extends React.PureComponent {
                 <label htmlFor={"checkbox" + this.props.value}>
                     <img
                         className="contact-icon2"
-                        alt="problems"
                         src={this.props.src}
                         alt={this.props.value}
                         style={{ background }}
@@ -71,8 +79,8 @@ class Li extends React.PureComponent {
                 </label>
                 <input
                     type="checkbox"
-                    id={"UncontrolledTooltipExample" + this.props.index}
-                    name="trashTypeName[]"
+                    id={"checkbox" + this.props.value}
+                    name="topic[]"
                     style={{ display: "none" }}
                     value={this.props.value}
                 />
@@ -97,15 +105,27 @@ export default class Contact extends Component {
             problem: "",
             message: "",
             file: "",
-            agree: false
+            agree: false,
+            cities: null,
+            stations: null,
+            chosencity: 'Praha 1',
         };
         this.onChange = this.onChange.bind(this);
+        this.onMessageChange = this.onMessageChange.bind(this);
     }
 
     onChange(e) {
         this.setState({
-            [e.target.name]: e.target.value
-        });
+            chosencity: e.target.value,
+           });
+        this.updateStations(e.target.value);
+    }
+
+    onMessageChange(e) {
+        this.setState({
+            message: e.target.value,
+           });
+        console.log(this.state.message);
     }
 
     onSubmit(e) {
@@ -123,8 +143,51 @@ export default class Contact extends Component {
         console.log(e.target.files[0]);
     };
 
+    updateCities = () => {
+        console.log(urlServer);
+        fetch(
+            `${urlServer}/cities/`
+        )
+        .then(resp => resp.json())
+        .then(data => {
+            this.setState({
+                cities: data.cities
+            });
+        });
+        console.log((this.state.cities))
+    };
+    updateStations(item) {
+        let lookupcity = item;
+        fetch(
+            `${urlServer}/stations/${lookupcity}`
+        )
+        .then(resp => resp.json())
+        .then(data => {
+            this.setState({
+                stations: data.stationName
+            });
+        });
+        console.log(this.state.stations);
+    };
+
+
+    componentDidMount(){
+        this.updateCities();
+        this.updateStations()
+    }
+
+
     render() {
+        let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');  
+        const cities = this.state.cities;
+        console.log(cities);
+        const stations = this.state.stations;
+        console.log(stations);
         return (
+            <>
+            {/* <BrowserRouter>
+            <Route path="/map" component={Thanks} />
+            </BrowserRouter> */}
             <div className="contact-wrap">
                 <div className="contact-title">
                     <div className="big-icon">
@@ -141,9 +204,10 @@ export default class Contact extends Component {
                 <form
                     className="contact-form php-mail-form"
                     // role="form"
-                    // action="contactform/contactform.php"
+                    action="/contact/create"
                     method="POST"
                 >
+                <input type="hidden" name="_token" value={token}></input>
                     <div className="form-group">
                         <img
                             src="img/icon/map2.svg"
@@ -151,17 +215,16 @@ export default class Contact extends Component {
                             className="contact-icon"
                         />
                         <label htmlFor="contact-name">Location</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            name="location"
-                            id="contact-name"
-                            onChange={this.onChange}
-                            value={this.state.email}
-                            placeholder="The location"
-                            data-rule="minlen:3"
-                            data-msg="Please enter at least 3 chars"
-                        />
+                        <select className="form-control" onChange={(e) => this.onChange(e)}  >
+                                {cities == null ? (<option>Please wait...</option>): (cities.map((city,index) => {
+                                    return (<option key={index} value={city.cityDistrict}>{city.cityDistrict}</option>)
+                                }))}
+                            </select>
+                        <select className="form-control" name="stationId">
+                            {stations == null ? (<option >Please choose the city first</option>): (stations.map((station,index) => {
+                                return (<option key={index}  value={station.id}>{station.stationName}</option>)
+                            }))}
+                        </select>
                         <div className="validate" />
                     </div>
 
@@ -183,6 +246,7 @@ export default class Contact extends Component {
                                         src={icon.image}
                                         alt={icon.value}
                                         message={icon.message}
+                                        value={icon.value}
                                     />
                                 );
                             })}
@@ -201,8 +265,7 @@ export default class Contact extends Component {
                             className="form-control"
                             name="message"
                             id="contact-message"
-                            onChange={this.onChange}
-                            value={this.state.message}
+                            onChange={this.onMessageChange}
                             placeholder="Your Feedback"
                             rows="5"
                             data-rule="required"
@@ -238,7 +301,8 @@ export default class Contact extends Component {
                         <br />
                         <div className="form-send">
                             <button type="submit" className="btn btn-large">
-                                Send Message
+                            Send 
+                            {/* <Link to="/map" > Send</Link> */}
                             </button>
                         </div>
                     </div>
@@ -252,6 +316,7 @@ export default class Contact extends Component {
                     </div>
                 </form>
             </div>
+            </>
         );
     }
 }
