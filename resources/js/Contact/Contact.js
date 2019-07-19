@@ -316,27 +316,6 @@ export default class Contact extends Component {
                         <br />
                         <br />
                         <br />
-<<<<<<< HEAD
-                        <br />
-                        <div className="form-send">
-                            <button type="submit" className="btn btn-large">
-                            Send 
-                            {/* <Link to="/map" > Send</Link> */}
-                            </button>
-                        </div>
-                    </div>
-                    <br />
-                    <br />
-                    <div className="loading" />
-                    <div className="error-message" />
-                    <div className="sent-message">
-                        Your message has been sent. Thank you!
-                    </div>
-                </form>
-            </div>
-            </>
-        );
-=======
                         <div className="loading" />
                         <div className="error-message" />
                         <div className="sent-message">
@@ -348,6 +327,5 @@ export default class Contact extends Component {
             );
         }
         
->>>>>>> adelabranch
     }
 }
