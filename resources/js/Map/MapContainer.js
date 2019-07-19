@@ -21,14 +21,14 @@ class MapContainer extends Component {
         super(props);
 
         this.state = {
-            lat: 50.062059,
-            lng: 14.437462,
+            lat: 50.084903,
+            lng: 14.426302,
             active_marker: null,
             locations: [],
             bins: [],
             userPosition: {
-                lat: 50.06203903000005,
-                lng: 14.437462
+                lat: 50.084903,
+                lng: 14.426302
             },
             currZoom: 18
         };
@@ -234,7 +234,7 @@ class MapContainer extends Component {
         return (
             <GoogleMap
                 style={{ width: "100px", height: "100px" }}
-                defaultZoom={18}
+                defaultZoom={19}
                 ref={ref => {
                     mapRef = ref;
                 }}

@@ -3,7 +3,7 @@ import '../../Contact/Contact.scss';
 
 
 const urlLive = "http://recycling-bins.data4you.cz";
-const urlServer = "http://www.recycling-bins.localhost:8080";
+const urlLocal = "http://www.recycling-bins.localhost:8080";
 
 
 

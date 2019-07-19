@@ -112756,7 +112756,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 var urlLive = "http://recycling-bins.data4you.cz";
-var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
+var urlLocal = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
   image: "/img/image-new/ask.png",
@@ -112862,7 +112862,7 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-      console.log(urlServer);
+      console.log(urlLive);
       fetch("".concat(urlLive, "/cities/")).then(function (resp) {
         return resp.json();
       }).then(function (data) {
@@ -112873,6 +112873,7 @@ function (_Component) {
       console.log(_this2.state.cities);
     });
 
+    console.log("tady:" + window.location.search.includes('success=1'));
     _this2.state = {
       location: "",
       problem: "",
@@ -113274,7 +113275,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 var urlLive = "http://recycling-bins.data4you.cz";
-var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
+var urlLocal = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
   img: "/img/clear-glass2.png",
@@ -114860,14 +114861,14 @@ function (_Component) {
     });
 
     _this.state = {
-      lat: 50.062059,
-      lng: 14.437462,
+      lat: 50.084903,
+      lng: 14.426302,
       active_marker: null,
       locations: [],
       bins: [],
       userPosition: {
-        lat: 50.06203903000005,
-        lng: 14.437462
+        lat: 50.084903,
+        lng: 14.426302
       },
       currZoom: 18
     };
@@ -115047,7 +115048,7 @@ function (_Component) {
           width: "100px",
           height: "100px"
         },
-        defaultZoom: 18,
+        defaultZoom: 19,
         ref: function ref(_ref) {
           mapRef = _ref;
         },

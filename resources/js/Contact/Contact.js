@@ -8,7 +8,7 @@ import Thanks from './ThankYou';
 
 
 const urlLive = "http://recycling-bins.data4you.cz";
-const urlServer = "http://www.recycling-bins.localhost:8080";
+const urlLocal = "http://www.recycling-bins.localhost:8080";
 
 
 // ******* For the images Start ************
@@ -103,7 +103,7 @@ class Li extends React.PureComponent {
 export default class Contact extends Component {
     constructor(props) {
         super(props);
-
+        console.log("tady:"+window.location.search.includes('success=1'));
         this.state = {
             location: "",
             problem: "",
@@ -150,7 +150,7 @@ export default class Contact extends Component {
     };
 
     updateCities = () => {
-        console.log(urlServer);
+        console.log(urlLive);
         fetch(
             `${urlLive}/cities/`
         )
