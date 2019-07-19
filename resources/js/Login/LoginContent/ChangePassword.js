@@ -60,7 +60,7 @@ export default class ChangePassword extends Component {
             <div id="contact-wrap">
                 <form noValidate onSubmit={(e)=>{this.onSubmit(e)}} className="contact-form">
                 <div className="big-icon">
-                    <img src="img/icon/password.svg" alt="garbage" className="big"/>
+                    <img src="/img/icon/password.svg" alt="garbage" className="big"/>
                 </div>
 
                 <h2>- Change password -</h2>

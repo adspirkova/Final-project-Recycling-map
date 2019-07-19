@@ -101,7 +101,7 @@ class MapContainer extends Component {
                             case "Clear glass":
                                 img = (
                                     <img
-                                        src="img/clear-glass2.png"
+                                        src="/img/clear-glass2.png"
                                         className="menu-image"
                                         alt="Clear glass"
                                     />
@@ -110,7 +110,7 @@ class MapContainer extends Component {
                             case "Metals":
                                 img = (
                                     <img
-                                        src="img/can.png"
+                                        src="/img/can.png"
                                         className="menu-image"
                                         alt="Metals"
                                     />
@@ -119,7 +119,7 @@ class MapContainer extends Component {
                             case "Cardboard":
                                 img = (
                                     <img
-                                        src="img/cardboard.png"
+                                        src="/img/cardboard.png"
                                         className="menu-image"
                                         alt="Cardboard"
                                     />
@@ -128,7 +128,7 @@ class MapContainer extends Component {
                             case "Paper":
                                 img = (
                                     <img
-                                        src="img/paper.png"
+                                        src="/img/paper.png"
                                         className="menu-image"
                                         alt="Paper"
                                     />
@@ -138,7 +138,7 @@ class MapContainer extends Component {
                             case "Coloured glass":
                                 img = (
                                     <img
-                                        src="img/glass2.png"
+                                        src="/img/glass2.png"
                                         className="menu-image"
                                         alt="Coloured glass"
                                     />
@@ -147,7 +147,7 @@ class MapContainer extends Component {
                             case "Plastic":
                                 img = (
                                     <img
-                                        src="img/water.png"
+                                        src="/img/water.png"
                                         className="menu-image"
                                         alt="Plastic"
                                     />
@@ -156,7 +156,7 @@ class MapContainer extends Component {
                             case "Electric equipment":
                                 img = (
                                     <img
-                                        src="img/electric.png"
+                                        src="/img/electric.png"
                                         className="menu-image"
                                         alt="Electric equipment"
                                     />

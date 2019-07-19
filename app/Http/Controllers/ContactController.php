@@ -37,7 +37,7 @@ class ContactController extends Controller
                 $contact->save();
         }
         Session::flash('success_message', 'OK!');
-        return redirect('/success');
+        return redirect('/contact?success=1');
     }
 
     /**

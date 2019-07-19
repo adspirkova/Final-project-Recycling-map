@@ -15,7 +15,7 @@ export default class AfterDelete extends Component {
             </>
         <div id="login-wrap">
             <div className="big-icon">
-                <img src="img/icon/deleted.svg" alt="garbage" className="big"/>
+                <img src="/img/icon/deleted.svg" alt="garbage" className="big"/>
             </div>
             <h2>- Account Deleted -</h2>
             <div className="box2">
@@ -34,7 +34,7 @@ export default class AfterDelete extends Component {
                 <div className="box-text">
                     <Link to="/map">
                         <button type="submit" className="btn btn-gray">
-                            <img src="img/icon/map1.svg" alt="map" className="smallIcon" style={{width:'30px'}}/>
+                            <img src="/img/icon/map1.svg" alt="map" className="smallIcon" style={{width:'30px'}}/>
                             &ensp;Go back to the top
                         </button>
                     </Link>

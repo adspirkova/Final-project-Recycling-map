@@ -112588,7 +112588,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/image-new/garbage.png",
+        src: "/img/image-new/garbage.png",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- About \"Find bin\" -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112604,7 +112604,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/clear-glass2.png",
+        src: "/img/clear-glass2.png",
         alt: "clear glass",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112614,7 +112614,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/glass2.png",
+        src: "/img/glass2.png",
         alt: "colored glass",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112624,7 +112624,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/can.png",
+        src: "/img/can.png",
         alt: "metal",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112634,7 +112634,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/cardboard.png",
+        src: "/img/cardboard.png",
         alt: "cardboard",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112644,7 +112644,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/paper.png",
+        src: "/img/paper.png",
         alt: "paper",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112654,7 +112654,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/electric.png",
+        src: "/img/electric.png",
         alt: "Electric equipment",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112664,7 +112664,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xs-3"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/water.png",
+        src: "/img/water.png",
         alt: "plastic",
         className: "explainIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -112759,27 +112759,27 @@ var urlLive = "http://recycling-bins.data4you.cz";
 var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
-  image: "img/image-new/ask.png",
+  image: "/img/image-new/ask.png",
   message: "I couldn't find a bin in this location",
   value: "location not found"
 }, {
-  image: "img/image-new/cross.png",
+  image: "/img/image-new/cross.png",
   message: "description of the bin is wrong",
   value: "description is wrong"
 }, {
-  image: "img/image-new/trash (1).png",
+  image: "/img/image-new/trash (1).png",
   message: "Bin is full",
   value: "bin is full"
 }, {
-  image: "img/image-new/wrong.png",
+  image: "/img/image-new/wrong.png",
   message: "Location of the bin is wrong",
   value: "location is wrong"
 }, {
-  image: "img/image-new/lock.png",
+  image: "/img/image-new/lock.png",
   message: "Bin is private or hard to access",
   value: "no access or private"
 }, {
-  image: "img/image-new/pencil.png",
+  image: "/img/image-new/pencil.png",
   message: "Write for some other reason. For example if you like our website:)",
   value: "Other reason"
 }];
@@ -112881,7 +112881,8 @@ function (_Component) {
       agree: false,
       cities: null,
       stations: null,
-      chosencity: 'Praha 1'
+      chosencity: 'Praha 1',
+      jump: window.location.search.includes('success=1')
     };
     _this2.onChange = _this2.onChange.bind(_assertThisInitialized(_this2));
     _this2.onMessageChange = _this2.onMessageChange.bind(_assertThisInitialized(_this2));
@@ -112947,6 +112948,7 @@ function (_Component) {
       console.log(cities);
       var stations = this.state.stations;
       console.log(stations);
+<<<<<<< HEAD
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -113068,6 +113070,134 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "sent-message"
       }, "Your message has been sent. Thank you!"))));
+=======
+
+      if (this.state.jump === true) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ThankYou__WEBPACK_IMPORTED_MODULE_5__["default"], null);
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "contact-wrap"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "contact-title"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "big-icon"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "/img/icon/problem5.svg",
+          alt: "garbage",
+          className: "big"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Feed Back Form -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+          className: "contact-form php-mail-form" // role="form"
+          ,
+          action: "/contact/create",
+          method: "POST"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          type: "hidden",
+          name: "_token",
+          value: token
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-group"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "/img/icon/map2.svg",
+          alt: "location",
+          className: "contact-icon"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+          htmlFor: "contact-name"
+        }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+          className: "form-control",
+          onChange: function onChange(e) {
+            return _this4.onChange(e);
+          }
+        }, cities == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please wait...") : cities.map(function (city, index) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+            key: index,
+            value: city.cityDistrict
+          }, city.cityDistrict);
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+          className: "form-control",
+          name: "stationId"
+        }, stations == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Please choose the city first") : stations.map(function (station, index) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+            key: index,
+            value: station.id
+          }, station.stationName);
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "validate"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-group"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "/img/icon/problem1.svg",
+          alt: "location",
+          className: "contact-icon"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+          htmlFor: "contact-name"
+        }, "Choose the problem."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "icons"
+        }, images.map(function (icon, index) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
+            key: index,
+            index: index,
+            src: icon.image,
+            alt: icon.value,
+            message: icon.message,
+            value: icon.value
+          });
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "validate"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-group"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "/img/icon/contact2.svg",
+          alt: "location",
+          className: "contact-icon"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+          htmlFor: "contact-message"
+        }, "Your Message"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+          className: "form-control",
+          name: "message",
+          id: "contact-message",
+          onChange: this.onMessageChange,
+          placeholder: "Your Feedback",
+          rows: "5",
+          "data-rule": "required",
+          "data-msg": "Please write something for us"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "validate"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-group"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "/img/icon/message1.svg",
+          alt: "location",
+          className: "contact-icon"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+          htmlFor: "uploadFile"
+        }, "Add a file or picture."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          type: "file",
+          onChange: this.fileSelectedHandler,
+          name: "upload",
+          size: "30"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "validate"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-group"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          id: "box1",
+          type: "checkbox"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+          htmlFor: "contact-agree"
+        }, "I agree with terms & conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "form-send"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+          type: "submit",
+          className: "btn btn-large"
+        }, "Send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "loading"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "error-message"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "sent-message"
+        }, "Your message has been sent. Thank you!"))));
+      }
+>>>>>>> adelabranch
     }
   }]);
 
@@ -113169,6 +113299,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+<<<<<<< HEAD
         src: "img/ecologist.svg",
         alt: "message",
         className: "big"
@@ -113179,6 +113310,16 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+=======
+        src: "/img/send.png",
+        alt: "message",
+        className: "big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank you for your feedback! -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "/img/ecologist.png",
+        alt: "love",
+        className: "big"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+>>>>>>> adelabranch
         to: "/map"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
@@ -113270,25 +113411,25 @@ var urlLive = "http://recycling-bins.data4you.cz";
 var urlServer = "http://www.recycling-bins.localhost:8080"; // ******* For the images Start ************
 
 var images = [{
-  img: "img/clear-glass2.png",
+  img: "/img/clear-glass2.png",
   type: 'Clear glass'
 }, {
-  img: "img/glass2.png",
+  img: "/img/glass2.png",
   type: 'Coloured glass'
 }, {
-  img: "img/paper.png",
+  img: "/img/paper.png",
   type: 'Paper'
 }, {
-  img: "img/water.png",
+  img: "/img/water.png",
   type: 'Plastic'
 }, {
-  img: "img/cardboard.png",
+  img: "/img/cardboard.png",
   type: 'Cardboard'
 }, {
-  img: "img/can.png",
+  img: "/img/can.png",
   type: 'Metals'
 }, {
-  img: "img/electric.png",
+  img: "/img/electric.png",
   type: 'Electric equipment'
 }];
 
@@ -113444,7 +113585,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/waste.svg",
+        src: "/img/icon/waste.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Add a new Bin -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -113459,7 +113600,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/map2.svg",
+        src: "/img/icon/map2.svg",
         alt: "location",
         className: "contact-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -113487,7 +113628,7 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/problem1.svg",
+        src: "/img/icon/problem1.svg",
         alt: "location",
         className: "contact-icon"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -113592,7 +113733,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/deleted.svg",
+        src: "/img/icon/deleted.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Account Deleted -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -113611,7 +113752,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/map1.svg",
+        src: "/img/icon/map1.svg",
         alt: "map",
         className: "smallIcon",
         style: {
@@ -113776,7 +113917,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/waste.svg",
+        src: "/img/icon/waste.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Login Page -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -113784,7 +113925,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "box-img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/question.svg",
+        src: "/img/icon/question.svg",
         alt: "question",
         className: "smallIcon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -113967,7 +114108,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/password.svg",
+        src: "/img/icon/password.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Change password -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -114168,7 +114309,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/logout.svg",
+        src: "/img/icon/logout.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Delete account -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -114181,7 +114322,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/login.svg",
+        src: "/img/icon/login.svg",
         alt: "logout",
         className: "smallIcon",
         style: {
@@ -114193,7 +114334,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/problem3.svg",
+        src: "/img/icon/problem3.svg",
         alt: "question",
         className: "smallIcon",
         style: {
@@ -114302,7 +114443,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/reset.svg",
+        src: "/img/icon/reset.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Reset the Password -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -114451,7 +114592,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/newAccount.svg",
+        src: "/img/icon/newAccount.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Create Your Account -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -114704,7 +114845,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/people1.svg",
+        src: "/img/icon/people1.svg",
         alt: "garbage",
         className: "big"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Welcome, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -114719,7 +114860,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/map1.svg",
+        src: "/img/icon/map1.svg",
         alt: "map",
         className: "smallIcon",
         style: {
@@ -114733,7 +114874,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/password.svg",
+        src: "/img/icon/password.svg",
         alt: "login",
         className: "smallIcon",
         style: {
@@ -114748,7 +114889,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/logout.svg",
+        src: "/img/icon/logout.svg",
         alt: "logout",
         className: "smallIcon",
         style: {
@@ -114762,7 +114903,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-gray"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/problem3.svg",
+        src: "/img/icon/problem3.svg",
         alt: "question",
         className: "smallIcon",
         style: {
@@ -114916,7 +115057,7 @@ function (_Component) {
           switch (item.trashTypeName) {
             case "Clear glass":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/clear-glass2.png",
+                src: "/img/clear-glass2.png",
                 className: "menu-image",
                 alt: "Clear glass"
               });
@@ -114924,7 +115065,7 @@ function (_Component) {
 
             case "Metals":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/can.png",
+                src: "/img/can.png",
                 className: "menu-image",
                 alt: "Metals"
               });
@@ -114932,7 +115073,7 @@ function (_Component) {
 
             case "Cardboard":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/cardboard.png",
+                src: "/img/cardboard.png",
                 className: "menu-image",
                 alt: "Cardboard"
               });
@@ -114940,7 +115081,7 @@ function (_Component) {
 
             case "Paper":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/paper.png",
+                src: "/img/paper.png",
                 className: "menu-image",
                 alt: "Paper"
               });
@@ -114948,7 +115089,7 @@ function (_Component) {
 
             case "Coloured glass":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/glass2.png",
+                src: "/img/glass2.png",
                 className: "menu-image",
                 alt: "Coloured glass"
               });
@@ -114956,7 +115097,7 @@ function (_Component) {
 
             case "Plastic":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/water.png",
+                src: "/img/water.png",
                 className: "menu-image",
                 alt: "Plastic"
               });
@@ -114964,7 +115105,7 @@ function (_Component) {
 
             case "Electric equipment":
               img = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-                src: "img/electric.png",
+                src: "/img/electric.png",
                 className: "menu-image",
                 alt: "Electric equipment"
               });
@@ -115245,8 +115386,14 @@ function (_Component) {
     _classCallCheck(this, App);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this, props));
+    var jump = true;
+
+    if (window.location.pathname === '/' || window.location.pathname === '/map') {
+      jump = false;
+    }
+
     _this.state = {
-      jump: false,
+      jump: jump,
       auth: localStorage.usertoken,
       page: "map",
       index: true
@@ -115272,7 +115419,7 @@ function (_Component) {
         activeClassName: "activeTab",
         to: "/login"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/login.svg",
+        src: "/img/icon/login.svg",
         alt: "login",
         className: "menu-image"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Login");
@@ -115280,7 +115427,7 @@ function (_Component) {
         activeClassName: "activeTab",
         to: "/userpage"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "img/icon/user.svg",
+        src: "/img/icon/user.svg",
         alt: "login",
         className: "menu-image"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "User Page");
@@ -115298,7 +115445,7 @@ function (_Component) {
           activeClassName: "activeTab",
           to: "/map"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/icon/map1.svg",
+          src: "/img/icon/map1.svg",
           alt: "map",
           className: "menu-image"
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Map")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -115307,7 +115454,7 @@ function (_Component) {
           activeClassName: "activeTab",
           to: "/about"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/icon/waste2.svg",
+          src: "/img/icon/waste2.svg",
           alt: "waste",
           className: "menu-image"
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -115316,7 +115463,7 @@ function (_Component) {
           activeClassName: "activeTab",
           to: "/contact"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/icon/contact1.svg",
+          src: "/img/icon/contact1.svg",
           alt: "contact",
           className: "menu-image"
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -115349,9 +115496,6 @@ function (_Component) {
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/contact",
           component: _Contact_Contact__WEBPACK_IMPORTED_MODULE_6__["default"]
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-          path: "/success",
-          component: _Contact_ThankYou__WEBPACK_IMPORTED_MODULE_7__["default"]
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/login",
           component: function component(props) {
@@ -115405,7 +115549,7 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           id: "topwrap"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Where to put?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "-Czech Garbage Bin Site-"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/post1.png",
+          src: "/img/post1.png",
           alt: "garbageBin",
           className: "garbageBin"
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -115413,7 +115557,7 @@ function (_Component) {
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "bin1"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-          src: "img/bottle.png"
+          src: "/img/bottle.png"
         })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           type: "button",
           className: "btn btn-green",
