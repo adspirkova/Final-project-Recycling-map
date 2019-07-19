@@ -95580,7 +95580,7 @@ module.exports = warning;
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -112847,13 +112847,8 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_this2), "updateCities", function () {
-<<<<<<< HEAD
-      console.log(urlLive);
-      fetch("".concat(urlLive, "/cities/")).then(function (resp) {
-=======
       console.log(urlServer);
       fetch("".concat(urlServer, "/cities/")).then(function (resp) {
->>>>>>> 9cf14aa5e38500e4db9b4ba3f592b1e12d88b45b
         return resp.json();
       }).then(function (data) {
         _this2.setState({
@@ -113051,11 +113046,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-large"
-<<<<<<< HEAD
-      }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-=======
-      }, "Send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
->>>>>>> 9cf14aa5e38500e4db9b4ba3f592b1e12d88b45b
+      }, "Send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "loading"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "error-message"
@@ -115431,13 +115422,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! /Users/yuri/gitdemo/bootcamp/projects/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/taisiia/web/Final-Project/Final-project-Recycling-map/resources/sass/app.scss */"./resources/sass/app.scss");
->>>>>>> 9cf14aa5e38500e4db9b4ba3f592b1e12d88b45b
 
 
 /***/ })
