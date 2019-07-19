@@ -22194,6 +22194,21 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/Contact/ThankYou.scss":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/Contact/ThankYou.scss ***!
+  \*********************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/* ThankYou PAGE **********************************/\n#thankyou-wrap {\n  padding: 20px;\n  color: black;\n  background-color: #fff6c2;\n  width: 100vw;\n  height: 100vh;\n  background-size: 100%;\n  background-size: cover;\n}\n\n#thankyou-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.box3 {\n  padding: 10px auto;\n  text-align: center;\n}\n\n.box-test {\n  margin-top: 10rem;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  height: 50px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}", ""]);
+
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss":
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/Login/LoginContent/BeforeAndAfterLogin.scss ***!
@@ -22203,7 +22218,7 @@ exports.push([module.i, ".contact-wrap {\n  padding: 20px 20vw;\n  color: black;
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  height: \"\";\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,\n.validate_newPassword1, .validate_newPassword2, .validate_currentPassword {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* ForgetPassword.js / ChangePassword.js form *****************************/\n.reset_message, .validate_passwordChanged {\n  color: tomato;\n  font-weight: bolder;\n}\n\n.validate_passwordChanged {\n  margin: 1rem;\n  text-align: center;\n  background-color: #D3D3D3;\n}", ""]);
+exports.push([module.i, "/* Before & After Login form *****************************/\n#login-wrap {\n  padding: 20px 20vw;\n  height: 200vh;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #login-wrap {\n    padding: 5vh 4vw;\n  }\n}\n#login-wrap h2, #contact-wrap h2 {\n  text-align: center;\n  font-weight: bolder;\n}\n\n.big-icon {\n  text-align: center;\n  margin: 0 auto;\n}\n\n.big-icon .big {\n  width: 100px;\n  height: auto;\n}\n\n.box {\n  border: dotted black 1px;\n  margin: 1.5rem 0;\n  padding: 0.8rem;\n  line-height: 0.5rem;\n  text-align: center;\n}\n\n@media screen and (max-width: 640px) {\n  .box {\n    line-height: 1.4em;\n    text-align: left;\n  }\n}\n.box-img,\n.box-text {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.box .box-img .smallIcon {\n  width: 20px;\n  height: auto;\n  padding: 0;\n  margin: 0 10px 15px 0px;\n}\n\ninput[type=email]:focus {\n  background-color: transparent;\n}\n\ninput[type=password]:focus {\n  background-color: transparent;\n}\n\n.pink {\n  color: #E65D52;\n}\n\n/* NewAccount.js form *****************************/\n.form-group label {\n  font-weight: bold;\n}\n\n.validate_name, .validate_email, .validate_password1, .validate_password2, .reset_message,\n.validate_newPassword1, .validate_newPassword2, .validate_currentPassword {\n  color: red;\n  font-weight: bolder;\n}\n\n/* After Login form *****************************/\n.box2 {\n  padding: 10px auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n.btn-gray {\n  color: black;\n  background-color: transparent;\n  border-color: black;\n  font-weight: 500;\n  width: 230px;\n  margin: 2rem;\n  text-align: left;\n}\n\n.btn-gray:hover, .btn-gray:focus, .btn-gray:active {\n  color: green;\n  background-color: lightgray;\n  border-color: black;\n  font-weight: 500;\n}\n\n.red {\n  color: red;\n}\n\n.blue {\n  color: blue;\n}\n\n.gray {\n  background-color: gainsboro;\n}\n\n#contact-wrap {\n  padding: 20px 20vw;\n  color: black;\n  background-color: #ECE2DD;\n  width: 100vw;\n  background-size: 100%;\n  background-size: cover;\n}\n\n@media screen and (max-width: 640px) {\n  #contact-wrap {\n    padding: 4vw 8vw 8vw 8vw;\n  }\n}\n/* ForgetPassword.js / ChangePassword.js form *****************************/\n.reset_message, .validate_passwordChanged {\n  color: tomato;\n  font-weight: bolder;\n}\n\n.validate_passwordChanged {\n  margin: 1rem;\n  text-align: center;\n  background-color: #D3D3D3;\n}", ""]);
 
 
 
@@ -113107,7 +113122,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _Map_MapContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Map/MapContainer */ "./resources/js/Map/MapContainer.js");
-/* harmony import */ var _Contact_ThankYou__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Contact/ThankYou */ "./resources/js/Contact/ThankYou.js");
+/* harmony import */ var _ThankYou_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ThankYou.scss */ "./resources/js/Contact/ThankYou.scss");
+/* harmony import */ var _ThankYou_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_ThankYou_scss__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -113149,20 +113165,30 @@ function (_Component) {
         path: "/map",
         component: _Map_MapContainer__WEBPACK_IMPORTED_MODULE_2__["default"]
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "about-wrap"
+        id: "thankyou-wrap"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "big-icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/send.png",
         alt: "message",
         className: "big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank you for your feedback! -")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "- Thank you for your feedback! -"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "box3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "box-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        to: "/map"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "btn btn-gray"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "img/ecologist.png",
         alt: "love",
-        className: "big"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-        to: "/map"
-      }, " Go Back to the Map")));
+        className: "smallIcon",
+        style: {
+          width: '30px'
+        }
+      }), "\u2002Go Back to the Map"))))));
     }
   }]);
 
@@ -113170,6 +113196,36 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./resources/js/Contact/ThankYou.scss":
+/*!********************************************!*\
+  !*** ./resources/js/Contact/ThankYou.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./ThankYou.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/Contact/ThankYou.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
