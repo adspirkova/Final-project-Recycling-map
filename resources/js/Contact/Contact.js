@@ -165,7 +165,7 @@ export default class Contact extends Component {
 
 
     render() {
-        let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');  
+        let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
         const cities = this.state.cities;
         console.log(cities);
         const stations = this.state.stations;
@@ -282,13 +282,13 @@ export default class Contact extends Component {
                             I agree with terms & conditions.
                         </label>
                         <br />
+                        <br />
                         <div className="form-send">
                             <button type="submit" className="btn btn-large">
                                 Send Message
                             </button>
                         </div>
                     </div>
-                    <br />
                     <br />
                     <br />
                     <div className="loading" />

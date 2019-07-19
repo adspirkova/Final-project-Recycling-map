@@ -30,13 +30,13 @@ body {
     font-weight: 300;
     font-size: 16px;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: Raleway;
     font-weight: 300;
     color: #333;
   }
-  
+
   a {
     color: #16a085;
     word-wrap: break-word;
@@ -46,13 +46,13 @@ body {
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
   }
-  
+
   a:hover, a:focus {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
   }
-  
+
   a:before, a:after {
     -webkit-transition: color .1s ease-in, background .1s ease-in;
     -moz-transition: color .1s ease-in, background .1s ease-in;
@@ -60,25 +60,25 @@ body {
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
   }
-  
+
   .btn {
     border-radius: 0;
   }
-  
+
   .btn-green {
     color: #fff;
     background-color: #1abc9c;
     border-color: #1abc9c;
     font-weight: 300;
   }
-  
+
   .btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
     color: #fff;
     background-color: #16a085;
     border-color: #16a085;
     font-weight: 300;
   }
-  
+
   .menu-image{
     width:20px;
   }
@@ -92,32 +92,32 @@ body {
     z-index: 10;
     text-align: center;
   }
-  
+
   .menu a {
     color:grey;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 0.05em;
   }
-  
+
   .menu a:hover {
     color:#ABBD8C;
     font-weight: 900px;
   }
-  
+
   .menu a:active {
     color: grey;
   }
-  
+
   .menu .menu-bar{
     padding:10px;
   }
-  
+
   .menu .now{
     background-color:#E9E7F1;
   }
-  
-  
+
+
   /* FIRST PAGE **********************************/
   #topwrap {
     /* position:relative; */
@@ -130,7 +130,7 @@ body {
     background-size: cover;
     margin:0;
   }
-  
+
   /* .top {
     position:absolute;
     top: 40%;
@@ -140,17 +140,17 @@ body {
     transform : translateY(-50%);
     transform : translateX(-50%);
   } */
-  
+
   .garbageBin{
     width:150px;
     margin:4rem;
   }
-  
+
   .garbageBin:hover{
     display: inline-block;
     animation: hurueru .1s  infinite;
   }
-  
+
   @keyframes hurueru {
     0% {transform: translate(0px, 0px) rotateZ(0deg)}
     25% {transform: translate(2px, 2px) rotateZ(1deg)}
@@ -158,7 +158,7 @@ body {
     75% {transform: translate(2px, 0px) rotateZ(-1deg)}
     100% {transform: translate(0px, 0px) rotateZ(0deg)}
   }
-  
+
   #topwrap h1 {
     margin-top: 20vh;
     color: #407A60;
@@ -167,14 +167,14 @@ body {
     letter-spacing: 3px;
     z-index: 1;
   }
-  
+
   #topwrap h2 {
     color: black;
     font-size: 1.5rem;
     font-weight: 100;
     letter-spacing: 2px;
   }
-  
+
   /* bin Pop out from garbage bin(still working on)*/
   .bin1 {
     position: absolute;
@@ -185,11 +185,11 @@ body {
     animation-duration: 5s;
     animation-delay: 0.2s;
   }
-  
+
   .bin1 img{
     width:30px;
   }
-  
+
   .dropBin div {
     opacity: 0;
     -ms-transform-origin: 0px 0px;
@@ -200,20 +200,20 @@ body {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
-  
+
   @keyframes Drop {
     0% {
       top:30vh;
       left:60vw;
       opacity: 0.4;
     }
-  
+
     50% {
       top:40vh;
       left:50vw;
       opacity: 1;
     }
-  
+
     100% {
       top:50vh;
       left:50vw;
@@ -227,7 +227,7 @@ body {
     background-size: 100%;
     background-size: cover;
   }
-  
+
   #mapindex {
     position:fixed;
     vertical-align: middle;
@@ -237,14 +237,14 @@ body {
     height: 7vh;
     width: 100%;
   }
-  
+
   #mapindex h2 {
     color: rgb(10, 9, 9);
     font-size: 20px;
     letter-spacing: 2px;
     margin: 1rem;
   }
-  
+
   /* (still working on the menu button) */
   #menuToggle {
     position: absolute;
@@ -266,7 +266,7 @@ body {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
   }
-  
+
   #menuToggle:hover {
     color: #fff;
     background: rgba(0, 0, 0, .2);
@@ -276,7 +276,7 @@ body {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
   }
-  
+
   /* ABOUT PAGE **********************************/
   #about-wrap {
     padding: 20px;
@@ -287,64 +287,63 @@ body {
     background-size: 100%;
     background-size: cover;
   }
-  
+
   #about-wrap h2 {
     text-align: center;
     font-weight: bolder;
   }
-  
+
   #about-wrap .row{
     margin:2rem;
   }
-  
+
   .explainIcon{
     width:50px;
     border:1px solid black;
     padding:0.5rem;
   }
-  
+
   .col-xs-3{
     margin:0 1.5rem;
   }
-  
+
   /* Contact Form *****************************/
   .contact-wrap {
     padding: 20px;
     color: black;
     background-color:#ABBD8C;
-    height: 100vh;
     width: 100vw;
     background-size: 100%;
     background-size: cover;
   }
-  
+
   .contact-title{
     font-weight: bolder;
     text-align: center;
   }
-  
+
   .contact-form label {
      color: #275362;
   }
-  
+
   .icons{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
     padding:1rem;
   }
-  
+
   .contact-icon{
     width:20px;
   }
-  
+
   .contact-icon2{
     width:40px;
     height:40px;
     padding:0.5rem;
     border:1px solid black;
   }
-  
+
   .contact-form input, .contact-form textarea {
     padding: 10px 12px;
     border-radius: 0;
@@ -354,7 +353,7 @@ body {
     background-color:#ECE2DD;
     border:1px black solid;
   }
-  
+
   .contact-form2 input, .contact-form2 textarea {
     padding: 10px 12px;
     border-radius: 0;
@@ -364,19 +363,19 @@ body {
     background-color:#ABBD8C;
     border:1px black solid;
   }
-  
+
   .contact-form2 textarea{
     height:60px;
   }
-  
+
   #box1{
   border: 2px solid rgba(0, 0, 0, 0);
   }
-  
+
   .contact-form .form-send {
     text-align: center;
   }
-  
+
   .contact-form .form-send button  {
     background: #1abc9c;
     border: 0;
@@ -385,11 +384,11 @@ body {
     transition: 0.4s;
     cursor: pointer;
   }
-  
+
   .contact-form .form-send button:hover {
     background: #19cdaa;
   }
-  
+
   .contact-form .validate {
     display: none;
     color: red;
@@ -397,7 +396,7 @@ body {
     font-weight: 400;
     font-size: 13px;
   }
-  
+
   .contact-form .loading {
     display: none;
     color: #555;
@@ -406,7 +405,7 @@ body {
     padding: 15px;
     margin: 15px 0;
   }
-  
+
   .contact-form .loading:before {
     content: "";
     display: inline-block;
@@ -418,31 +417,31 @@ body {
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
   }
-  
+
   @-webkit-keyframes animate-loading {
     0% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
     }
-  
+
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
   }
-  
+
   @keyframes animate-loading {
     0% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
     }
-  
+
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
   }
-  
+
   .contact-form .error-message {
     display: none;
     color: #fff;
@@ -452,7 +451,7 @@ body {
     font-weight: 600;
     margin: 15px 0;
   }
-  
+
   .contact-form .sent-message {
     display: none;
     color: #fff;
@@ -472,22 +471,22 @@ body {
     background-size: 100%;
     background-size: cover;
   }
-  
+
   #login-wrap h2 {
     text-align: center;
     font-weight: bolder;
   }
-  
+
   .big-icon{
     text-align: center;
     margin:0 auto;
   }
-  
+
   .big-icon .big{
     width:100px;
     height:auto;
   }
-  
+
   .box{
     border:dotted black 1px;
     margin:1.5rem 0;
@@ -495,13 +494,13 @@ body {
     line-height:0.5rem;
     text-align: center;
   }
-  
+
   .box-img,
   .box-text{
     display: inline-block;
     vertical-align: middle;
   }
-  
+
   .box .box-img .smallIcon{
     width:20px;
     height:auto;
