@@ -6,6 +6,7 @@ import './App.scss';
 import MapContainer from '../Map/MapContainer';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import Thanks from '../Contact/ThankYou';
 
 import ForgetPassword from '../Login/LoginContent/ForgetPassword';
 import NewAccount from '../Login/LoginContent/NewAccount';
@@ -92,6 +93,7 @@ class App extends Component {
 
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/success" component={Thanks} />
                     <Route path="/login" component={(props) => <BeforeLogin {...props} handleAuth={
                         (token) => {
                             this.setState({auth: token})

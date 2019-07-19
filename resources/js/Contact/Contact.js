@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./Contact.scss";
 import { UncontrolledTooltip } from "reactstrap";
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { isJSXExpressionContainer } from "@babel/types";
+
+import Thanks from './ThankYou';
 
 
 const urlLive = "http://recycling-bins.data4you.cz";
@@ -56,7 +60,7 @@ class Li extends React.PureComponent {
     }
 
     render() {
-        console.log(this.props);
+        console.log(this.props.value);
 
         const background = this.state.clicked ? "#ECE2DD" : "transparent";
 
@@ -75,7 +79,7 @@ class Li extends React.PureComponent {
                 </label>
                 <input
                     type="checkbox"
-                    id={"UncontrolledTooltipExample" + this.props.index}
+                    id={"checkbox" + this.props.value}
                     name="topic[]"
                     style={{ display: "none" }}
                     value={this.props.value}
@@ -107,6 +111,7 @@ export default class Contact extends Component {
             chosencity: 'Praha 1',
         };
         this.onChange = this.onChange.bind(this);
+        this.onMessageChange = this.onMessageChange.bind(this);
     }
 
     onChange(e) {
@@ -114,6 +119,13 @@ export default class Contact extends Component {
             chosencity: e.target.value,
            });
         this.updateStations(e.target.value);
+    }
+
+    onMessageChange(e) {
+        this.setState({
+            message: e.target.value,
+           });
+        console.log(this.state.message);
     }
 
     onSubmit(e) {
@@ -132,9 +144,9 @@ export default class Contact extends Component {
     };
 
     updateCities = () => {
-        console.log(urlLive);
+        console.log(urlServer);
         fetch(
-            `${urlLive}/cities/`
+            `${urlServer}/cities/`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -142,11 +154,12 @@ export default class Contact extends Component {
                 cities: data.cities
             });
         });
+        console.log((this.state.cities))
     };
     updateStations(item) {
         let lookupcity = item;
         fetch(
-            `${urlLive}/stations/${lookupcity}`
+            `${urlServer}/stations/${lookupcity}`
         )
         .then(resp => resp.json())
         .then(data => {
@@ -171,6 +184,10 @@ export default class Contact extends Component {
         const stations = this.state.stations;
         console.log(stations);
         return (
+            <>
+            {/* <BrowserRouter>
+            <Route path="/map" component={Thanks} />
+            </BrowserRouter> */}
             <div className="contact-wrap">
                 <div className="contact-title">
                     <div className="big-icon">
@@ -229,6 +246,7 @@ export default class Contact extends Component {
                                         src={icon.image}
                                         alt={icon.value}
                                         message={icon.message}
+                                        value={icon.value}
                                     />
                                 );
                             })}
@@ -247,8 +265,7 @@ export default class Contact extends Component {
                             className="form-control"
                             name="message"
                             id="contact-message"
-                            onChange={this.onChange}
-                            value={this.state.message}
+                            onChange={this.onMessageChange}
                             placeholder="Your Feedback"
                             rows="5"
                             data-rule="required"
@@ -285,7 +302,8 @@ export default class Contact extends Component {
                         <br />
                         <div className="form-send">
                             <button type="submit" className="btn btn-large">
-                                Send Message
+                            Send 
+                            {/* <Link to="/map" > Send</Link> */}
                             </button>
                         </div>
                     </div>
@@ -298,6 +316,7 @@ export default class Contact extends Component {
                     </div>
                 </form>
             </div>
+            </>
         );
     }
 }
